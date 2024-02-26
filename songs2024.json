@@ -459,12 +459,12 @@
         {
             "title": "Eyes Open",
             "setlist": false,
-            "played": true
+            "played": false
         },
         {
             "title": "Safe and Sound",
             "setlist": false,
-            "played": false
+            "played": true
         }
     ],
     "1989" : [

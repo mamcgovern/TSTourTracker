@@ -13,7 +13,7 @@
         {
             "title": "Teardrops on My Guitar",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "A Place in This World",
@@ -28,7 +28,7 @@
         {
             "title": "The Outside",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Tied Together with a Smile",
@@ -43,7 +43,7 @@
         {
             "title": "Should've Said No",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Mary's Song",
@@ -74,7 +74,7 @@
     "Fearless" : [
         {
             "title" : "Fearless",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -84,7 +84,7 @@
         },
         {
             "title" : "Love Story",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -95,11 +95,11 @@
         {
             "title" : "White Horse",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title" : "You Belong With Me",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -115,7 +115,7 @@
         {
             "title" : "You're Not Sorry",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title" : "The Way I Loved You",
@@ -125,7 +125,7 @@
         {
             "title" : "Forever and Always",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title" : "The Best Day",
@@ -150,7 +150,7 @@
         {
             "title" : "Come in with the Rain",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title" : "Superstar",
@@ -160,7 +160,7 @@
         {
             "title" : "The Other Side of the Door",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title" : "Today Was a Fairytale",
@@ -246,7 +246,7 @@
         },
         {
             "title": "Enchanted",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -262,7 +262,7 @@
         {
             "title": "Haunted",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Last Kiss",
@@ -271,7 +271,7 @@
         },
         {
             "title": "Long Live",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -281,12 +281,12 @@
         },
         {
             "title": "Superman",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Electric Touch",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -324,7 +324,7 @@
         {
             "title": "Red",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Treacherous",
@@ -333,17 +333,17 @@
         },
         {
             "title": "I Knew You Were Trouble",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "All Too Well",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "22",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -353,7 +353,7 @@
         },
         {
             "title": "We Are Never Ever Getting Back Together",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -369,7 +369,7 @@
         {
             "title": "Holy Ground",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Sad Beautiful Tragic",
@@ -404,7 +404,7 @@
         {
             "title": "Come Back... Be Here",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Girl At Home",
@@ -423,7 +423,7 @@
         },
         {
             "title": "Nothing New",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -475,12 +475,12 @@
         },
         {
             "title": "Blank Space",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Style",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -495,28 +495,28 @@
         },
         {
             "title": "Shake It Off",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "I Wish You Would",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Bad Blood",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Wildest Dreams",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "How You Get The Girl",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "This Love",
@@ -571,7 +571,7 @@
         {
             "title": "Is It Over Now?",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Sweeter Than Fiction",
@@ -582,7 +582,7 @@
     "reputation" : [
         {
             "title": "...Ready For It?",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -596,18 +596,18 @@
             "played": false
         },
         {
-            "title": "Don't Blame ME",
-            "setlist": false,
+            "title": "Don't Blame Me",
+            "setlist": true,
             "played": false
         },
         {
             "title": "Delicate",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Look What You Made Me Do",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -623,7 +623,7 @@
         {
             "title": "Getaway Car",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "King Of My Heart",
@@ -653,7 +653,7 @@
         {
             "title": "New Years Day",
             "setlist": false,
-            "played": false
+            "played": true
         }
     ],
     "Lover" : [
@@ -664,22 +664,22 @@
         },
         {
             "title": "Cruel Summer",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Lover",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "The Man",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "The Archer",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -689,7 +689,7 @@
         },
         {
             "title": "Miss Americana & The Heartbreak Prince",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -724,7 +724,7 @@
         },
         {
             "title": "You Need to Calm Down",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -745,7 +745,7 @@
         {
             "title": "Daylight",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "All Of The Girls You Loved Before",
@@ -756,27 +756,27 @@
     "folklore" : [
         {
             "title": "the 1",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "cardigan",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "the last great american dynasty",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "exile",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "my tears ricochet",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -791,22 +791,22 @@
         },
         {
             "title": "august",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "this is me trying",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "illicit affairs",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "invisible string",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -821,13 +821,13 @@
         },
         {
             "title": "betty",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "peace",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "hoax",
@@ -843,12 +843,12 @@
     "evermore" : [
         {
             "title": "willow",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "champagne problems",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -858,17 +858,17 @@
         },
         {
             "title": "tis the damn season",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "tolerate it",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "no body, no crime",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -884,12 +884,12 @@
         {
             "title": "coney island",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "ivy",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "cowboy like me",
@@ -903,7 +903,7 @@
         },
         {
             "title": "marjorie",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -930,17 +930,17 @@
     "Midnights" : [
         {
             "title": "Lavender Haze",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Maroon",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Anti-Hero",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -951,11 +951,11 @@
         {
             "title": "You're On Your Own, Kid",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Midnight Rain",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -965,12 +965,12 @@
         },
         {
             "title": "Vigilante Shit",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
             "title": "Bejeweled",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -980,7 +980,7 @@
         },
         {
             "title": "Karma",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -990,7 +990,7 @@
         },
         {
             "title": "Mastermind",
-            "setlist": false,
+            "setlist": true,
             "played": false
         },
         {
@@ -1021,12 +1021,12 @@
         {
             "title": "Would've, Could've, Should've",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Dear Reader",
             "setlist": false,
-            "played": false
+            "played": true
         },
         {
             "title": "Hits Different",
@@ -1036,7 +1036,7 @@
         {
             "title": "You're Losing Me",
             "setlist": false,
-            "played": false
+            "played": true
         }
     ],
     "The Tortured Poets Department" : [

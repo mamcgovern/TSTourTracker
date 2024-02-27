@@ -102,7 +102,7 @@ function makeKey() {
 }
 
 function renderEvents() {
-    fetch('../json/events.json')
+    fetch('events.json')
         .then(response => response.json())
         .then(data => {
             var mainContainer = document.getElementById("events");

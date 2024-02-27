@@ -24,7 +24,7 @@ function createTable(album, color, text, songs) {
 }
 
 // Fetch JSON data and process it
-fetch('../json/songs2023.json')
+fetch('songs2023.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the music and create tables

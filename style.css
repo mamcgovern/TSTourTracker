@@ -84,3 +84,30 @@ p.title {
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold; /* Bold text for headers */
+}
+a {
+    padding: 20px;
+}
+.toggle-button {
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    user-select: none;
+}

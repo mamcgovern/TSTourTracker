@@ -208,7 +208,7 @@ function createTable(element, city, night, date, songs) {
 }
 
 // US Leg
-fetch('../json/surpriseSongs/US_surpriseSongs.json')
+fetch('./json/surpriseSongs/US_surpriseSongs.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the sets and create tables
@@ -219,7 +219,7 @@ fetch('../json/surpriseSongs/US_surpriseSongs.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 // LA Leg
-fetch('../json/surpriseSongs/LA_surpriseSongs.json')
+fetch('./json/surpriseSongs/LA_surpriseSongs.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the sets and create tables
@@ -230,7 +230,7 @@ fetch('../json/surpriseSongs/LA_surpriseSongs.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 // Asia-Aus Leg
-fetch('../json/surpriseSongs/Asia-Aus_surpriseSongs.json')
+fetch('./json/surpriseSongs/Asia-Aus_surpriseSongs.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the sets and create tables
@@ -241,7 +241,7 @@ fetch('../json/surpriseSongs/Asia-Aus_surpriseSongs.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 // Europe Leg
-fetch('../json/surpriseSongs/Eur_surpriseSongs.json')
+fetch('./json/surpriseSongs/Eur_surpriseSongs.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the sets and create tables
@@ -252,7 +252,7 @@ fetch('../json/surpriseSongs/Eur_surpriseSongs.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 // US & Canada Leg
-fetch('../json/surpriseSongs/US-Can_surpriseSongs.json')
+fetch('./json/surpriseSongs/US-Can_surpriseSongs.json')
 .then(response => response.json())
 .then(data => {
     // Loop through the sets and create tables

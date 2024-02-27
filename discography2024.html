@@ -16,6 +16,9 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <style>
+        a {
+            padding: 20px;
+        }
         table {
             border-collapse: collapse;
             width: 95%;
@@ -33,16 +36,10 @@
         th {
             font-weight: bold;
             /* Bold text for headers */
-        }
-        .toggle-button {
-            padding: 10px;
-            cursor: pointer;
-            border: 1px solid #ccc;
-            background-color: #fff;
-            user-select: none;
+            border: 2px solid black;
         }
     </style>
-    <title>Events</title>
+    <title>2024 Discography</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -75,9 +72,6 @@
         </symbol>
     </svg>
 
-
-
-
     <header data-bs-theme="dark">
         <nav class="navbar navbar-expand-lg bg-body-tertiary rounded" aria-label="Navbar">
             <div class="container-fluid">
@@ -91,16 +85,16 @@
                     <a class="navbar-brand col-lg-3 me-0" href="#">TS Tour Tracker</a>
                     <ul class="navbar-nav col-lg-6 justify-content-lg-center">
                         <li class="nav-item">
-                            <a class="nav-link" href="./surpriseSongs.html">Surprise Songs</a>
+                            <a class="nav-link" href="./index.html">Surprise Songs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./discography2024.html">Discography</a>
+                            <a class="nav-link active" aria-current="page" href="./discography2024.html">Discography</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./mainSet.html">Main Set</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./events.html">Events</a>
+                            <a class="nav-link" href="./events.html">Events</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./links.html">Links</a>
@@ -114,11 +108,10 @@
     <main>
 
         <section>
-            <h1 style="text-align: center;">Events</h1>
+            <h1 style="text-align: center;">2024 Discography</h1>
         </section>
-        <div id="menu"></div>
-        <div id="key"></div>
-        <div id="events"></div>
+        <a href="./discography2023.html">Link to 2023 Discography</a>
+        <div id="discography"></div>
 
     </main>
 
@@ -130,7 +123,7 @@
             <p class="mb-1">Album example is &copy; Bootstrap</p>
         </div>
     </footer>
-    <script src="../js/events.js"></script>
+    <script src="../js/discography2024.js"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>

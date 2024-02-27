@@ -30,10 +30,10 @@ function createTable(element, city, night, date, songs) {
         if (song.album == "Taylor Swift") {
             titleCell.style.backgroundColor = "#d9ffcc";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -43,10 +43,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "Fearless") {
             titleCell.style.backgroundColor = "#feeab6";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -56,10 +56,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "Speak Now") {
             titleCell.style.backgroundColor = "#d1beff";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -69,10 +69,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "Red") {
             titleCell.style.backgroundColor = "#ff6362";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -82,10 +82,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "1989") {
             titleCell.style.backgroundColor = "#aceeff";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -96,10 +96,10 @@ function createTable(element, city, night, date, songs) {
             titleCell.style.backgroundColor = "#000000";
             titleCell.style.color = "#ffffff";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_white.png';
+                imgElement.src = './images/guitar_white.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_white.png';
+                imgElement.src = './images/piano_white.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -110,10 +110,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "Lover") {
             titleCell.style.backgroundColor = "#ffc2ea";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -123,10 +123,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "folklore") {
             titleCell.style.backgroundColor = "#d8dee5";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -136,10 +136,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "evermore") {
             titleCell.style.backgroundColor = "#ffac54";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -150,10 +150,10 @@ function createTable(element, city, night, date, songs) {
             titleCell.style.backgroundColor = "#000fb7";
             titleCell.style.color = "#ffffff";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_white.png';
+                imgElement.src = './images/guitar_white.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_white.png';
+                imgElement.src = './images/piano_white.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -164,10 +164,10 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "The Tortured Poets Department") {
             titleCell.style.backgroundColor = "#dcd3c3";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {
@@ -177,19 +177,19 @@ function createTable(element, city, night, date, songs) {
         } else if (song.album == "album") {
             titleCell.style.backgroundColor = "#ffffff";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
         } else {
             titleCell.style.backgroundColor = "#fbe0d5";
             if (song.instrument == "guitar") {
-                imgElement.src = '../images/guitar_black.png';
+                imgElement.src = './images/guitar_black.png';
                 imgElement.alt = 'Guitar';
             } else {
-                imgElement.src = '../images/piano_black.png';
+                imgElement.src = './images/piano_black.png';
                 imgElement.alt = 'Piano';
             }
             if(song.feature != null) {

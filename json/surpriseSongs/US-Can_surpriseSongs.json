@@ -1,0 +1,382 @@
+{
+    "stops": [
+        {
+            "city": "Miami",
+            "night": 1,
+            "date": "10/18/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Miami",
+            "night": 2,
+            "date": "10/19/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Miami",
+            "night": 3,
+            "date": "10/20/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "New Orleans",
+            "night": 1,
+            "date": "10/25/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "New Orleans",
+            "night": 2,
+            "date": "10/26/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "New Orleans",
+            "night": 3,
+            "date": "10/27/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Indianapolis",
+            "night": 1,
+            "date": "11/1/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Indianapolis",
+            "night": 2,
+            "date": "11/2/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Indianapolis",
+            "night": 3,
+            "date": "11/3/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 1,
+            "date": "11/14/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 2,
+            "date": "11/15/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 3,
+            "date": "11/16/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 4,
+            "date": "11/21/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 5,
+            "date": "11/22/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 6,
+            "date": "11/23/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Vancouver",
+            "night": 1,
+            "date": "12/6/7",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Vancouver",
+            "night": 2,
+            "date": "12/7/7",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Vancouver",
+            "night": 3,
+            "date": "12/8/7",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        }
+    ]
+}

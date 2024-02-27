@@ -1,0 +1,361 @@
+{
+    "stops": [
+        {
+            "city": "Tokyo",
+            "night": 1,
+            "date": "2/7/24",
+            "songs": [
+                {
+                    "title": "Dear Reader",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Holy Ground",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 2,
+            "date": "2/8/24",
+            "songs": [
+                {
+                    "title": "Eyes Open",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Electric Touch",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 3,
+            "date": "2/9/24",
+            "songs": [
+                {
+                    "title": "Superman",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "The Outside",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 4,
+            "date": "2/10/24",
+            "songs": [
+                {
+                    "title": "Come In with the Rain",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own, Kid",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Melbourne",
+            "night": 1,
+            "date": "2/16/23",
+            "songs": [
+                {
+                    "title": "Red",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're Losing Me",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Melbourne",
+            "night": 2,
+            "date": "2/17/23",
+            "songs": [
+                {
+                    "title": "Getaway Car, august, & The Other Side Of The Door",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "this is me trying",
+                    "album": "folklore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Melbourne",
+            "night": 3,
+            "date": "2/18/23",
+            "songs": [
+                {
+                    "title": "Come Back... Be Here & Daylight",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Teardrops On My Guitar",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 1,
+            "date": "2/23/23",
+            "songs": [
+                {
+                    "title": "How You Get The Girl",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "White Horse & coney island",
+                    "album": "fearless",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": "Sabrina Carpenter"
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 2,
+            "date": "2/24/23",
+            "songs": [
+                {
+                    "title": "Should've Said No & You're Not Sorry",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "New Years Day & peace",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 3,
+            "date": "2/25/23",
+            "songs": [
+                {
+                    "title": "Is It Over Now & I Wish You Would",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Haunted & exile",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 4,
+            "date": "2/26/23",
+            "songs": [
+                {
+                    "title": "Would've, Could've, Should've & ivy",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Forever and Always & Maroon",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 1,
+            "date": "3/2/23",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 2,
+            "date": "3/3/23",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 3,
+            "date": "3/4/23",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 4,
+            "date": "3/7/23",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 5,
+            "date": "3/8/23",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 6,
+            "date": "3/9/23",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        }
+    ]
+}

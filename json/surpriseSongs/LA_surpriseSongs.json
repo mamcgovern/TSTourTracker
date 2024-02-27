@@ -1,0 +1,277 @@
+{
+    "stops": [
+        {
+            "city": "Mexico City",
+            "night": 1,
+            "date": "8/24/23",
+            "songs": [
+                {
+                    "title": "I Forgot That You Existed",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Sweet Nothing",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 2,
+            "date": "8/25/23",
+            "songs": [
+                {
+                    "title": "Tell Me Why",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Snow On The Beach",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 3,
+            "date": "8/26/23",
+            "songs": [
+                {
+                    "title": "Cornelia Street",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own, Kid",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 4,
+            "date": "8/27/23",
+            "songs": [
+                {
+                    "title": "Afterglow",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Maroon",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 1,
+            "date": "11/9/23",
+            "songs": [
+                {
+                    "title": "The Very First Night",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Labrynth",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 2,
+            "date": "11/10/23",
+            "songs": [
+                {
+                    "title": "Is It Over Now?",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "End Game",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 3,
+            "date": "11/11/23",
+            "songs": [
+                {
+                    "title": "Better Than Revenge",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "\"Slut!\"",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 1,
+            "date": "11/17/23",
+            "songs": [
+                {
+                    "title": "Stay Beautiful",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Suburban Legends",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 2,
+            "date": "11/18/23",
+            "songs": [
+                {
+                    "title": "Dancing With Our Hands Tied",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Bigger Than The Whole Sky",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 3,
+            "date": "11/19/23",
+            "songs": [
+                {
+                    "title": "Me!",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "So It Goes...",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 1,
+            "date": "11/24/23",
+            "songs": [
+                {
+                    "title": "Now That We Don't Talk",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Innocent",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 2,
+            "date": "11/25/23",
+            "songs": [
+                {
+                    "title": "Safe and Sound",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Untouchable",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 3,
+            "date": "11/26/23",
+            "songs": [
+                {
+                    "title": "Say Don't Go",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "It's Time To Go",
+                    "album": "evermore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        }
+    ]
+}

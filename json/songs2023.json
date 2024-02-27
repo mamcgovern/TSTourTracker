@@ -1,7 +1,24 @@
 {
     "music": [
         {
-            "era": "Taylor Swift",
+            "album": "Key",
+            "color": "#ffffff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Songs on the set list",
+                    "setlist": true,
+                    "played": false
+                },
+                {
+                    "title": "Played as a surprise song",
+                    "setlist": false,
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Taylor Swift",
             "color": "#d9ffcc",
             "text": "#000000",
             "songs": [
@@ -78,7 +95,7 @@
             ]
         },
         {
-            "era": "Fearless",
+            "album": "Fearless",
             "color": "#feeab6",
             "text": "#000000",
             "songs": [
@@ -215,7 +232,7 @@
             ]
         },
         {
-            "era": "Speak Now",
+            "album": "Speak Now",
             "color": "#d1beff",
             "text": "#000000",
             "songs": [
@@ -332,7 +349,7 @@
             ]
         },
         {
-            "era": "Red",
+            "album": "Red",
             "color": "#ff6362",
             "text": "#000000",
             "songs": [
@@ -494,7 +511,7 @@
             ]
         },
         {
-            "era": "1989",
+            "album": "1989",
             "color": "#aceeff",
             "text": "#000000",
             "songs": [
@@ -611,7 +628,7 @@
             ]
         },
         {
-            "era": "reputation",
+            "album": "reputation",
             "color": "#000000",
             "text": "#ffffff",
             "songs": [
@@ -795,7 +812,7 @@
             ]
         },
         {
-            "era": "folklore",
+            "album": "folklore",
             "color": "#d8dee5",
             "text": "#000000",
             "songs": [
@@ -887,7 +904,7 @@
             ]
         },
         {
-            "era": "evermore",
+            "album": "evermore",
             "color": "#ffac54",
             "text": "#000000",
             "songs": [
@@ -979,7 +996,7 @@
             ]
         },
         {
-            "era": "Midnights",
+            "album": "Midnights",
             "color": "#000fb7",
             "text": "#ffffff",
             "songs": [
@@ -1096,7 +1113,7 @@
             ]
         },
         {
-            "era": "The Tortured Poets Department",
+            "album": "The Tortured Poets Department",
             "color": "#dcd3c3",
             "text": "#000000",
             "songs": [
@@ -1198,7 +1215,7 @@
             ]
         },
         {
-            "era": "Other",
+            "album": "Other",
             "color": "#fbe0d5",
             "text": "#000000",
             "songs": [

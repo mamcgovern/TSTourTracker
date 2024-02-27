@@ -215,6 +215,7 @@ fetch('US_surpriseSongs.json')
         data.stops.forEach(stop => {
             createTable("US", stop.city, stop.night, stop.date, stop.songs);
         });
+        console.log("Reading US leg");
     })
     .catch(error => console.error('Error fetching JSON:', error));
 
@@ -226,6 +227,7 @@ fetch('LA_surpriseSongs.json')
         data.stops.forEach(stop => {
             createTable("LA", stop.city, stop.night, stop.date, stop.songs);
         });
+        console.log("Reading LA leg");
     })
     .catch(error => console.error('Error fetching JSON:', error));
 
@@ -237,6 +239,8 @@ fetch('Asia-Aus_surpriseSongs.json')
         data.stops.forEach(stop => {
             createTable("Asia-Aus", stop.city, stop.night, stop.date, stop.songs);
         });
+
+    console.log("Reading Asia-Aus leg");
     })
     .catch(error => console.error('Error fetching JSON:', error));
 
@@ -248,6 +252,7 @@ fetch('Eur_surpriseSongs.json')
         data.stops.forEach(stop => {
             createTable("Eur", stop.city, stop.night, stop.date, stop.songs);
         });
+        console.log("Reading Eur leg");
     })
     .catch(error => console.error('Error fetching JSON:', error));
 
@@ -259,5 +264,6 @@ fetch('US-Can_surpriseSongs.json')
     data.stops.forEach(stop => {
         createTable("US-Can", stop.city, stop.night, stop.date, stop.songs);
     });
+    console.log("Reading US-Can leg");
 })
 .catch(error => console.error('Error fetching JSON:', error));

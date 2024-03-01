@@ -192,6 +192,27 @@
         {
             "city": "Madrid",
             "night": 1,
+            "date": "5/29/24",
+            "songs": [
+                {
+                    "title": "song1",
+                    "album": "album",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "song2",
+                    "album": "album",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Madrid",
+            "night": 2,
             "date": "5/30/24",
             "songs": [
                 {

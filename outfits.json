@@ -1,15 +1,3052 @@
 {
-    "stops": [
+    "US": [
         {
-            "title": "Miami N1",
+            "city": "Glendale",
+            "night": 1,
+            "date": "3/17/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Glendale",
+            "night": 2,
+            "date": "3/18/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Las Vegas",
+            "night": 1,
+            "date": "3/24/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Las Vegas",
+            "night": 2,
+            "date": "3/25/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Arlington",
+            "night": 1,
+            "date": "3/31/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Arlington",
+            "night": 2,
+            "date": "4/1/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Arlington",
+            "night": 3,
+            "date": "4/2/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Tampa",
+            "night": 1,
+            "date": "4/13/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Tampa",
+            "night": 2,
+            "date": "4/14/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Tampa",
+            "night": 3,
+            "date": "4/15/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Houston",
+            "night": 1,
+            "date": "4/21/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Houston",
+            "night": 2,
+            "date": "4/22/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Houston",
+            "night": 3,
+            "date": "4/23/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Atlanta",
+            "night": 1,
+            "date": "4/28/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Atlanta",
+            "night": 2,
+            "date": "4/29/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Atlanta",
+            "night": 3,
+            "date": "4/30/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Nashville",
+            "night": 1,
+            "date": "5/5/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Nashville",
+            "night": 2,
+            "date": "5/6/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Nashville",
+            "night": 3,
+            "date": "5/7/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Philadelphia",
+            "night": 1,
+            "date": "5/12/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Philadelphia",
+            "night": 2,
+            "date": "5/13/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Philadelphia",
+            "night": 1,
+            "date": "5/14/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Foxborough",
+            "night": 1,
+            "date": "5/19/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Foxborough",
+            "night": 2,
+            "date": "5/20/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Foxborough",
+            "night": 3,
+            "date": "5/21/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "East Rutherford",
+            "night": 1,
+            "date": "5/26/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "East Rutherford",
+            "night": 2,
+            "date": "5/27/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "East Rutherford",
+            "night": 3,
+            "date": "5/28/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Chicago",
+            "night": 1,
+            "date": "6/2/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Chicago",
+            "night": 2,
+            "date": "6/3/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Chicago",
+            "night": 3,
+            "date": "6/4/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Detroit",
+            "night": 1,
+            "date": "6/9/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Detroit",
+            "night": 2,
+            "date": "6/10/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Pittsburgh",
+            "night": 1,
+            "date": "6/16/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Pittsburgh",
+            "night": 2,
+            "date": "6/17/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Minneapolis",
+            "night": 1,
+            "date": "6/23/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Minneapolis",
+            "night": 2,
+            "date": "6/24/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Cincinnati",
+            "night": 1,
+            "date": "6/30/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Cincinnati",
+            "night": 2,
+            "date": "7/1/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Kansas City",
+            "night": 1,
+            "date": "7/7/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Kansas City",
+            "night": 2,
+            "date": "7/8/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Denver",
+            "night": 1,
+            "date": "7/14/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Denver",
+            "night": 2,
+            "date": "7/15/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Seattle",
+            "night": 1,
+            "date": "7/22/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Seattle",
+            "night": 2,
+            "date": "7/23/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Santa Clara",
+            "night": 1,
+            "date": "7/28/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Santa Clara",
+            "night": 2,
+            "date": "7/29/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "night": 1,
+            "date": "8/3/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "night": 2,
+            "date": "8/4/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "night": 3,
+            "date": "8/5/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "night": 4,
+            "date": "8/7/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "night": 5,
+            "date": "8/8/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Los Angeles",
+            "night": 6,
+            "date": "8/9/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        }
+    ],
+    "LA": [
+        {
+            "city": "Mexico City",
+            "night": 1,
+            "date": "8/24/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Mexico City",
+            "night": 2,
+            "date": "8/25/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Mexico City",
+            "night": 3,
+            "date": "8/26/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Mexico City",
+            "night": 4,
+            "date": "8/27/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 1,
+            "date": "11/9/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 2,
+            "date": "11/10/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 3,
+            "date": "11/11/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 1,
+            "date": "11/17/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 2,
+            "date": "11/18/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 3,
+            "date": "11/19/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 1,
+            "date": "11/24/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 2,
+            "date": "11/25/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 3,
+            "date": "11/26/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        }
+    ],
+    "Asia-Aus": [
+        {
+            "city": "Tokyo",
+            "night": 1,
+            "date": "2/7/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Tokyo",
+            "night": 2,
+            "date": "2/8/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Tokyo",
+            "night": 3,
+            "date": "2/9/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Tokyo",
+            "night": 4,
+            "date": "2/10/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Melbourne",
+            "night": 1,
+            "date": "2/16/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Melbourne",
+            "night": 2,
+            "date": "2/17/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Melbourne",
+            "night": 3,
+            "date": "2/18/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sydney",
+            "night": 1,
+            "date": "2/23/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sydney",
+            "night": 2,
+            "date": "2/24/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sydney",
+            "night": 3,
+            "date": "2/25/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Sydney",
+            "night": 4,
+            "date": "2/26/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Singapore",
+            "night": 1,
+            "date": "3/2/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Singapore",
+            "night": 2,
+            "date": "3/3/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Singapore",
+            "night": 3,
+            "date": "3/4/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Singapore",
+            "night": 4,
+            "date": "3/7/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Singapore",
+            "night": 5,
+            "date": "3/8/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Singapore",
+            "night": 6,
+            "date": "3/9/23",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        }
+    ],
+    "Eur": [
+        {
+            "city": "Paris",
+            "night": 1,
+            "date": "5/9/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Paris",
+            "night": 2,
+            "date": "5/10/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Paris",
+            "night": 3,
+            "date": "5/11/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Paris",
+            "night": 4,
+            "date": "5/12/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Stockholm",
+            "night": 1,
+            "date": "5/17/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Stockholm",
+            "night": 2,
+            "date": "5/18/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Stockholm",
+            "night": 3,
+            "date": "5/19/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Lisbon",
+            "night": 1,
+            "date": "5/24/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Lisbon",
+            "night": 2,
+            "date": "5/25/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Madrid",
+            "night": 1,
+            "date": "5/29/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Madrid",
+            "night": 2,
+            "date": "5/30/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Lyon",
+            "night": 1,
+            "date": "6/2/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Lyon",
+            "night": 2,
+            "date": "6/3/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Edinburgh",
+            "night": 1,
+            "date": "6/7/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Edinburgh",
+            "night": 2,
+            "date": "6/8/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Edinburgh",
+            "night": 3,
+            "date": "6/9/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Liverpool",
+            "night": 1,
+            "date": "6/13/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Liverpool",
+            "night": 2,
+            "date": "6/14/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Liverpool",
+            "night": 3,
+            "date": "6/15/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Cardiff",
+            "night": 1,
+            "date": "6/18/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 1,
+            "date": "6/21/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 2,
+            "date": "6/22/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 3,
+            "date": "6/23/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Dublin",
+            "night": 1,
+            "date": "6/28/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Dublin",
+            "night": 2,
+            "date": "6/29/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Dublin",
+            "night": 3,
+            "date": "6/30/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Amsterdam",
+            "night": 1,
+            "date": "7/4/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Amsterdam",
+            "night": 2,
+            "date": "7/5/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Amsterdam",
+            "night": 3,
+            "date": "7/6/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Zurich",
+            "night": 1,
+            "date": "7/9/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Zurich",
+            "night": 2,
+            "date": "7/10/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Milan",
+            "night": 1,
+            "date": "7/13/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Milan",
+            "night": 2,
+            "date": "7/14/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Gelsenkirchen",
+            "night": 1,
+            "date": "7/17/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Gelsenkirchen",
+            "night": 2,
+            "date": "7/18/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Gelsenkirchen",
+            "night": 3,
+            "date": "7/19/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Hamburg",
+            "night": 1,
+            "date": "7/23/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Hamburg",
+            "night": 1,
+            "date": "7/24/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Munich",
+            "night": 1,
+            "date": "7/27/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Munich",
+            "night": 2,
+            "date": "7/28/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Warsaw",
+            "night": 1,
+            "date": "8/1/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Warsaw",
+            "night": 2,
+            "date": "8/2/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Warsaw",
+            "night": 3,
+            "date": "8/3/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Vienna",
+            "night": 1,
+            "date": "8/8/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Vienna",
+            "night": 2,
+            "date": "8/9/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Vienna",
+            "night": 3,
+            "date": "8/10/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 1,
+            "date": "8/15/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 2,
+            "date": "8/16/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 3,
+            "date": "8/17/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 4,
+            "date": "8/19/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "London",
+            "night": 5,
+            "date": "8/20/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        }
+    ],
+    "US-Can": [
+        {
+            "city": "Miami",
+            "night": 1,
             "date": "10/18/24",
-            "outfits": [
-                {
-                    "lover bodysuit": "pink",
-                    "the man jacket": "pink",
-                    "guitar": "pink"
-                }
-            ]
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Miami",
+            "night": 2,
+            "date": "10/19/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Miami",
+            "night": 3,
+            "date": "10/20/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "New Orleans",
+            "night": 1,
+            "date": "10/25/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "New Orleans",
+            "night": 2,
+            "date": "10/26/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "New Orleans",
+            "night": 3,
+            "date": "10/27/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Indianapolis",
+            "night": 1,
+            "date": "11/1/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Indianapolis",
+            "night": 2,
+            "date": "11/2/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Indianapolis",
+            "night": 3,
+            "date": "11/3/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Toronto",
+            "night": 1,
+            "date": "11/14/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Toronto",
+            "night": 2,
+            "date": "11/15/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Toronto",
+            "night": 3,
+            "date": "11/16/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Toronto",
+            "night": 4,
+            "date": "11/21/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Toronto",
+            "night": 5,
+            "date": "11/22/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Toronto",
+            "night": 6,
+            "date": "11/23/24",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Vancouver",
+            "night": 1,
+            "date": "12/6/7",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Vancouver",
+            "night": 2,
+            "date": "12/7/7",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
+        },
+        {
+            "city": "Vancouver",
+            "night": 3,
+            "date": "12/8/7",
+            "outfits": {
+                "loverBodysuit": "",
+                "theManJacket": "",
+                "loverGuitar": "",
+                "fearlessDress": "",
+                "evermoreDress": "",
+                "reputationJumpsuit": "",
+                "speakNowDress": "",
+                "redShirt": "",
+                "folkloreDress": "",
+                "1989Combo": "",
+                "midnightsShirt": "",
+                "midnightsBodysuit": "",
+                "midnightsJacket": ""
+            }
         }
     ]
 }

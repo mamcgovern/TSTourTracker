@@ -1,4 +1,4 @@
-var onlyUpcoming = false;
+var onlyUpcoming = true;
 
 function makeMenu() {
     var mainContainer = document.getElementById("menu");

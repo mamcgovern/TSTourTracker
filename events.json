@@ -546,8 +546,13 @@
             "category": "concert"
         },
         {
+            "date": "5/29/24",
+            "title": "Madrid N1",
+            "category": "concert"
+        },
+        {
             "date": "5/30/24",
-            "title": "Madrid",
+            "title": "Madrid N2",
             "category": "concert"
         },
         {

@@ -245,7 +245,7 @@ fetch('Asia-Aus_surpriseSongs.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 // Europe Leg
-fetch('/Eur_surpriseSongs.json')
+fetch('Eur_surpriseSongs.json')
     .then(response => response.json())
     .then(data => {
         // Loop through the sets and create tables
@@ -257,7 +257,7 @@ fetch('/Eur_surpriseSongs.json')
     .catch(error => console.error('Error fetching JSON:', error));
 
 // US & Canada Leg
-fetch('/US-Can_surpriseSongs.json')
+fetch('US-Can_surpriseSongs.json')
 .then(response => response.json())
 .then(data => {
     // Loop through the sets and create tables

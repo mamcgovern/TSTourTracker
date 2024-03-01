@@ -36,7 +36,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -49,7 +49,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -62,7 +62,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -75,7 +75,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -88,7 +88,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -102,7 +102,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_white.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
                 featContainer.style.color = "#ffffff";
@@ -116,7 +116,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -129,7 +129,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -142,7 +142,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -156,7 +156,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_white.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
                 featContainer.style.color = "#ffffff";
@@ -170,7 +170,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -192,7 +192,7 @@ function createTable(element, city, night, date, songs) {
                 imgElement.src = 'piano_black.png';
                 imgElement.alt = 'Piano';
             }
-            if(song.feature != null) {
+            if (song.feature != null) {
                 featContainer.textContent = " featuring " + song.feature;
                 featContainer.style.fontStyle = "italic";
             }
@@ -240,7 +240,7 @@ fetch('Asia-Aus_surpriseSongs.json')
             createTable("Asia-Aus", stop.city, stop.night, stop.date, stop.songs);
         });
 
-    console.log("Reading Asia-Aus leg");
+        console.log("Reading Asia-Aus leg");
     })
     .catch(error => console.error('Error fetching JSON:', error));
 
@@ -258,12 +258,12 @@ fetch('Eur_surpriseSongs.json')
 
 // US & Canada Leg
 fetch('US-Can_surpriseSongs.json')
-.then(response => response.json())
-.then(data => {
-    // Loop through the sets and create tables
-    data.stops.forEach(stop => {
-        createTable("US-Can", stop.city, stop.night, stop.date, stop.songs);
-    });
-    console.log("Reading US-Can leg");
-})
-.catch(error => console.error('Error fetching JSON:', error));
+    .then(response => response.json())
+    .then(data => {
+        // Loop through the sets and create tables
+        data.stops.forEach(stop => {
+            createTable("US-Can", stop.city, stop.night, stop.date, stop.songs);
+        });
+        console.log("Reading US-Can leg");
+    })
+    .catch(error => console.error('Error fetching JSON:', error));

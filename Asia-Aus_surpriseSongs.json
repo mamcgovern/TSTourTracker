@@ -237,17 +237,17 @@
             "date": "3/2/23",
             "songs": [
                 {
-                    "title": "song1",
-                    "album": "album",
+                    "title": "Mine & Starlight",
+                    "album": "Speak Now",
                     "instrument": "guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "song2",
-                    "album": "album",
+                    "title": "I Don't Wanna Live Forever & Dress",
+                    "album": "reputation",
                     "instrument": "piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

@@ -239,7 +239,7 @@
                 {
                     "title": "Mine",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Sparks Fly",
@@ -426,7 +426,7 @@
                 {
                     "title": "Starlight",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Begin Again",
@@ -685,7 +685,7 @@
                 {
                     "title": "Dress",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "This Is Why We Can't Have Nice Things",
@@ -1272,7 +1272,7 @@
                 {
                     "title": "I Don't Wanna Live Forever by Zayn ft. Taylor Swift",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Big Star by Kenny Chesney ft. Taylor Swift",

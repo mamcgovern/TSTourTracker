@@ -137,7 +137,7 @@
                 {
                     "title" : "Tell Me Why",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "You're Not Sorry",
@@ -269,7 +269,7 @@
                 {
                     "title": "The Story of Us",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Never Grow Up",
@@ -339,7 +339,7 @@
                 {
                     "title": "Foolish One",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Timeless",
@@ -563,7 +563,7 @@
                 {
                     "title": "This Love",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Know Places",
@@ -573,7 +573,7 @@
                 {
                     "title": "Clean",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Wonderland",
@@ -695,7 +695,7 @@
                 {
                     "title": "Call It What You Want",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "New Years Day",
@@ -961,7 +961,7 @@
                 {
                     "title": "long story short",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "marjorie",
@@ -976,7 +976,7 @@
                 {
                     "title": "evermore",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "right where you left me",

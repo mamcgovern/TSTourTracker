@@ -258,17 +258,17 @@
             "date": "3/3/23",
             "songs": [
                 {
-                    "title": "song1",
-                    "album": "album",
+                    "title": "long story short & The Story of Us",
+                    "album": "evermore",
                     "instrument": "guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "song2",
-                    "album": "album",
+                    "title": "Clean & evermore",
+                    "album": "1989",
                     "instrument": "piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]
@@ -279,17 +279,17 @@
             "date": "3/4/23",
             "songs": [
                 {
-                    "title": "song1",
-                    "album": "album",
+                    "title": "Foolish One & Tell Me Why",
+                    "album": "Speak Now",
                     "instrument": "guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "song2",
-                    "album": "album",
+                    "title": "This Love & Call It What You Want",
+                    "album": "1989",
                     "instrument": "piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

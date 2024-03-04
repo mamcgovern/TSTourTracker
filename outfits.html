@@ -15,6 +15,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <style>
+        .container-container {
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .scrollable-container {
+            width: 95%;
+            overflow: auto;
+            border: 1px solid #ccc;
+            /* Optional: Add a border for better visibility */
+        }
+        .content {
+            padding: 10px;
+        }
+    </style>
     <title>Outfits</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
@@ -86,7 +103,11 @@
             <h1 style="text-align: center;">Outfits</h1>
         </section>
         <!-- We use js to add in outfits for each location here -->
-        <div id="outfits"></div>
+        <div class="container-container">
+            <div class="scrollable-container">
+                <div class="content" id="outfits"></div>
+            </div>
+        </div>
     </main>
 
     <footer class="text-body-secondary py-5">

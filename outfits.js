@@ -1,16 +1,39 @@
-function createCell(row, outfit, type) {
+function createHeader(row) {
+    console.log("Creating header row");
+
+    row.style.backgroundColor = "#E0E0E0";
+    row.style.fontWeight = "bold";
+    /* Add city and night info */
+    const cityCell = row.insertCell();
+    cityCell.textContent = "Key";
+    cityCell.style.fontWeight = "bold";
+    cityCell.style.borderBottom = "1px solid gray";
+    const dateCell = row.insertCell();
+    dateCell.textContent = "";
+    dateCell.style.borderBottom = "1px solid gray";
+    createCell(row, "Lover Bodysuit");
+    createCell(row, "The Man Jacket");
+    createCell(row, "Lover Guitar");
+    createCell(row, "Fearless Dress");
+    createCell(row, "evermore Dress");
+    createCell(row, "reputation Jumpsuit");
+    createCell(row, "Speak Now Dress");
+    createCell(row, "Red Shirt");
+    createCell(row, "folklore Dress");
+    createCell(row, "1989 Combo");
+    createCell(row, "Midnights Shirt");
+    createCell(row, "Midnights Bodysuit");
+    createCell(row, "Midnights Jacket");
+}
+
+function createCell(row, type) {
     const outfitCell = row.insertCell();
-    outfitCell.innerText = type + " " + outfit;
-    outfitCell.style.border = "1px solid gray";
+    outfitCell.innerText = type;
+    outfitCell.style = "min-width: 100px; border: 1px solid gray; padding-left: 10px; padding-right: 10px;";
 }
 
 // Function to create the table
-function createTable(city, night, date, outfits) {
-    var mainContainer = document.getElementById("outfits");
-
-    /* Create the table and the header row*/
-    const table = document.createElement('table');
-    table.style.border = "2px solid black";
+function createTable(table, city, night, date, outfits) {
 
     /* Create a row for the show */
     const keyRow = table.insertRow();
@@ -18,23 +41,25 @@ function createTable(city, night, date, outfits) {
     const cityCell = keyRow.insertCell();
     cityCell.textContent = city + " N" + night;
     cityCell.style.fontWeight = "bold";
+    cityCell.style.borderBottom = "1px solid gray";
     const dateCell = keyRow.insertCell();
     dateCell.textContent = " (" + date + ")";
     dateCell.style.fontStyle = "italic";
+    dateCell.style.borderBottom = "1px solid gray";
 
-    createCell(keyRow, "Lover Bodysuit", outfits.loverBodysuit);
-    createCell(keyRow, "The Man Jacket", outfits.theManJacket);
-    createCell(keyRow, "Lover Guitar", outfits.loverGuitar);
-    createCell(keyRow, "Fearless Dress", outfits.fearlessDress);
-    createCell(keyRow, "evermore Dress", outfits.evermoreDress);
-    createCell(keyRow, "reputation Jumpsuit", outfits.reputationJumpsuit);
-    createCell(keyRow, "Speak Now Dress", outfits.speakNowDress);
-    createCell(keyRow, "Red Shirt", outfits.redShirt);
-    createCell(keyRow, "folklore Dress", outfits.folkloreDress);
-    createCell(keyRow, "1989 Combo", outfits.combo1989);
-    createCell(keyRow, "Midnights Shirt", outfits.midnightsShirt);
-    createCell(keyRow, "Midnights Bodysuit", outfits.midnightsBodysuit);
-    createCell(keyRow, "Midnights Jacket", outfits.midnightsJacket);
+    createCell(keyRow, outfits.loverBodysuit);
+    createCell(keyRow, outfits.theManJacket);
+    createCell(keyRow, outfits.loverGuitar);
+    createCell(keyRow, outfits.fearlessDress);
+    createCell(keyRow, outfits.evermoreDress);
+    createCell(keyRow, outfits.reputationJumpsuit);
+    createCell(keyRow, outfits.speakNowDress);
+    createCell(keyRow, outfits.redShirt);
+    createCell(keyRow, outfits.folkloreDress);
+    createCell(keyRow, outfits.combo1989);
+    createCell(keyRow, outfits.midnightsShirt);
+    createCell(keyRow, outfits.midnightsBodysuit);
+    createCell(keyRow, outfits.midnightsJacket);
 
     /* For each outfit */
     // outfits.forEach((outfit, index) => {
@@ -42,7 +67,7 @@ function createTable(city, night, date, outfits) {
     //     const row = table.insertRow();
     //     const titleCell = row.insertCell();
 
-        
+
 
     //     const sectionContainer = document.createElement('div');
     //     sectionContainer.id = "fit";
@@ -52,26 +77,31 @@ function createTable(city, night, date, outfits) {
     //     const fitContainer = document.createElement('span');
     //     fitContainer.textContent = 
 
-        
+
 
     //     titleCell.appendChild(imgElement);
     //     titleCell.appendChild(document.createTextNode(' '));
     //     titleCell.appendChild(titleContainer);
     //     titleCell.appendChild(featContainer);
     // });
-
-
-    mainContainer.appendChild(table);
 }
 
 // LA Leg
 fetch('outfits.json')
     .then(response => response.json())
     .then(data => {
+        var mainContainer = document.getElementById("outfits");
+        /* Create the table */
+        const table = document.createElement('table');
+        table.style = "border: 2px solid black; padding: 10px;";
+        /* Create the header row */
+        const headerRow = table.insertRow();
+        createHeader(headerRow);
+
         // Loop through the stops and create tables
         data.shows.forEach(stop => {
-            createTable(stop.city, stop.night, stop.date, stop.outfits);
+            createTable(table, stop.city, stop.night, stop.date, stop.outfits);
         });
-        console.log("Reading outfit data");
+        mainContainer.appendChild(table);
     })
     .catch(error => console.error('Error fetching JSON:', error));

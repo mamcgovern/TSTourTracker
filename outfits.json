@@ -1,5 +1,5 @@
 {
-    "US": [
+    "shows": [
         {
             "city": "Glendale",
             "night": 1,
@@ -14,7 +14,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Purple",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Multicolor"
@@ -34,7 +34,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Ew",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -54,7 +54,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Pink",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -74,7 +74,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Ew",
                 "folkloreDress": "Purple",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Light Pink"
@@ -94,7 +94,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Never Ever",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -114,7 +114,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Ew",
                 "folkloreDress": "Purple",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -134,7 +134,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Pink",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Light Pink"
@@ -154,7 +154,7 @@
                 "speakNowDress": "Flowers",
                 "redShirt": "Ew",
                 "folkloreDress": "Green",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -174,7 +174,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "A Lot",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Light Pink"
@@ -194,7 +194,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Ew",
                 "folkloreDress": "Pink",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Magenta"
@@ -214,7 +214,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -234,7 +234,7 @@
                 "speakNowDress": "Flowers",
                 "redShirt": "Ew",
                 "folkloreDress": "Purple",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -254,7 +254,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Pink",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Light Pink"
@@ -274,7 +274,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "A Lot",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Magenta"
@@ -294,7 +294,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Ew",
                 "folkloreDress": "Purple",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Light Pink"
@@ -314,7 +314,7 @@
                 "speakNowDress": "Flowers",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Pink",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -334,7 +334,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Ew",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -354,7 +354,7 @@
                 "speakNowDress": "Flowers",
                 "redShirt": "A Lot",
                 "folkloreDress": "Pink",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -374,7 +374,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Purple",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -394,7 +394,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "A Lot",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -414,7 +414,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Ew",
                 "folkloreDress": "Green",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -434,7 +434,7 @@
                 "speakNowDress": "Flowers",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Pink",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Multicolor"
@@ -454,7 +454,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Green",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Magenta"
@@ -474,7 +474,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -494,7 +494,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -514,7 +514,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -534,7 +534,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -554,7 +554,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -574,7 +574,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -594,7 +594,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -614,7 +614,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -634,7 +634,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -654,7 +654,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -674,7 +674,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -694,7 +694,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -714,7 +714,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -734,7 +734,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -754,7 +754,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -774,7 +774,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -794,7 +794,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -814,7 +814,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -834,7 +834,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -854,7 +854,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -874,7 +874,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -894,7 +894,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -914,7 +914,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -934,7 +934,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -954,7 +954,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -974,7 +974,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -994,7 +994,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1014,7 +1014,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1034,7 +1034,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1054,14 +1054,12 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
             }
-        }
-    ],
-    "LA": [
+        },
         {
             "city": "Mexico City",
             "night": 1,
@@ -1076,7 +1074,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "A Lot",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Blue",
+                "combo1989": "Blue",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Blue"
@@ -1096,7 +1094,7 @@
                 "speakNowDress": "Blue",
                 "redShirt": "Ew",
                 "folkloreDress": "Green",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Dark Purple",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Magenta"
@@ -1116,7 +1114,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Blue",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Multicolor"
@@ -1136,7 +1134,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Pink",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Magenta"
@@ -1156,7 +1154,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Green",
-                "1989Combo": "Blue",
+                "combo1989": "Blue",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Blue"
@@ -1176,7 +1174,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Blue",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1196,7 +1194,7 @@
                 "speakNowDress": "Blue",
                 "redShirt": "Ew",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1216,7 +1214,7 @@
                 "speakNowDress": "Blue",
                 "redShirt": "Ew",
                 "folkloreDress": "Green",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Magenta"
@@ -1236,7 +1234,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Pink",
-                "1989Combo": "Blue",
+                "combo1989": "Blue",
                 "midnightsShirt": "Pink",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Magenta"
@@ -1256,7 +1254,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "Never Ever",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Dark Purple",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1276,7 +1274,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Ew",
                 "folkloreDress": "Purple",
-                "1989Combo": "Blue",
+                "combo1989": "Blue",
                 "midnightsShirt": "Dark Purple",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Multicolor"
@@ -1296,7 +1294,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "A Lot",
                 "folkloreDress": "Blue",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1316,14 +1314,12 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "Never Ever",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
             }
-        }
-    ],
-    "Asia-Aus": [
+        },
         {
             "city": "Tokyo",
             "night": 1,
@@ -1338,7 +1334,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "Ew",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Blue",
+                "combo1989": "Blue",
                 "midnightsShirt": "Dark Purple",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Blue"
@@ -1358,7 +1354,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Green",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Blue",
                 "midnightsJacket": "Magenta"
@@ -1378,7 +1374,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Pink",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Purple",
                 "midnightsBodysuit": "Navy",
                 "midnightsJacket": "Multicolor"
@@ -1398,7 +1394,7 @@
                 "speakNowDress": "Blue",
                 "redShirt": "A Lot",
                 "folkloreDress": "Blue",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1418,7 +1414,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Green",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Dark Purple",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1438,7 +1434,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "Never Ever",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Multicolor"
@@ -1458,7 +1454,7 @@
                 "speakNowDress": "Blue",
                 "redShirt": "Ew",
                 "folkloreDress": "Purple",
-                "1989Combo": "Blue",
+                "combo1989": "Blue",
                 "midnightsShirt": "Silver Sequin",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Magenta"
@@ -1478,7 +1474,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1498,7 +1494,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1518,7 +1514,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1538,7 +1534,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Blue",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1558,7 +1554,7 @@
                 "speakNowDress": "Purple (Cupcake)",
                 "redShirt": "Ew",
                 "folkloreDress": "White/Cream",
-                "1989Combo": "Yellow/Orange",
+                "combo1989": "Yellow/Orange",
                 "midnightsShirt": "Dark Purple",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Magenta"
@@ -1578,7 +1574,7 @@
                 "speakNowDress": "Champagne (Everything Bagel)",
                 "redShirt": "A Lot",
                 "folkloreDress": "Pink",
-                "1989Combo": "Green",
+                "combo1989": "Green",
                 "midnightsShirt": "Blue",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Multicolor"
@@ -1598,7 +1594,7 @@
                 "speakNowDress": "Pink",
                 "redShirt": "Never Ever",
                 "folkloreDress": "Blue",
-                "1989Combo": "Pink",
+                "combo1989": "Pink",
                 "midnightsShirt": "Iridescent",
                 "midnightsBodysuit": "Cutouts",
                 "midnightsJacket": "Blue"
@@ -1618,7 +1614,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1638,7 +1634,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1658,14 +1654,12 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
             }
-        }
-    ],
-    "Eur": [
+        },
         {
             "city": "Paris",
             "night": 1,
@@ -1680,7 +1674,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1700,7 +1694,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1720,7 +1714,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1740,7 +1734,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1760,7 +1754,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1780,7 +1774,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1800,7 +1794,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1820,7 +1814,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1840,7 +1834,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1860,7 +1854,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1880,7 +1874,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1900,7 +1894,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1920,7 +1914,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1940,7 +1934,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1960,7 +1954,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -1980,7 +1974,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2000,7 +1994,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2020,7 +2014,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2040,7 +2034,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2060,7 +2054,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2080,7 +2074,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2100,7 +2094,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2120,7 +2114,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2140,7 +2134,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2160,7 +2154,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2180,7 +2174,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2200,7 +2194,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2220,7 +2214,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2240,7 +2234,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2260,7 +2254,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2280,7 +2274,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2300,7 +2294,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2320,7 +2314,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2340,7 +2334,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2360,7 +2354,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2380,7 +2374,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2400,7 +2394,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2420,7 +2414,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2440,7 +2434,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2460,7 +2454,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2480,7 +2474,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2500,7 +2494,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2520,7 +2514,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2540,7 +2534,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2560,7 +2554,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2580,7 +2574,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2600,7 +2594,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2620,7 +2614,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2640,7 +2634,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2660,7 +2654,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2680,14 +2674,12 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
             }
-        }
-    ],
-    "US-Can": [
+        },
         {
             "city": "Miami",
             "night": 1,
@@ -2702,7 +2694,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2722,7 +2714,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2742,7 +2734,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2762,7 +2754,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2782,7 +2774,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2802,7 +2794,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2822,7 +2814,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2842,7 +2834,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2862,7 +2854,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2882,7 +2874,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2902,7 +2894,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2922,7 +2914,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2942,7 +2934,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2962,7 +2954,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -2982,7 +2974,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -3002,7 +2994,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -3022,7 +3014,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""
@@ -3042,7 +3034,7 @@
                 "speakNowDress": "",
                 "redShirt": "",
                 "folkloreDress": "",
-                "1989Combo": "",
+                "combo1989": "",
                 "midnightsShirt": "",
                 "midnightsBodysuit": "",
                 "midnightsJacket": ""

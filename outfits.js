@@ -6,7 +6,7 @@ function createHeader(row) {
     /* Add city and night info */
     const cityCell = row.insertCell();
     cityCell.textContent = "Key";
-    cityCell.style.fontWeight = "bold";
+    cityCell.style = "padding-left: 10px";
     cityCell.style.borderBottom = "1px solid gray";
     const dateCell = row.insertCell();
     dateCell.textContent = "";
@@ -49,6 +49,7 @@ function createTable(table, city, night, date, outfits) {
     /* Add city and night info */
     const cityCell = keyRow.insertCell();
     cityCell.textContent = city + " N" + night;
+    cityCell.style = "padding-left: 10px";
     cityCell.style.fontWeight = "bold";
     cityCell.style.borderBottom = "1px solid gray";
     const dateCell = keyRow.insertCell();

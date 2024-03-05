@@ -1,0 +1,4 @@
+After a show, update:
+    - songs2024.json
+    - Asia-Aus_surpriseSongs.json
+    - outfits.json

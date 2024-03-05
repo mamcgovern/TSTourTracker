@@ -32,6 +32,15 @@ function createCell(row, type) {
     outfitCell.style = "min-width: 100px; border: 1px solid gray; padding-left: 10px; padding-right: 10px;";
 }
 
+function createCell(row, type, textColor, backgroundColor) {
+    const outfitCell = row.insertCell();
+    outfitCell.innerText = type;
+    outfitCell.style = "min-width: 100px; border: 1px solid gray; padding-left: 10px; padding-right: 10px;";
+    outfitCell.style.backgroundColor = backgroundColor;
+    outfitCell.style.color = textColor;
+    outfitCell.style.fontWeight = "bold";
+}
+
 // Function to create the table
 function createTable(table, city, night, date, outfits) {
 
@@ -47,46 +56,156 @@ function createTable(table, city, night, date, outfits) {
     dateCell.style.fontStyle = "italic";
     dateCell.style.borderBottom = "1px solid gray";
 
-    createCell(keyRow, outfits.loverBodysuit);
-    createCell(keyRow, outfits.theManJacket);
-    createCell(keyRow, outfits.loverGuitar);
-    createCell(keyRow, outfits.fearlessDress);
-    createCell(keyRow, outfits.evermoreDress);
-    createCell(keyRow, outfits.reputationJumpsuit);
-    createCell(keyRow, outfits.speakNowDress);
-    createCell(keyRow, outfits.redShirt);
-    createCell(keyRow, outfits.folkloreDress);
-    createCell(keyRow, outfits.combo1989);
-    createCell(keyRow, outfits.midnightsShirt);
-    createCell(keyRow, outfits.midnightsBodysuit);
-    createCell(keyRow, outfits.midnightsJacket);
+    if(outfits.loverBodysuit == "Pink & Blue") {
+        createCell(keyRow, outfits.loverBodysuit, "#1f2cff", "#ffbae0");
+    } else if(outfits.loverBodysuit == "Blue & Gold") {
+        createCell(keyRow, outfits.loverBodysuit, "#f9d040", "#4689ff");
+    } else if(outfits.loverBodysuit == "Tassels") {
+        createCell(keyRow, outfits.loverBodysuit, "#5a3286", "#e6cff2");
+    } else if(outfits.loverBodysuit == "Pink") {
+        createCell(keyRow, outfits.loverBodysuit, "#f6c1d6", "#c91c50");
+    } else {
+        createCell(keyRow, outfits.loverBodysuit);
+    }
 
-    /* For each outfit */
-    // outfits.forEach((outfit, index) => {
-    //     /* Create a row */
-    //     const row = table.insertRow();
-    //     const titleCell = row.insertCell();
+    if(outfits.theManJacket == "Silver") {
+        createCell(keyRow, outfits.theManJacket, "#ffffff", "#cccccc");
+    } else if(outfits.theManJacket == "Black") {
+        createCell(keyRow, outfits.theManJacket, "#e5e5e5", "#000000");
+    } else if(outfits.theManJacket == "Blue") {
+        createCell(keyRow, outfits.theManJacket, "#ffffff", "#4c42c7");
+    } else if(outfits.theManJacket == "Pink") {
+        createCell(keyRow, outfits.theManJacket, "#ffc0d5", "#f13a96");
+    } else {
+        createCell(keyRow, outfits.theManJacket);
+    }
 
+    if(outfits.loverGuitar == "Pink") {
+        createCell(keyRow, outfits.loverGuitar, "#f13a96", "#fab8dc");
+    } else if(outfits.loverGuitar == "Blue") {
+        createCell(keyRow, outfits.loverGuitar, "#4982db", "#6bd1f7");
+    } else {
+        createCell(keyRow, outfits.loverGuitar);
+    }
 
+    if(outfits.fearlessDress == "Short Fringe") {
+        createCell(keyRow, outfits.fearlessDress, "black", "#fce598");
+    } else if(outfits.fearlessDress == "Gold Noodle") {
+        createCell(keyRow, outfits.fearlessDress, "#ffffff", "#f1c231");
+    } else if(outfits.fearlessDress == "Silver Noodle") {
+        createCell(keyRow, outfits.fearlessDress, "#3d3d3d", "#e6e6e6");
+    } else {
+        createCell(keyRow, outfits.fearlessDress);
+    }
 
-    //     const sectionContainer = document.createElement('div');
-    //     sectionContainer.id = "fit";
+    if(outfits.evermoreDress == "Orange/Yellow Flowers") {
+        createCell(keyRow, outfits.evermoreDress, "#8d5301", "#ffab00");
+    } else if(outfits.evermoreDress == "Bronze") {
+        createCell(keyRow, outfits.evermoreDress, "#700b0a", "#c8624e");
+    } else {
+        createCell(keyRow, outfits.evermoreDress);
+    }
 
-    //     const titleContainer = document.createElement('span');
-    //     titleContainer.innerHTML = `<p><strong>outfit</strong></p>`;
-    //     const fitContainer = document.createElement('span');
-    //     fitContainer.textContent = 
+    if(outfits.reputationJumpsuit == "Red & Black") {
+        createCell(keyRow, outfits.reputationJumpsuit, "#ff0000", "black");
+    } else {
+        createCell(keyRow, outfits.reputationJumpsuit);
+    }
 
+    if(outfits.speakNowDress == "Pink") {
+        createCell(keyRow, outfits.speakNowDress, "#c82c7b", "#f9a7d4");
+    } else if(outfits.speakNowDress == "Champagne (Everything Bagel)") {
+        createCell(keyRow, outfits.speakNowDress, "#c79e1e", "#fdf1cb");
+    } else if(outfits.speakNowDress == "Flowers") {
+        createCell(keyRow, outfits.speakNowDress, "#ffffff", "#cccccc");
+    } else if(outfits.speakNowDress == "White/Silver") {
+        createCell(keyRow, outfits.speakNowDress, "#8f7dc4", "#d9d2e9");
+    } else if(outfits.speakNowDress == "Purple (Cupcake)") {
+        createCell(keyRow, outfits.speakNowDress, "#f3dfff", "#c884f2");
+    } else if(outfits.speakNowDress == "Blue") {
+        createCell(keyRow, outfits.speakNowDress, "#0a53a8", "#bfe1f6");
+    } else {
+        createCell(keyRow, outfits.speakNowDress);
+    }
 
+    if(outfits.redShirt == "Never Ever") {
+        createCell(keyRow, outfits.redShirt, "#e5e5e5", "#3d3d3d");
+    } else if(outfits.redShirt == "Ew") {
+        createCell(keyRow, outfits.redShirt, "#ff0000", "#f0f0f0");
+    } else if(outfits.redShirt == "A Lot") {
+        createCell(keyRow, outfits.redShirt, "#ffcfc9", "#b10202");
+    } else {
+        createCell(keyRow, outfits.redShirt);
+    }
 
-    //     titleCell.appendChild(imgElement);
-    //     titleCell.appendChild(document.createTextNode(' '));
-    //     titleCell.appendChild(titleContainer);
-    //     titleCell.appendChild(featContainer);
-    // });
+    if(outfits.folkloreDress == "Purple") {
+        createCell(keyRow, outfits.folkloreDress, "#432c7e", "#d9d2e9");
+    } else if(outfits.folkloreDress == "White/Cream") {
+        createCell(keyRow, outfits.folkloreDress, "#c29408", "#fef5db");
+    } else if(outfits.folkloreDress == "Pink") {
+        createCell(keyRow, outfits.folkloreDress, "#a74f7a", "#f7c1d9");
+    } else if(outfits.folkloreDress == "Green") {
+        createCell(keyRow, outfits.folkloreDress, "#38761d", "#bae1ae");
+    } else if(outfits.folkloreDress == "Blue") {
+        createCell(keyRow, outfits.folkloreDress, "#184e7f", "#60cdff");
+    } else {
+        createCell(keyRow, outfits.folkloreDress);
+    }
+    
+    if(outfits.combo1989 == "Green") {
+        createCell(keyRow, outfits.combo1989, "#cbffb4", "#5bc42c");
+    } else if(outfits.combo1989 == "Yellow/Orange") {
+        createCell(keyRow, outfits.combo1989, "#fbfcb0", "#f89324");
+    } else if(outfits.combo1989 == "Pink") {
+        createCell(keyRow, outfits.combo1989, "#fbc4e2", "#f655a7");
+    } else if(outfits.combo1989 == "Blue") {
+        createCell(keyRow, outfits.combo1989, "#d7f3ff", "#60cdff");
+    } else {
+        createCell(keyRow, outfits.combo1989);
+    }
+
+    if(outfits.midnightsShirt == "Pink") {
+        createCell(keyRow, outfits.midnightsShirt, "#c82c7b", "#f9a7d4");
+    } else if(outfits.midnightsShirt == "Purple") {
+        createCell(keyRow, outfits.midnightsShirt, "#e1d5ff", "#b595ff");
+    } else if(outfits.midnightsShirt == "Silver Sequin") {
+        createCell(keyRow, outfits.midnightsShirt, "#999999", "#efefef");
+    } else if(outfits.midnightsShirt == "Iridescent") {
+        createCell(keyRow, outfits.midnightsShirt, "#72359c", "#a4c6ff");
+    } else if(outfits.midnightsShirt == "Dark Purple") {
+        createCell(keyRow, outfits.midnightsShirt, "#d9d2e9", "#6105a2");
+    } else if(outfits.midnightsShirt == "Blue") {
+        createCell(keyRow, outfits.midnightsShirt, "#b1dfff", "#369df7");
+    } else {
+        createCell(keyRow, outfits.midnightsShirt);
+    }
+
+    if(outfits.midnightsBodysuit == "Blue") {
+        createCell(keyRow, outfits.midnightsBodysuit, "#d0e2f3", "#2a48ef");
+    } else if(outfits.midnightsBodysuit == "Navy") {
+        createCell(keyRow, outfits.midnightsBodysuit, "#b7cbed", "#163f84");
+    } else if(outfits.midnightsBodysuit == "Cutouts") {
+        createCell(keyRow, outfits.midnightsBodysuit, "#d0e2f3", "#655bcf");
+    } else {
+        createCell(keyRow, outfits.midnightsBodysuit);
+    }
+
+    if(outfits.midnightsJacket == "Light Pink") {
+        createCell(keyRow, outfits.midnightsJacket, "#9f1158", "#f887c3");
+    } else if(outfits.midnightsJacket == "Multicolor") {
+        createCell(keyRow, outfits.midnightsJacket, "#70b6f7", "#8644b1");
+    } else if(outfits.midnightsJacket == "Magenta") {
+        createCell(keyRow, outfits.midnightsJacket, "#f5cbcb", "#ca1c50");
+    } else if(outfits.midnightsJacket == "Blue") {
+        createCell(keyRow, outfits.midnightsJacket, "#c6d8f4", "#2008ff");
+    } else if(outfits.midnightsJacket == "No Jacket") {
+        createCell(keyRow, outfits.midnightsJacket);
+    } else {
+        createCell(keyRow, outfits.midnightsJacket);
+    }
+
 }
 
-// LA Leg
 fetch('outfits.json')
     .then(response => response.json())
     .then(data => {

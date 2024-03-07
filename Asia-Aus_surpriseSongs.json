@@ -300,17 +300,17 @@
             "date": "3/7/23",
             "songs": [
                 {
-                    "title": "song1",
-                    "album": "album",
+                    "title": "Death by a Thousand Cuts & Babe",
+                    "album": "Lover",
                     "instrument": "guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "song2",
+                    "title": "Fifteen & You're On Your Own, Kid",
                     "album": "album",
                     "instrument": "piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

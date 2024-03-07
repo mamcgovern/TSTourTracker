@@ -107,7 +107,7 @@
                 {
                     "title" : "Fifteen",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Love Story",
@@ -466,7 +466,7 @@
                 {
                     "title": "Babe",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Message in a Bottle",
@@ -757,7 +757,7 @@
                 {
                     "title": "Death By A Thousand Cuts",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "London Boy",

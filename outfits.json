@@ -1625,19 +1625,19 @@
             "night": 5,
             "date": "3/8/23",
             "outfits": {
-                "loverBodysuit": "",
-                "theManJacket": "",
-                "loverGuitar": "",
-                "fearlessDress": "",
-                "evermoreDress": "",
-                "reputationJumpsuit": "",
-                "speakNowDress": "",
-                "redShirt": "",
-                "folkloreDress": "",
-                "combo1989": "",
-                "midnightsShirt": "",
-                "midnightsBodysuit": "",
-                "midnightsJacket": ""
+                "loverBodysuit": "Pink",
+                "theManJacket": "Pink",
+                "loverGuitar": "Pink",
+                "fearlessDress": "Silver Noodle",
+                "evermoreDress": "Orange/Yellow Flowers",
+                "reputationJumpsuit": "Red & Black",
+                "speakNowDress": "Pink",
+                "redShirt": "A Lot",
+                "folkloreDress": "Pink",
+                "combo1989": "Yellow/Orange",
+                "midnightsShirt": "Iridescent",
+                "midnightsBodysuit": "Cutouts",
+                "midnightsJacket": "Magenta"
             }
         },
         {

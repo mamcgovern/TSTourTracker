@@ -25,7 +25,7 @@
                 {
                     "title": "Tim McGraw",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Picture to Burn",
@@ -839,7 +839,7 @@
                 {
                     "title": "mirrorball",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "seven",
@@ -874,7 +874,7 @@
                 {
                     "title": "epiphany",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "betty",
@@ -956,7 +956,7 @@
                 {
                     "title": "cowboy like me",
                     "setlist": false,
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "long story short",

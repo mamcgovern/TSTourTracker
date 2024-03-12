@@ -342,17 +342,17 @@
             "date": "3/9/23",
             "songs": [
                 {
-                    "title": "song1",
-                    "album": "album",
+                    "title": "Tim McGraw & cowboy like me",
+                    "album": "Taylor Swift",
                     "instrument": "guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "song2",
-                    "album": "album",
+                    "title": "mirrorball & epiphany",
+                    "album": "folklore",
                     "instrument": "piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

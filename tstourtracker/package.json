@@ -1,17 +1,20 @@
 {
   "name": "tstourtracker",
   "version": "0.1.0",
-  "homepage": "https://mamcgovern.github.io/TSTourTracker/",
+  "homepage": "https://www.tstourtracker.com/",
   "private": true,
   "dependencies": {
+    "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.3",
+    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-countdown": "^2.3.5",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
+    "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

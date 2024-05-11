@@ -1,0 +1,1817 @@
+{
+    "songs": [
+        {
+            "city": "Glendale",
+            "night": 1,
+            "date": "3/17/23",
+            "songs": [
+                {
+                    "title": "mirrorball",
+                    "album": "folklore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Tim McGraw",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Glendale",
+            "night": 2,
+            "date": "3/18/23",
+            "songs": [
+                {
+                    "title": "this is me trying",
+                    "album": "folklore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "State of Grace",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Las Vegas",
+            "night": 1,
+            "date": "3/24/23",
+            "songs": [
+                {
+                    "title": "Our Song",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Snow on the Beach",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Las Vegas",
+            "night": 2,
+            "date": "3/25/23",
+            "songs": [
+                {
+                    "title": "Cowboy Like Me",
+                    "album": "evermore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "White Horse",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Arlington",
+            "night": 1,
+            "date": "3/31/23",
+            "songs": [
+                {
+                    "title": "Sad Beautiful Tragic",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Ours",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Arlington",
+            "night": 2,
+            "date": "4/1/23",
+            "songs": [
+                {
+                    "title": "Death By A Thousand Cuts",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Clean",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Arlington",
+            "night": 3,
+            "date": "4/2/23",
+            "songs": [
+                {
+                    "title": "Jump Then Fall",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "The Lucky One",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tampa",
+            "night": 1,
+            "date": "4/13/23",
+            "songs": [
+                {
+                    "title": "Speak Now",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Treacherous",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tampa",
+            "night": 2,
+            "date": "4/14/23",
+            "songs": [
+                {
+                    "title": "The Great War",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own Kid",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tampa",
+            "night": 3,
+            "date": "4/15/23",
+            "songs": [
+                {
+                    "title": "mad woman",
+                    "album": "folklore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Mean",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Houston",
+            "night": 1,
+            "date": "4/21/23",
+            "songs": [
+                {
+                    "title": "Wonderland",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're Not Sorry",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Houston",
+            "night": 2,
+            "date": "4/22/23",
+            "songs": [
+                {
+                    "title": "A Place in This World",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Today Was A Fairytale",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Houston",
+            "night": 3,
+            "date": "4/23/23",
+            "songs": [
+                {
+                    "title": "Begin Again",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Cold As You",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Atlanta",
+            "night": 1,
+            "date": "4/28/23",
+            "songs": [
+                {
+                    "title": "The Other Side of the Door",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "coney island",
+                    "album": "evermore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Atlanta",
+            "night": 2,
+            "date": "4/29/23",
+            "songs": [
+                {
+                    "title": "High Infidelity",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Gorgeous",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Atlanta",
+            "night": 3,
+            "date": "4/30/23",
+            "songs": [
+                {
+                    "title": "I Bet You Think About Me",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "How You Get The Girl",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Nashville",
+            "night": 1,
+            "date": "5/5/23",
+            "songs": [
+                {
+                    "title": "Sparks Fly",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Teardrops On My Guitar",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Nashville",
+            "night": 2,
+            "date": "5/6/23",
+            "songs": [
+                {
+                    "title": "Out of the Woods",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Fifteen",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Nashville",
+            "night": 3,
+            "date": "5/7/23",
+            "songs": [
+                {
+                    "title": "Would've Could've Should've",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Mine",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Philadelphia",
+            "night": 1,
+            "date": "5/12/23",
+            "songs": [
+                {
+                    "title": "gold rush",
+                    "album": "evermore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Come Back... Be here",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Philadelphia",
+            "night": 2,
+            "date": "5/13/23",
+            "songs": [
+                {
+                    "title": "Forever and Always",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "This Love",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Philadelphia",
+            "night": 1,
+            "date": "5/14/23",
+            "songs": [
+                {
+                    "title": "Hey Stephen",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "The Best Day",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Foxborough",
+            "night": 1,
+            "date": "5/19/23",
+            "songs": [
+                {
+                    "title": "Should've Said No",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Better Man",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Foxborough",
+            "night": 2,
+            "date": "5/20/23",
+            "songs": [
+                {
+                    "title": "Question...?",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Invisible",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Foxborough",
+            "night": 3,
+            "date": "5/21/23",
+            "songs": [
+                {
+                    "title": "I Think He Knows",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Red",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "East Rutherford",
+            "night": 1,
+            "date": "5/26/23",
+            "songs": [
+                {
+                    "title": "Getaway Car",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": "Jack Antonoff"
+                },
+                {
+                    "title": "Maroon",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "East Rutherford",
+            "night": 2,
+            "date": "5/27/23",
+            "songs": [
+                {
+                    "title": "Holy Ground",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "False God",
+                    "album": "Lover",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "East Rutherford",
+            "night": 3,
+            "date": "5/28/23",
+            "songs": [
+                {
+                    "title": "Welcome to New York",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Clean",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Chicago",
+            "night": 1,
+            "date": "6/2/23",
+            "songs": [
+                {
+                    "title": "I Wish You Would",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "the lakes",
+                    "album": "folklore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Chicago",
+            "night": 2,
+            "date": "6/3/23",
+            "songs": [
+                {
+                    "title": "You All Over Me",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": "Maren Morris"
+                },
+                {
+                    "title": "I Don't Wanna Live Forever",
+                    "album": "Other",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Chicago",
+            "night": 3,
+            "date": "6/4/23",
+            "songs": [
+                {
+                    "title": "Hits Different",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "The Moment I Knew",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Detroit",
+            "night": 1,
+            "date": "6/9/23",
+            "songs": [
+                {
+                    "title": "Haunted",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "I Almost Do",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Detroit",
+            "night": 2,
+            "date": "6/10/23",
+            "songs": [
+                {
+                    "title": "All You Had To Do Was Stay",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Breathe",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Pittsburgh",
+            "night": 1,
+            "date": "6/16/23",
+            "songs": [
+                {
+                    "title": "Mr. Perfectly Fine",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "The Last Time",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Pittsburgh",
+            "night": 2,
+            "date": "6/17/23",
+            "songs": [
+                {
+                    "title": "seven",
+                    "album": "folklore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": "Aaron Dessner"
+                },
+                {
+                    "title": "The Story of Us",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Minneapolis",
+            "night": 1,
+            "date": "6/23/23",
+            "songs": [
+                {
+                    "title": "Paper Rings",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "If This Was A Movie",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Minneapolis",
+            "night": 2,
+            "date": "6/24/23",
+            "songs": [
+                {
+                    "title": "Dear John",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Daylight",
+                    "album": "Lover",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Cincinnati",
+            "night": 1,
+            "date": "6/30/23",
+            "songs": [
+                {
+                    "title": "I'm Only Me When I'm With You",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "evermore",
+                    "album": "evermore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Cincinnati",
+            "night": 2,
+            "date": "7/1/23",
+            "songs": [
+                {
+                    "title": "ivy",
+                    "album": "evermore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": "Aaron Dessner"
+                },
+                {
+                    "title": "i miss you, i'm sorry",
+                    "album": "other",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": "Gracie Abrams"
+                },
+                {
+                    "title": "Call It What You Want",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Kansas City",
+            "night": 1,
+            "date": "7/7/23",
+            "songs": [
+                {
+                    "title": "Never Grow Up",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "When Emma Falls in Love",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Kansas City",
+            "night": 2,
+            "date": "7/8/23",
+            "songs": [
+                {
+                    "title": "Last Kiss",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "dorothea",
+                    "album": "evermore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Denver",
+            "night": 1,
+            "date": "7/14/23",
+            "songs": [
+                {
+                    "title": "Picture to Burn",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Timeless",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Denver",
+            "night": 2,
+            "date": "7/15/23",
+            "songs": [
+                {
+                    "title": "Starlight",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Back to December",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Seattle",
+            "night": 1,
+            "date": "7/22/23",
+            "songs": [
+                {
+                    "title": "This Is Why We Can't Have Nice Things",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Everything Has Changed",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Seattle",
+            "night": 2,
+            "date": "7/23/23",
+            "songs": [
+                {
+                    "title": "Message In A Bottle",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Tied Together With a Smile",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Santa Clara",
+            "night": 1,
+            "date": "7/28/23",
+            "songs": [
+                {
+                    "title": "right where you left me",
+                    "album": "evermore",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Castles Crumbling",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Santa Clara",
+            "night": 2,
+            "date": "7/29/23",
+            "songs": [
+                {
+                    "title": "Stay Stay Stay",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "All Of The Girls You Loved Before",
+                    "album": "Lover",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Los Angeles",
+            "night": 1,
+            "date": "8/3/23",
+            "songs": [
+                {
+                    "title": "I Can See You",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Maroon",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Los Angeles",
+            "night": 2,
+            "date": "8/4/23",
+            "songs": [
+                {
+                    "title": "Our Song",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You Are In Love",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Los Angeles",
+            "night": 3,
+            "date": "8/5/23",
+            "songs": [
+                {
+                    "title": "Death By A Thousand Cuts",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own Kid",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Los Angeles",
+            "night": 4,
+            "date": "8/7/23",
+            "songs": [
+                {
+                    "title": "Dress",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "exile",
+                    "album": "folklore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Los Angeles",
+            "night": 5,
+            "date": "8/8/23",
+            "songs": [
+                {
+                    "title": "I Know Places",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "King of My Heart",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Los Angeles",
+            "night": 6,
+            "date": "8/9/23",
+            "songs": [
+                {
+                    "title": "New Romantics",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "New Years Day",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 1,
+            "date": "8/24/23",
+            "songs": [
+                {
+                    "title": "I Forgot That You Existed",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Sweet Nothing",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 2,
+            "date": "8/25/23",
+            "songs": [
+                {
+                    "title": "Tell Me Why",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Snow On The Beach",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 3,
+            "date": "8/26/23",
+            "songs": [
+                {
+                    "title": "Cornelia Street",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own, Kid",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Mexico City",
+            "night": 4,
+            "date": "8/27/23",
+            "songs": [
+                {
+                    "title": "Afterglow",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Maroon",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 1,
+            "date": "11/9/23",
+            "songs": [
+                {
+                    "title": "The Very First Night",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Labrynth",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 2,
+            "date": "11/10/23",
+            "songs": [
+                {
+                    "title": "Is It Over Now?",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "End Game",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Buenos Aires",
+            "night": 3,
+            "date": "11/11/23",
+            "songs": [
+                {
+                    "title": "Better Than Revenge",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "\"Slut!\"",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 1,
+            "date": "11/17/23",
+            "songs": [
+                {
+                    "title": "Stay Beautiful",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Suburban Legends",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 2,
+            "date": "11/18/23",
+            "songs": [
+                {
+                    "title": "Dancing With Our Hands Tied",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Bigger Than The Whole Sky",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Rio de Janeiro",
+            "night": 3,
+            "date": "11/19/23",
+            "songs": [
+                {
+                    "title": "Me!",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "So It Goes...",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 1,
+            "date": "11/24/23",
+            "songs": [
+                {
+                    "title": "Now That We Don't Talk",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Innocent",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 2,
+            "date": "11/25/23",
+            "songs": [
+                {
+                    "title": "Safe and Sound",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Untouchable",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sao Paulo",
+            "night": 3,
+            "date": "11/26/23",
+            "songs": [
+                {
+                    "title": "Say Don't Go",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "It's Time To Go",
+                    "album": "evermore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 1,
+            "date": "2/7/24",
+            "songs": [
+                {
+                    "title": "Dear Reader",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Holy Ground",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 2,
+            "date": "2/8/24",
+            "songs": [
+                {
+                    "title": "Eyes Open",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Electric Touch",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 3,
+            "date": "2/9/24",
+            "songs": [
+                {
+                    "title": "Superman",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "The Outside",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Tokyo",
+            "night": 4,
+            "date": "2/10/24",
+            "songs": [
+                {
+                    "title": "Come In with the Rain",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own, Kid",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Melbourne",
+            "night": 1,
+            "date": "2/16/23",
+            "songs": [
+                {
+                    "title": "Red",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "You're Losing Me",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Melbourne",
+            "night": 2,
+            "date": "2/17/23",
+            "songs": [
+                {
+                    "title": "Getaway Car, august, & The Other Side Of The Door",
+                    "album": "reputation",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "this is me trying",
+                    "album": "folklore",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Melbourne",
+            "night": 3,
+            "date": "2/18/23",
+            "songs": [
+                {
+                    "title": "Come Back... Be Here & Daylight",
+                    "album": "Red",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Teardrops On My Guitar",
+                    "album": "Taylor Swift",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 1,
+            "date": "2/23/23",
+            "songs": [
+                {
+                    "title": "How You Get The Girl",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "White Horse & coney island",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": "Sabrina Carpenter"
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 2,
+            "date": "2/24/23",
+            "songs": [
+                {
+                    "title": "Should've Said No & You're Not Sorry",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "New Years Day & peace",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 3,
+            "date": "2/25/23",
+            "songs": [
+                {
+                    "title": "Is It Over Now & I Wish You Would",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Haunted & exile",
+                    "album": "Speak Now",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Sydney",
+            "night": 4,
+            "date": "2/26/23",
+            "songs": [
+                {
+                    "title": "Would've, Could've, Should've & ivy",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Forever and Always & Maroon",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 1,
+            "date": "3/2/23",
+            "songs": [
+                {
+                    "title": "Mine & Starlight",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "I Don't Wanna Live Forever & Dress",
+                    "album": "reputation",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 2,
+            "date": "3/3/23",
+            "songs": [
+                {
+                    "title": "long story short & The Story of Us",
+                    "album": "evermore",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Clean & evermore",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 3,
+            "date": "3/4/23",
+            "songs": [
+                {
+                    "title": "Foolish One & Tell Me Why",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "This Love & Call It What You Want",
+                    "album": "1989",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 4,
+            "date": "3/7/23",
+            "songs": [
+                {
+                    "title": "Death by a Thousand Cuts & Babe",
+                    "album": "Lover",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Fifteen & You're On Your Own, Kid",
+                    "album": "Fearless",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 5,
+            "date": "3/8/23",
+            "songs": [
+                {
+                    "title": "Sparks Fly & gold rush",
+                    "album": "Speak Now",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "False God & \"Slut!\"",
+                    "album": "Lover",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Singapore",
+            "night": 6,
+            "date": "3/9/23",
+            "songs": [
+                {
+                    "title": "Tim McGraw & cowboy like me",
+                    "album": "Taylor Swift",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "mirrorball & epiphany",
+                    "album": "folklore",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Paris",
+            "night": 1,
+            "date": "5/9/23",
+            "songs": [
+                {
+                    "title": "Paris",
+                    "album": "Midnights",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "loml",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Paris",
+            "night": 2,
+            "date": "5/10/23",
+            "songs": [
+                {
+                    "title": "Is It Over Now & Out of the Woods",
+                    "album": "1989",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "My Boy Only Breaks His Favorite Toys",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Paris",
+            "night": 3,
+            "date": "5/11/23",
+            "songs": [
+                {
+                    "title": "Hey Stephen",
+                    "album": "Fearless",
+                    "instrument": "guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Maroon",
+                    "album": "Midnights",
+                    "instrument": "piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        }
+    ]
+}

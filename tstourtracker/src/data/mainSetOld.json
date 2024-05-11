@@ -1,0 +1,320 @@
+{
+    "sets": [
+        {
+            "era": "Lover",
+            "color": "#ffc2ea",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Miss Americana & The Heartbreak Prince",
+                    "temporary": false,
+                    "hasNote": true,
+                    "note": "Only partially sung"
+                },
+                {
+                    "title": "Cruel Summer",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "The Man",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "You Need to Calm Down",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Lover",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "The Archer",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "Fearless",
+            "color": "#feeab6",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Fearless",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "You Belong With Me",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Love Story",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "evermore",
+            "color": "#ffac54",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "no body, no crime",
+                    "temporary": true,
+                    "note": "When HAIM opens"
+                },
+                {
+                    "title": "tis the damn season",
+                    "temporary": false,
+                    "note": "Cut when HAIM opens"
+                },
+                {
+                    "title": "willow",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "marjorie",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "champagne problems",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "tolerate it",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "reputation",
+            "color": "#000000",
+            "text": "#ffffff",
+            "songs": [
+                {
+                    "title": "...Ready for It?",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Delicate",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Don't Blame Me",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Look What You Made Me Do",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "Speak Now",
+            "color": "#d1beff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Enchanted",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Long Live",
+                    "temporary": false,
+                    "note": "Added in Kansas City (7/7)"
+                }
+            ]
+        },
+        {
+            "era": "Red",
+            "color": "#ff6362",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "22",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "We Are Never Ever Getting Back Together",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "I Knew You Were Trouble",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Nothing New",
+                    "temporary": true,
+                    "note": "Only when Phoebe opens"
+                },
+                {
+                    "title": "All Too Well 10 Minute Version",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "folklore",
+            "color": "#d8dee5",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "seven",
+                    "temporary": false,
+                    "note": "Spoken word poem"
+                },
+                {
+                    "title": "invisible string",
+                    "temporary": true,
+                    "note": "Song replaced"
+                },
+                {
+                    "title": "the 1",
+                    "temporary": false,
+                    "note": "Replaced invisible string"
+                },
+                {
+                    "title": "betty",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "the last great american dynasty",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "august",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "illicit affairs",
+                    "temporary": false,
+                    "note": "Only partially sung"
+                },
+                {
+                    "title": "my tears ricochet",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "cardigan",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "1989",
+            "color": "#aceeff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Style",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Blank Space",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Shake It Off",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Wildest Dreams",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Bad Blood",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "Acoustic Set",
+            "color": "#fce0d5",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Guitar song",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Piano Song",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        },
+        {
+            "era": "Midnights",
+            "color": "#000fb7",
+            "text": "#ffffff",
+            "songs": [
+                {
+                    "title": "Lavender Haze",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Anti-Hero",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Midnight Rain",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Vigilante Shit",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Bejeweled",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Mastermind",
+                    "temporary": false,
+                    "note": null
+                },
+                {
+                    "title": "Karma",
+                    "temporary": false,
+                    "note": null
+                }
+            ]
+        }
+    ]
+}

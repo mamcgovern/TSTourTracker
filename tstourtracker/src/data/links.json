@@ -1,0 +1,87 @@
+{
+    "categories": [
+        {
+            "title": "Streams",
+            "links": [
+                {
+                    "title": "Tess - Tiktok",
+                    "url": "https://www.tiktok.com/@tessdear"
+                },
+                {
+                    "title": "Tess's Backup - Tiktok",
+                    "url": "https://www.tiktok.com/@yestess"
+                },
+                {
+                    "title": "Tess's Backup's Backup - Tiktok",
+                    "url": "https://www.tiktok.com/@thetessdear"
+                },
+                {
+                    "title": "Tess - Insta",
+                    "url": "https://www.instagram.com/tessbohne/"
+                },
+                {
+                    "title": "SwiftStream",
+                    "url": "https://swiftstream.io/"
+                },
+                {
+                    "title": "folkleric - Twitch",
+                    "url": "https://www.twitch.tv/folkleric"
+                },
+                {
+                    "title": "taylorswifthockeybro - YouTube",
+                    "url": "https://www.youtube.com/@taylorswifthockeybro"
+                }
+            ]
+        },
+        {
+            "title": "Spreadsheets & Forms",
+            "links": [
+                {
+                    "title": "Redit Mega Spreadsheet",
+                    "url": "https://docs.google.com/spreadsheets/d/1isbSEIwagJrX97rdZhdYsPBQ4Agw09VIdYj8SqkEjxA/edit#gid=0"
+                },
+                {
+                    "title": "Outfits & More",
+                    "url": "https://docs.google.com/spreadsheets/d/1WZyhckHAwOosHGA65h5dp5SHL5aoUMiyYXcY1k5MYUM/htmlview#gid=174092590"
+                },
+                {
+                    "title": "Swiftball Form",
+                    "url": "https://docs.google.com/forms/d/e/1FAIpQLSfug6JZmuNdP_Fq_WOeHg3qC9HwbSrZvHAGON31Bc4nvWQezg/viewform"
+                }
+            ]
+        },
+        {
+            "title": "Official",
+            "links": [
+                {
+                    "title": "Website",
+                    "url": "https://www.taylorswift.com"
+                },
+                {
+                    "title": "Store",
+                    "url": "https://www.store.taylorswift.com"
+                },
+                {
+                    "title": "Tour Mini-Website",
+                    "url": "https://tstheerastour.taylorswift.com/"
+                },
+                {
+                    "title": "Taylor's Instagrapm",
+                    "url": "https://www.instagram.com/taylorswift/"
+                },
+                {
+                    "title": "Taylor's Twitter",
+                    "url": "https://twitter.com/taylorswift13"
+                },
+                {
+                    "title": "Taylor Nation's Instagram",
+                    "url": "https://www.instagram.com/taylornation/"
+                },
+                {
+                    "title": "Taylor Nation's Twitter",
+                    "url": "https://twitter.com/taylornation13"
+                }
+            ]
+        }
+    ]
+}

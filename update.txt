@@ -1,0 +1,4 @@
+After a show, update:
+    - discography.json
+    - surpriseSongs.json
+    - outfits.json

@@ -1,0 +1,2576 @@
+{
+    "discography2023": [
+        {
+            "album": "Key",
+            "color": "#ffffff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Songs on the set list",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Played as a surprise song",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Taylor Swift",
+            "color": "#d9ffcc",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Tim McGraw",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Picture to Burn",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Teardrops on My Guitar",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "A Place in This World",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Cold as You",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "The Outside",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Tied Together with a Smile",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Stay Beautiful",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Should've Said No",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Mary's Song",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Our Song",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I'm Only Me When I'm with You",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Invisible",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "A Perfectly Good Heart",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Fearless",
+            "color": "#feeab6",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title" : "Fearless",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title" : "Fifteen",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Love Story",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title" : "Hey Stephen",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "White Horse",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "You Belong With Me",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title" : "Breathe",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Tell Me Why",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "You're Not Sorry",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "The Way I Loved You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Forever and Always",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "The Best Day",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Change",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Jump Then Fall",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Untouchable",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Come in with the Rain",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Superstar",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "The Other Side of the Door",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Today Was a Fairytale",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "You All Over Me",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Mr Perfectly Fine",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "We Were Happy",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "That's When",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Don't You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Bye Bye Baby",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "If This Was A Movie",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Speak Now",
+            "color": "#d1beff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Mine",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Sparks Fly",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Back to December",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Speak Now",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Dear John",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Mean",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "The Story of Us",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Never Grow Up",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Enchanted",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Better than Revenge",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Innocent",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Haunted",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Last Kiss",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Long Live",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Ours",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Superman",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Electric Touch",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "When Emma Falls In Love",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Can See You",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Castles Crumbling",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Foolish One",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Timeless",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Red",
+            "color": "#ff6362",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "State of Grace",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Red",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Treacherous",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Knew You Were Trouble",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "All Too Well",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "22",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "I Almost Do",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "We Are Never Ever Getting Back Together",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Stay Stay Stay",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "The Last Time",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Holy Ground",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Sad Beautiful Tragic",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "The Lucky One",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Everything Has Changed",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Starlight",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Begin Again",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "The Moment I Knew",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Come Back... Be Here",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Girl At Home",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Ronan",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Better Man",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Nothing New",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Babe",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Message in a Bottle",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Bet You Think About Me",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Forever Winter",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Run",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Very First Night",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "All Too Well 10 Minute Version",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Eyes Open",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Safe and Sound",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "1989",
+            "color": "#aceeff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Welcome to New York",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Blank Space",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Style",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Out of the Woods",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "All You Had to Do Was Stay",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Shake It Off",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "I Wish You Would",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Bad Blood",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Wildest Dreams",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "How You Get The Girl",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "This Love",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Know Places",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Clean",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Wonderland",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "You Are In Love",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "New Romantics",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "\"Slut!\"",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Say Don't Go",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Now That We Don't Talk",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Suburban Legeands",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Is It Over Now?",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Sweeter Than Fiction",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "reputation",
+            "color": "#000000",
+            "text": "#ffffff",
+            "songs": [
+                {
+                    "title": "...Ready For It?",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "End Game",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Did Something Bad",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Don't Blame Me",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Delicate",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Look What You Made Me Do",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "So It Goes...",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Gorgeous",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Getaway Car",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "King Of My Heart",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Dancing With Our Hands Tied",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Dress",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "This Is Why We Can't Have Nice Things",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Call It What You Want",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "New Years Day",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Lover",
+            "color": "#ffc2ea",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "I Forgot That You Existed",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Cruel Summer",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Lover",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Man",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Archer",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "I Think He Knows",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Miss Americana & The Heartbreak Prince",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Paper Rings",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Cornelia Street",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Death By A Thousand Cuts",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "London Boy",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Soon You'll Get Better",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "False God",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "You Need to Calm Down",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Afterglow",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "ME!",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "It's Nice To Have A Friend",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Daylight",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "All Of The Girls You Loved Before",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "folklore",
+            "color": "#d8dee5",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "the 1",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "cardigan",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "the last great american dynasty",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "exile",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "my tears ricochet",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "mirrorball",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "seven",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "august",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "this is me trying",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "illicit affairs",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "invisible string",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "mad woman",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "epiphany",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "betty",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "peace",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "hoax",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "the lakes",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "evermore",
+            "color": "#ffac54",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "willow",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "champagne problems",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "gold rush",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "tis the damn season",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "tolerate it",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "no body, no crime",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "happiness",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "dorothea",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "coney island",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "ivy",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "cowboy like me",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "long story short",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "marjorie",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "closure",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "evermore",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "right where you left me",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "it's time to go",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Midnights",
+            "color": "#000fb7",
+            "text": "#ffffff",
+            "songs": [
+                {
+                    "title": "Lavender Haze",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Maroon",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Anti-Hero",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Snow On The Beach",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "You're On Your Own, Kid",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Midnight Rain",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Question...?",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Vigilante Shit",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Bejeweled",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Labrynth",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Karma",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Sweet Nothing",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Mastermind",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Great War",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Bigger Than The Whole Sky",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Paris",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "High Infidelity",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Glitch",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Would've, Could've, Should've",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Dear Reader",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Hits Different",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "You're Losing Me",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Other",
+            "color": "#fbe0d5",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Beautiful Eyes",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Heart ?",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Crazier",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Beautiful Ghosts",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Christmas Tree Farm",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Only The Young",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Carolina",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Thug Story",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Two Is Better Than One by Boys Like Girls ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Both of Us by B.O.B. ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Highway Don't Care by Tim McGraw ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Don't Wanna Live Forever by Zayn ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Big Star by Kenny Chesney ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Renegade by Big Red Machine ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Birch by Big Red Machine ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Joker and The Queen by Ed Sheeran ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Alcott by The National ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        }
+    ],
+    "discography2024": [
+        {
+            "album": "Key",
+            "color": "#ffffff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Songs currently on the set list",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Songs temporarily on the set list",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "Played as a surprise song",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Taylor Swift",
+            "color": "#d9ffcc",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Tim McGraw",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Picture to Burn",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Teardrops on My Guitar",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "A Place in This World",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Cold as You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Outside",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Tied Together with a Smile",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Stay Beautiful",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Should've Said No",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Mary's Song",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Our Song",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I'm Only Me When I'm with You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Invisible",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "A Perfectly Good Heart",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Fearless",
+            "color": "#feeab6",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title" : "Fearless",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title" : "Fifteen",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Love Story",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title" : "Hey Stephen",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "White Horse",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "You Belong With Me",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title" : "Breathe",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Tell Me Why",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "You're Not Sorry",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "The Way I Loved You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Forever and Always",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "The Best Day",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Change",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Jump Then Fall",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Untouchable",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Come in with the Rain",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Superstar",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "The Other Side of the Door",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title" : "Today Was a Fairytale",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "You All Over Me",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Mr Perfectly Fine",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "We Were Happy",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "That's When",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Don't You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "Bye Bye Baby",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title" : "If This Was A Movie",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Speak Now",
+            "color": "#d1beff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Mine",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Sparks Fly",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Back to December",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Speak Now",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Dear John",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Mean",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Story of Us",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Never Grow Up",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Enchanted",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Better than Revenge",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Innocent",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Haunted",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Last Kiss",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Long Live",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "Ours",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Superman",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Electric Touch",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "When Emma Falls In Love",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Can See You",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Castles Crumbling",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Foolish One",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Timeless",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Red",
+            "color": "#ff6362",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "State of Grace",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Red",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Treacherous",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Knew You Were Trouble",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "All Too Well",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "22",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "I Almost Do",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "We Are Never Ever Getting Back Together",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Stay Stay Stay",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Last Time",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Holy Ground",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Sad Beautiful Tragic",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Lucky One",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Everything Has Changed",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Starlight",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Begin Again",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Moment I Knew",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Come Back... Be Here",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Girl At Home",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Ronan",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Better Man",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Nothing New",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Babe",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Message in a Bottle",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Bet You Think About Me",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Forever Winter",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Run",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Very First Night",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Eyes Open",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Safe and Sound",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "1989",
+            "color": "#aceeff",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Welcome to New York",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Blank Space",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Style",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Out of the Woods",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "All You Had to Do Was Stay",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Shake It Off",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "I Wish You Would",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Bad Blood",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Wildest Dreams",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "How You Get The Girl",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "This Love",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Know Places",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Clean",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Wonderland",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "You Are In Love",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "New Romantics",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "\"Slut!\"",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Say Don't Go",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Now That We Don't Talk",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Suburban Legeands",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Is It Over Now?",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Sweeter Than Fiction",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "reputation",
+            "color": "#000000",
+            "text": "#ffffff",
+            "songs": [
+                {
+                    "title": "...Ready For It?",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "End Game",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Did Something Bad",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Don't Blame Me",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Delicate",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Look What You Made Me Do",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "So It Goes...",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Gorgeous",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Getaway Car",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "King Of My Heart",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Dancing With Our Hands Tied",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Dress",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "This Is Why We Can't Have Nice Things",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Call It What You Want",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "New Years Day",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]
+        },
+        {
+            "album": "Lover",
+            "color": "#ffc2ea",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "I Forgot That You Existed",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Cruel Summer",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Lover",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Man",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Archer",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "I Think He Knows",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Miss Americana & The Heartbreak Prince",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Paper Rings",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Cornelia Street",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Death By A Thousand Cuts",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "London Boy",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Soon You'll Get Better",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "False God",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "You Need to Calm Down",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Afterglow",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "ME!",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "It's Nice To Have A Friend",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Daylight",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "All Of The Girls You Loved Before",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "folklore",
+            "color": "#d8dee5",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "the 1",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "cardigan",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "the last great american dynasty",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "exile",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "my tears ricochet",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "mirrorball",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "seven",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "august",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "this is me trying",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "illicit affairs",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "invisible string",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "mad woman",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "epiphany",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "betty",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "peace",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "hoax",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "the lakes",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "evermore",
+            "color": "#ffac54",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "willow",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "champagne problems",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "gold rush",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "tis the damn season",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "tolerate it",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "no body, no crime",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
+                    "title": "happiness",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "dorothea",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "coney island",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "ivy",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "cowboy like me",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "long story short",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "marjorie",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "closure",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "evermore",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "right where you left me",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "it's time to go",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Midnights",
+            "color": "#000fb7",
+            "text": "#ffffff",
+            "songs": [
+                {
+                    "title": "Lavender Haze",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Maroon",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Anti-Hero",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Snow On The Beach",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "You're On Your Own, Kid",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Midnight Rain",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Question...?",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Vigilante Shit",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Bejeweled",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Labrynth",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Karma",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Sweet Nothing",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Mastermind",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Great War",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Bigger Than The Whole Sky",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Paris",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "High Infidelity",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Glitch",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Would've, Could've, Should've",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Dear Reader",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Hits Different",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "You're Losing Me",
+                    "setlist": "false",
+                    "played": true
+                }
+            ]   
+        },
+        {
+            "album": "The Tortured Poets Department",
+            "color": "#dcd3c3",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Fortnight",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Tortured Poets Department",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "My Boy Only Breaks His Favorite Toys",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Down Bad",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "So Long, London",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "But Daddy, I Love Him",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "Fresh Out The Slammer",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Florida!!!",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Guilty as Sin?",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Who's Afraid of Little Old Me?",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Can Fix Him (No Really, I Can)",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "loml",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "I Can Do It With a Broken Heart",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Smallest Man Who Ever Lived",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "The Alchemy",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Clara Bow",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Black Dog",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "imgonnagetyouback",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Albatross",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Chloe or Sam or Sophia or Marcus",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "How Did It End?",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "So High School",
+                    "setlist": "true",
+                    "played": false
+                },
+                {
+                    "title": "I Hate It Here",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "thanK you aIMee",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Look in People's Windows",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Prophecy",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Cassandra",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Peter",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Bolter",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Robin",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Manuscript",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        },
+        {
+            "album": "Other",
+            "color": "#fbe0d5",
+            "text": "#000000",
+            "songs": [
+                {
+                    "title": "Beautiful Eyes",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Heart ?",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Crazier",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Beautiful Ghosts",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Christmas Tree Farm",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Only The Young",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Carolina",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Thug Story",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Two Is Better Than One by Boys Like Girls ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Both of Us by B.O.B. ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Highway Don't Care by Tim McGraw ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "I Don't Wanna Live Forever by Zayn ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": true
+                },
+                {
+                    "title": "Big Star by Kenny Chesney ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Renegade by Big Red Machine ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "Birch by Big Red Machine ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Joker and The Queen by Ed Sheeran ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                },
+                {
+                    "title": "The Alcott by The National ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
+                }
+            ]
+        }
+    ]
+}

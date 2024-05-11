@@ -1200,6 +1200,12 @@ function App() {
                         {item.outfits.ttpdTwoPiece}
                     </td>
                 );
+            } else if (item.outfits.ttpdTwoPiece === "Silver") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#CCCCCC" }}>
+                        {item.outfits.ttpdTwoPiece}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1218,6 +1224,12 @@ function App() {
             } else if (item.outfits.ttpdJacket === "White") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#888888", backgroundColor: "#ffffff" }}>
+                        {item.outfits.ttpdJacket}
+                    </td>
+                );
+            } else if (item.outfits.ttpdJacket === "Silver") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#FFFFFF", backgroundColor: "#CCCCCC" }}>
                         {item.outfits.ttpdJacket}
                     </td>
                 );

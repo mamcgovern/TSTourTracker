@@ -897,6 +897,12 @@ function App() {
                         {item.outfits.redShirt}
                     </td>
                 );
+            } else if (item.outfits.redShirt === "Trouble") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#780000", backgroundColor: "#bbbbbb" }}>
+                        {item.outfits.redShirt}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>

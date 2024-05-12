@@ -11,6 +11,11 @@
                     "played": false
                 },
                 {
+                    "title": "Songs temporarily on the set list",
+                    "setlist": "temporary",
+                    "played": false
+                },
+                {
                     "title": "Played as a surprise song",
                     "setlist": "false",
                     "played": true
@@ -303,7 +308,7 @@
                 },
                 {
                     "title": "Long Live",
-                    "setlist": "true",
+                    "setlist": "temporary",
                     "played": false
                 },
                 {
@@ -818,7 +823,7 @@
             "songs": [
                 {
                     "title": "the 1",
-                    "setlist": "true",
+                    "setlist": "temporary",
                     "played": false
                 },
                 {
@@ -868,7 +873,7 @@
                 },
                 {
                     "title": "invisible string",
-                    "setlist": "true",
+                    "setlist": "temporary",
                     "played": false
                 },
                 {
@@ -925,7 +930,7 @@
                 },
                 {
                     "title": "tis the damn season",
-                    "setlist": "true",
+                    "setlist": "temporary",
                     "played": false
                 },
                 {
@@ -935,7 +940,7 @@
                 },
                 {
                     "title": "no body, no crime",
-                    "setlist": "true",
+                    "setlist": "temporary",
                     "played": false
                 },
                 {
@@ -1514,7 +1519,7 @@
                 },
                 {
                     "title": "Long Live",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
@@ -1642,7 +1647,7 @@
                 {
                     "title": "Begin Again",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Moment I Knew",
@@ -1942,7 +1947,7 @@
                 },
                 {
                     "title": "The Archer",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
@@ -2024,7 +2029,7 @@
             "songs": [
                 {
                     "title": "the 1",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
@@ -2034,7 +2039,7 @@
                 },
                 {
                     "title": "the last great american dynasty",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
@@ -2074,7 +2079,7 @@
                 },
                 {
                     "title": "invisible string",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
@@ -2131,17 +2136,17 @@
                 },
                 {
                     "title": "tis the damn season",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
                     "title": "tolerate it",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
                     "title": "no body, no crime",
-                    "setlist": "temporary",
+                    "setlist": "false",
                     "played": false
                 },
                 {
@@ -2396,7 +2401,7 @@
                 {
                     "title": "The Alchemy",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Clara Bow",

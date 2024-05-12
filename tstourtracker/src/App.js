@@ -43,6 +43,7 @@ function App() {
     const [showOldOutfits, setShowOldOutfits] = useState(false);
     const [showOldSet, setShowOldSet] = useState(false);
     const [showNewFirst, setShowNewFirst] = useState(true);
+    const [showOldDiscography, setShowOldDiscography] = useState(false);
 
     const toggleNavbar = () => {
         setShowNavbar(!showNavbar);
@@ -402,14 +403,14 @@ function App() {
 
     function viewSurpriseSongs() {
         var surpriseSongs = surpriseSongData.songs.slice(); // Create a copy to avoid mutating original data
-    
+
         // Sort songs based on showNewFirst state
         if (showNewFirst) {
             surpriseSongs.sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort in descending order
         } else {
             surpriseSongs.sort((a, b) => new Date(a.date) - new Date(b.date)); // Sort in ascending order
         }
-    
+
         const songPart = (song) => {
             if (song.album === "Taylor Swift") {
                 if (song.instrument === "guitar") {
@@ -485,7 +486,7 @@ function App() {
                 }
             }
         }
-    
+
         const allEvents = surpriseSongs.map((el) => (
             <div>
                 <div className="row">
@@ -504,7 +505,7 @@ function App() {
                 <hr className="featurette-divider" />
             </div>
         ));
-    
+
         const makeMenu = () => {
             if (showNewFirst) {
                 return (
@@ -522,7 +523,7 @@ function App() {
                 );
             }
         }
-    
+
         return (
             <div>
                 {navbar()}
@@ -621,7 +622,7 @@ function App() {
         }
 
         const makeSets = () => {
-            if(showOldSet) {
+            if (showOldSet) {
                 return (<div>{allOldSets}</div>);
             } else {
                 return (<div>{allSets}</div>);
@@ -746,13 +747,64 @@ function App() {
             </div>
         ));
 
+        const allOldSets = discography2023.map((el) => (
+            <div>
+                <div class="row">
+                    <div class="col" style={{ textAlign: 'center' }}>
+                        {albumButton(el.album)}
+                    </div>
+                </div>
+                {el.songs.map((el) => (
+                    eachSong(el)
+                ))}
+                <hr class="featurette-divider" />
+            </div>
+        ));
+
+        const makeDiscography = () => {
+            if (showOldDiscography) {
+                return (
+                    <div>
+                        {allOldSets}
+                    </div>
+                );
+            } else {
+                return (
+                    <div>
+                        {allSets}
+                    </div>
+                );
+            }
+        }
+
+        const makeMenu = () => {
+            if (showOldDiscography) {
+                return (
+                    <div>
+                        <button class="btn btn-outline-secondary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowOldDiscography(false)}>Current Discography</button>
+                        <button class="btn btn-primary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowOldDiscography(true)}>Old Discography</button>
+                    </div>
+                );
+            } else {
+                return (
+                    <div>
+                        <button class="btn btn-primary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowOldDiscography(false)}>Current Discography</button>
+                        <button class="btn btn-outline-secondary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowOldDiscography(true)}>Old Discography</button>
+                    </div>
+                );
+            }
+        }
+
         return (
             <div>
                 {navbar()}
                 <div class="container">
                     <h1 class="page-title">Discography</h1>
                     <hr class="featurette-divider" />
-                    {allSets}
+                    <div style={{ textAlign: "center" }}>
+                        {makeMenu()}
+                    </div>
+                    {makeDiscography()}
                 </div>
                 {footer()}
             </div>
@@ -1185,6 +1237,12 @@ function App() {
                         {item.outfits.combo1989}
                     </td>
                 );
+            } else if (item.outfits.combo1989 === "Chiefs") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#FFB81C", backgroundColor: "#E31837" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1266,6 +1324,12 @@ function App() {
             } else if (item.outfits.ttpdJacket === "Silver") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#FFFFFF", backgroundColor: "#CCCCCC" }}>
+                        {item.outfits.ttpdJacket}
+                    </td>
+                );
+            } else if (item.outfits.ttpdJacket === "White with Black") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffffff" }}>
                         {item.outfits.ttpdJacket}
                     </td>
                 );
@@ -1694,6 +1758,7 @@ function App() {
                     <div style={{ textAlign: "center" }}>
                         {makeMenu()}
                     </div>
+                    <p class="date" style={{ textAlign: "right" }}>Note: Event times are in CST</p>
                     <hr class="featurette-divider" />
                     {allEvents}
                 </div>

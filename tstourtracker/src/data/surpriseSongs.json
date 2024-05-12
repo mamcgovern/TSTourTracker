@@ -1812,6 +1812,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Paris",
+            "night": 4,
+            "date": "5/12/24",
+            "songs": [
+                {
+                    "title": "The Alchemy & Treacherous",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Begin Again & Paris",
+                    "album": "Red",
+                    "instrument": "piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

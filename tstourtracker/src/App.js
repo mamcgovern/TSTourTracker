@@ -42,7 +42,7 @@ function App() {
     const currentDate = new Date().getTime();
     const [showOldOutfits, setShowOldOutfits] = useState(false);
     const [showOldSet, setShowOldSet] = useState(false);
-    const [showNewFirst, setShowNewFirst] = useState(false);
+    const [showNewFirst, setShowNewFirst] = useState(true);
 
     const toggleNavbar = () => {
         setShowNavbar(!showNavbar);
@@ -411,18 +411,79 @@ function App() {
         }
     
         const songPart = (song) => {
-            const albumClass = song.album.toLowerCase().replace(" ", "");
-            var instrumentImg = song.instrument === "guitar" ? guitar_black : piano_black;
-    
-            if(albumClass == "reputation" || albumClass == "midnights") {
-                instrumentImg = song.instrument === "guitar" ? guitar_white : piano_white;
+            if (song.album === "Taylor Swift") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button debut"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button debut"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "Fearless") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button fearless"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button fearless"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "Speak Now") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button speaknow"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button speaknow"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "Red") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button red"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button red"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "1989") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button TS1989"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button TS1989"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "reputation") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button reputation"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button reputation"><img src={piano_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "Lover") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button lover"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button lover"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "folklore") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button folklore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button folklore"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "evermore") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button evermore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button evermore"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "Midnights") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button midnights"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button midnights"><img src={piano_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else if (song.album === "The Tortured Poets Department") {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button ttpd"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button ttpd"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
+            } else {
+                if (song.instrument === "guitar") {
+                    return (<button class="unclickable-button other"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                } else {
+                    return (<button class="unclickable-button other"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
+                }
             }
-        
-            return (
-                <button className={`unclickable-button ${albumClass}`}>
-                    <img src={instrumentImg} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}
-                </button>
-            );
         }
     
         const allEvents = surpriseSongs.map((el) => (

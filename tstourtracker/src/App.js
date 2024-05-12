@@ -42,6 +42,7 @@ function App() {
     const currentDate = new Date().getTime();
     const [showOldOutfits, setShowOldOutfits] = useState(false);
     const [showOldSet, setShowOldSet] = useState(false);
+    const [showNewFirst, setShowNewFirst] = useState(false);
 
     const toggleNavbar = () => {
         setShowNavbar(!showNavbar);
@@ -400,92 +401,38 @@ function App() {
 
 
     function viewSurpriseSongs() {
-        const surpriseSongs = surpriseSongData.songs;
-
-        const songPart = (song) => {
-            if (song.album === "Taylor Swift") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button debut"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button debut"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "Fearless") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button fearless"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button fearless"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "Speak Now") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button speaknow"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button speaknow"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "Red") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button red"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button red"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "1989") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button TS1989"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button TS1989"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "reputation") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button reputation"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button reputation"><img src={piano_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "Lover") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button lover"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button lover"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "folklore") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button folklore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button folklore"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "evermore") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button evermore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button evermore"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "Midnights") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button midnights"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button midnights"><img src={piano_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else if (song.album === "The Tortured Poets Department") {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button ttpd"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button ttpd"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            } else {
-                if (song.instrument === "guitar") {
-                    return (<button class="unclickable-button other"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                } else {
-                    return (<button class="unclickable-button other"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
-                }
-            }
+        var surpriseSongs = surpriseSongData.songs.slice(); // Create a copy to avoid mutating original data
+    
+        // Sort songs based on showNewFirst state
+        if (showNewFirst) {
+            surpriseSongs.sort((a, b) => new Date(b.date) - new Date(a.date)); // Sort in descending order
+        } else {
+            surpriseSongs.sort((a, b) => new Date(a.date) - new Date(b.date)); // Sort in ascending order
         }
-
+    
+        const songPart = (song) => {
+            const albumClass = song.album.toLowerCase().replace(" ", "");
+            var instrumentImg = song.instrument === "guitar" ? guitar_black : piano_black;
+    
+            if(albumClass == "reputation" || albumClass == "midnights") {
+                instrumentImg = song.instrument === "guitar" ? guitar_white : piano_white;
+            }
+        
+            return (
+                <button className={`unclickable-button ${albumClass}`}>
+                    <img src={instrumentImg} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}
+                </button>
+            );
+        }
+    
         const allEvents = surpriseSongs.map((el) => (
             <div>
-                <div class="row">
-                    <div class="col" style={{ textAlign: 'right' }}>
-                        <p class="lead title">{el.city} N{el.night}</p>
+                <div className="row">
+                    <div className="col" style={{ textAlign: 'right' }}>
+                        <p className="lead title">{el.city} N{el.night}</p>
                         <p>{el.date}</p>
                     </div>
-                    <div class="col">
+                    <div className="col">
                         {el.songs.map((el) => (
                             <div style={{ paddingBottom: '5px' }}>
                                 {songPart(el)}
@@ -493,21 +440,43 @@ function App() {
                         ))}
                     </div>
                 </div>
-                <hr class="featurette-divider" />
+                <hr className="featurette-divider" />
             </div>
         ));
-
+    
+        const makeMenu = () => {
+            if (showNewFirst) {
+                return (
+                    <div>
+                        <button className="btn btn-outline-secondary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowNewFirst(false)}>Ascending</button>
+                        <button className="btn btn-primary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowNewFirst(true)}>Descending</button>
+                    </div>
+                );
+            } else {
+                return (
+                    <div>
+                        <button className="btn btn-primary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowNewFirst(false)}>Ascending</button>
+                        <button className="btn btn-outline-secondary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowNewFirst(true)}>Descending</button>
+                    </div>
+                );
+            }
+        }
+    
         return (
             <div>
                 {navbar()}
-                <div class="container">
-                    <h1 class="page-title">Surprise Songs</h1>
-                    <hr class="featurette-divider" />
+                <div className="container">
+                    <h1 className="page-title">Surprise Songs</h1>
+                    <hr className="featurette-divider" />
+                    <div style={{ textAlign: "center" }}>
+                        {makeMenu()}
+                    </div>
+                    <hr className="featurette-divider" />
                     {allEvents}
                 </div>
                 {footer()}
             </div>
-        )
+        );
     }
 
     function viewMainSet() {
@@ -1548,16 +1517,6 @@ function App() {
 
     function viewEvents() {
         const events = eventsData.events;
-
-        const titleRow = (title) => {
-            if (title === "Menu") {
-                return (<div class="row primaryColor" style={{ textAlign: 'center', marginBottom: "75px" }}><p class="row-title">{title}</p></div>);
-            } else if (title === "Events") {
-                return (<div class="row tertiaryColor" style={{ textAlign: 'center', marginBottom: "75px" }}><p class="row-title">{title}</p></div>);
-            } else {
-                return (<div class="row secondaryColor" style={{ textAlign: 'center', marginBottom: "75px" }}><p class="row-title">{title}</p></div>);
-            }
-        }
 
         const makeMenu = () => {
             if (showAllEvents) {

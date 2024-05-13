@@ -580,6 +580,10 @@ function App() {
                 return (<div class="row lover"><p class="row-title">{album}</p></div>);
             } else if (album === "folkmore") {
                 return (<div class="row folkmore"><p class="row-title">{album}</p></div>);
+            } else if (album === "folklore") {
+                return (<div class="row folklore"><p class="row-title">{album}</p></div>);
+            } else if (album === "evermore") {
+                return (<div class="row evermore"><p class="row-title">{album}</p></div>);
             } else if (album === "Midnights") {
                 return (<div class="row midnights"><p class="row-title">{album}</p></div>);
             } else if (album === "The Tortured Poets Department") {
@@ -587,6 +591,9 @@ function App() {
             } else {
                 return (<div class="row other"><p class="row-title">{album}</p></div>);
             }
+
+
+
         }
 
         const eachSong = (song) => {

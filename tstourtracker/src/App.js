@@ -591,9 +591,6 @@ function App() {
             } else {
                 return (<div class="row other"><p class="row-title">{album}</p></div>);
             }
-
-
-
         }
 
         const eachSong = (song) => {

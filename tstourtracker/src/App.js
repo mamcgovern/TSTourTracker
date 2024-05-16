@@ -44,6 +44,7 @@ function App() {
     const [showOldSet, setShowOldSet] = useState(false);
     const [showNewFirst, setShowNewFirst] = useState(true);
     const [showOldDiscography, setShowOldDiscography] = useState(false);
+    const [activeOption, setActiveOption] = useState('Eastern');
 
     const toggleNavbar = () => {
         setShowNavbar(!showNavbar);
@@ -53,6 +54,11 @@ function App() {
         toggleNavbar();
         setView(newView);
     }
+
+    const handleOptionClick = (option) => {
+        setActiveOption(option);
+    };
+    
 
 
     /*
@@ -1665,6 +1671,33 @@ function App() {
             }
         }
 
+        const makeTimeZoneMenu = () => {
+            return (
+                <div className="dropdown" style={{ width: '25%', float: 'right' }}>
+                    <button
+                        className="btn btn-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-bs-toggle="dropdown"
+                    >
+                        Select Time Zone
+                    </button>
+                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        {['Eastern', 'Central', 'Mountain', 'Pacific'].map(option => (
+                            <li key={option}>
+                                <button
+                                    className={`dropdown-item ${option === activeOption ? 'active' : ''}`}
+                                    onClick={() => handleOptionClick(option)}
+                                >
+                                    {option}
+                                </button>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            );
+        }
+
         const singleEvent = (event) => {
             if (event.category === "Concert") {
                 return (<button class="unclickable-button concert">{event.title}</button>);
@@ -1762,7 +1795,9 @@ function App() {
                     <div style={{ textAlign: "center" }}>
                         {makeMenu()}
                     </div>
-                    <p class="date" style={{ textAlign: "right" }}>Note: Event times are in CST</p>
+                    <div style={{ textAlign: "right" }}>
+                        {makeTimeZoneMenu()}
+                    </div>
                     <hr class="featurette-divider" />
                     {allEvents}
                 </div>

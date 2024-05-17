@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d088e419.css",
-    "main.js": "/static/js/main.6a209d5d.js",
+    "main.js": "/static/js/main.7ca856e7.js",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
     "static/media/mainSet.png": "/static/media/mainSet.a9359de0f8b70db199e4.png",
     "static/media/outfits.png": "/static/media/outfits.a44c3e77dca7956ff7a2.png",
@@ -14,10 +14,10 @@
     "static/media/guitar_white.png": "/static/media/guitar_white.e7b4a34d47bf00b6d57f.png",
     "index.html": "/index.html",
     "main.d088e419.css.map": "/static/css/main.d088e419.css.map",
-    "main.6a209d5d.js.map": "/static/js/main.6a209d5d.js.map"
+    "main.7ca856e7.js.map": "/static/js/main.7ca856e7.js.map"
   },
   "entrypoints": [
     "static/css/main.d088e419.css",
-    "static/js/main.6a209d5d.js"
+    "static/js/main.7ca856e7.js"
   ]
 }

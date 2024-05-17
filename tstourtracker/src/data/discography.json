@@ -1881,7 +1881,7 @@
                 {
                     "title": "Gorgeous",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Getaway Car",
@@ -1953,7 +1953,7 @@
                 {
                     "title": "I Think He Knows",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Miss Americana & The Heartbreak Prince",
@@ -2466,7 +2466,7 @@
                 {
                     "title": "Peter",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Bolter",

@@ -1833,6 +1833,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Stockholm",
+            "night": 1,
+            "date": "5/17/24",
+            "songs": [
+                {
+                    "title": "I Think He Knows & Gorgeous",
+                    "album": "Lover",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Peter",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

@@ -296,7 +296,7 @@ function App() {
                     {allSongs}
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img src={releasePhoto} className="featurette-image img-fluid mx-auto" style={{ width: '500px', height: '500px', objectFit: 'cover', margin: '10px'}} alt="Release Photo" />
+                    <img src={releasePhoto} className="featurette-image img-fluid mx-auto" style={{ width: '500px', height: '500px', objectFit: 'cover', margin: '10px' }} alt="Release Photo" />
                 </div>
             </div>
         );
@@ -360,7 +360,7 @@ function App() {
                                 <img src={outfitsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
                             </div>
                         </div>
-                        
+
                     </div>
                 )}
                 <div>
@@ -692,7 +692,9 @@ function App() {
                     <div style={{ textAlign: "center" }}>
                         {makeMenu()}
                     </div>
-                    {makeSets()}
+                    <div style={{ marginLeft: '10px', marginRight: '10px' }}>
+                        {makeSets()}
+                    </div>
                 </div>
                 {footer()}
             </div>
@@ -760,7 +762,7 @@ function App() {
         }
 
         const allSets = discography2024.map((el) => (
-            <div style={{marginLeft: '10px', marginRight:'10px'}}>
+            <div style={{ marginLeft: '10px', marginRight: '10px' }}>
                 <div class="row">
                     <div class="col" style={{ textAlign: 'center' }}>
                         {albumButton(el.album)}
@@ -774,7 +776,7 @@ function App() {
         ));
 
         const allOldSets = discography2023.map((el) => (
-            <div style={{marginLeft: '10px', marginRight:'10px'}}>
+            <div style={{ marginLeft: '10px', marginRight: '10px' }}>
                 <div class="row">
                     <div class="col" style={{ textAlign: 'center' }}>
                         {albumButton(el.album)}
@@ -1668,6 +1670,7 @@ function App() {
 
     function viewEvents() {
         const events = eventsData.events;
+        const isSmallScreen = window.innerWidth <= 800;
 
         const timeZones = moment.tz.names().map(zone => ({
             value: zone,
@@ -1712,16 +1715,29 @@ function App() {
         };
 
         const makeTimeZoneMenu = () => {
-            return (
-                <div style={{ width: '25%', float: 'right' }}>
-                    <Select
-                        options={timeZones}
-                        onChange={handleOptionChange}
-                        value={timeZones.find(zone => zone.value === activeOption)}
-                        isSearchable
-                    />
-                </div>
-            );
+            if(isSmallScreen) {
+                return (
+                    <div style={{ width: 'auto', margin: 'auto', textAlign: 'left' }}>
+                        <Select
+                            options={timeZones}
+                            onChange={handleOptionChange}
+                            value={timeZones.find(zone => zone.value === activeOption)}
+                            isSearchable
+                        />
+                    </div>
+                );
+            } else {
+                return (
+                    <div style={{ width: '25%', margin: 'auto', textAlign: 'left' }}>
+                        <Select
+                            options={timeZones}
+                            onChange={handleOptionChange}
+                            value={timeZones.find(zone => zone.value === activeOption)}
+                            isSearchable
+                        />
+                    </div>
+                );
+            }
         };
 
         const singleEvent = (event) => {

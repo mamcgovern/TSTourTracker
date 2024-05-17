@@ -21,7 +21,7 @@ import outfitsPhoto from './images/outfits.png';
 import footballPhoto from './images/football.jpeg';
 import ceremonyPhoto from './images/grammys.jpeg';
 import concertPhoto from './images/tour.jpg';
-import releasePhoto from './images/announcement.webp';
+import releasePhoto from './images/announcement.png';
 import otherPhoto from './images/other.jpg';
 import guitar_black from './images/guitar_black.png';
 import guitar_white from './images/guitar_white.png';
@@ -60,7 +60,7 @@ function App() {
     const handleOptionClick = (option) => {
         setActiveOption(option);
     };
-    
+
 
 
     /*
@@ -296,7 +296,7 @@ function App() {
                     {allSongs}
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img src={releasePhoto} className="featurette-image img-fluid mx-auto" style={{ width: '500px', height: '500px', objectFit: 'cover' }} alt="Release Photo" />
+                    <img src={releasePhoto} className="featurette-image img-fluid mx-auto" style={{ width: '500px', height: '500px', objectFit: 'cover', margin: '10px'}} alt="Release Photo" />
                 </div>
             </div>
         );
@@ -304,16 +304,13 @@ function App() {
 
 
     function home() {
+        const isSmallScreen = window.innerWidth <= 800;
+
         return (
             <div>
                 {navbar()}
-                <div>
+                {!isSmallScreen && (
                     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="3000">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src={surpriseSongsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
@@ -349,7 +346,24 @@ function App() {
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
+                )}
+                {isSmallScreen && (
+                    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active carousel-item-small">
+                                <img src={surpriseSongsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                            </div>
+                            <div class="carousel-item carousel-item-small">
+                                <img src={mainSetPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                            </div>
+                            <div class="carousel-item carousel-item-small">
+                                <img src={outfitsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                            </div>
+                        </div>
+                        
+                    </div>
+                )}
+                <div>
                     {/* <!-- Marketing messaging and featurettes
                     <!-- Wrap the rest of the page in another container to center all the content. --> */}
 
@@ -1654,17 +1668,17 @@ function App() {
 
     function viewEvents() {
         const events = eventsData.events;
-    
+
         const timeZones = moment.tz.names().map(zone => ({
             value: zone,
             label: zone.replace(/_/g, ' ')
         })); // Get a list of all time zones and format them for react-select
-    
+
         const convertToTimeZone = (date, time, timeZone) => {
             const [month, day, year] = date.split('/').map(Number);
             const [timeString, period] = time.split(' ');
             const [hours, minutes] = timeString.split(':').map(Number);
-    
+
             // Create a Moment object using the parsed date and time
             let eventDate = moment.tz({
                 year: 2000 + year,
@@ -1673,21 +1687,21 @@ function App() {
                 hour: hours % 12 + (period === 'PM' ? 12 : 0),
                 minute: minutes
             }, 'America/Chicago'); // Assuming input is in CST
-    
+
             // Convert to the target time zone
             eventDate = eventDate.tz(timeZone);
-    
+
             // Get the new date and time in the target time zone
             const newDate = eventDate.format('M/D/YY');
             const newTime = eventDate.format('h:mm A');
-    
+
             return { newDate, newTime };
         };
-    
+
         const handleOptionChange = (selectedOption) => {
             setActiveOption(selectedOption.value);
         };
-    
+
         const makeMenu = () => {
             return (
                 <div>
@@ -1696,7 +1710,7 @@ function App() {
                 </div>
             );
         };
-    
+
         const makeTimeZoneMenu = () => {
             return (
                 <div style={{ width: '25%', float: 'right' }}>
@@ -1709,7 +1723,7 @@ function App() {
                 </div>
             );
         };
-    
+
         const singleEvent = (event) => {
             const classNames = {
                 'Concert': 'concert',
@@ -1718,17 +1732,17 @@ function App() {
                 'Football': 'football',
                 'Other': 'other'
             };
-    
+
             return (<button className={`unclickable-button ${classNames[event.category] || classNames['Other']}`}>{event.title}</button>);
         };
-    
+
         const renderEvent = (event) => {
             const currentDate = new Date();
             const [month, day, year] = event.date.split('/').map(Number);
             const eventDate = new Date(2000 + year, month - 1, day);
-    
+
             const { newDate, newTime } = event.time ? convertToTimeZone(event.date, event.time, activeOption) : { newDate: event.date, newTime: '' };
-    
+
             if (showAllEvents || eventDate >= currentDate) {
                 return (
                     <div key={event.title}>
@@ -1745,13 +1759,13 @@ function App() {
                 );
             }
         };
-    
+
         const allEvents = events.map((el) => (
             <div key={el.title}>
                 {renderEvent(el)}
             </div>
         ));
-    
+
         return (
             <div>
                 {navbar()}

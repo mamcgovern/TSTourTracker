@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5ef3d61c.css",
-    "main.js": "/static/js/main.0dd66ccc.js",
+    "main.css": "/static/css/main.7819bae9.css",
+    "main.js": "/static/js/main.c3dfa339.js",
+    "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
     "static/media/announcement.png": "/static/media/announcement.91d0fdc16b7cdb7bf2b4.png",
     "static/media/mainSet.png": "/static/media/mainSet.a9359de0f8b70db199e4.png",
@@ -13,11 +14,11 @@
     "static/media/guitar_black.png": "/static/media/guitar_black.983804f8b1eb0f8a36a2.png",
     "static/media/guitar_white.png": "/static/media/guitar_white.e7b4a34d47bf00b6d57f.png",
     "index.html": "/index.html",
-    "main.5ef3d61c.css.map": "/static/css/main.5ef3d61c.css.map",
-    "main.0dd66ccc.js.map": "/static/js/main.0dd66ccc.js.map"
+    "main.7819bae9.css.map": "/static/css/main.7819bae9.css.map",
+    "main.c3dfa339.js.map": "/static/js/main.c3dfa339.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ef3d61c.css",
-    "static/js/main.0dd66ccc.js"
+    "static/css/main.7819bae9.css",
+    "static/js/main.c3dfa339.js"
   ]
 }

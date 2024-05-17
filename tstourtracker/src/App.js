@@ -1255,6 +1255,12 @@ function App() {
                         {item.outfits.combo1989}
                     </td>
                 );
+            } else if (item.outfits.combo1989 === "Minion") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#2a48ef", backgroundColor: "#fcbf49" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>

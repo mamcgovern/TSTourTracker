@@ -2,6 +2,8 @@ import { useState, useEffect, useRef } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import moment from 'moment-timezone';
+import Select from 'react-select';
 import Countdown from 'react-countdown';
 
 import eventsData from './data/events.json';
@@ -44,7 +46,7 @@ function App() {
     const [showOldSet, setShowOldSet] = useState(false);
     const [showNewFirst, setShowNewFirst] = useState(true);
     const [showOldDiscography, setShowOldDiscography] = useState(false);
-    const [activeOption, setActiveOption] = useState('Eastern');
+    const [activeOption, setActiveOption] = useState('America/Chicago');
 
     const toggleNavbar = () => {
         setShowNavbar(!showNavbar);
@@ -1652,158 +1654,122 @@ function App() {
 
     function viewEvents() {
         const events = eventsData.events;
-
+    
+        const timeZones = moment.tz.names().map(zone => ({
+            value: zone,
+            label: zone.replace(/_/g, ' ')
+        })); // Get a list of all time zones and format them for react-select
+    
+        const convertToTimeZone = (date, time, timeZone) => {
+            const [month, day, year] = date.split('/').map(Number);
+            const [timeString, period] = time.split(' ');
+            const [hours, minutes] = timeString.split(':').map(Number);
+    
+            // Create a Moment object using the parsed date and time
+            let eventDate = moment.tz({
+                year: 2000 + year,
+                month: month - 1,
+                day: day,
+                hour: hours % 12 + (period === 'PM' ? 12 : 0),
+                minute: minutes
+            }, 'America/Chicago'); // Assuming input is in CST
+    
+            // Convert to the target time zone
+            eventDate = eventDate.tz(timeZone);
+    
+            // Get the new date and time in the target time zone
+            const newDate = eventDate.format('M/D/YY');
+            const newTime = eventDate.format('h:mm A');
+    
+            return { newDate, newTime };
+        };
+    
+        const handleOptionChange = (selectedOption) => {
+            setActiveOption(selectedOption.value);
+        };
+    
         const makeMenu = () => {
-            if (showAllEvents) {
-                return (
-                    <div>
-                        <button class="btn btn-outline-secondary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowAllEvents(false)}>Upcoming Events</button>
-                        <button class="btn btn-primary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowAllEvents(true)}>All Events</button>
-                    </div>
-                );
-            } else {
-                return (
-                    <div>
-                        <button class="btn btn-primary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowAllEvents(false)}>Upcoming Events</button>
-                        <button class="btn btn-outline-secondary" style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowAllEvents(true)}>All Events</button>
-                    </div>
-                );
-            }
-        }
-
-        const makeTimeZoneMenu = () => {
             return (
-                <div className="dropdown" style={{ width: '25%', float: 'right' }}>
-                    <button
-                        className="btn btn-secondary dropdown-toggle"
-                        type="button"
-                        id="dropdownMenuButton"
-                        data-bs-toggle="dropdown"
-                    >
-                        Select Time Zone
-                    </button>
-                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        {['Eastern', 'Central', 'Mountain', 'Pacific'].map(option => (
-                            <li key={option}>
-                                <button
-                                    className={`dropdown-item ${option === activeOption ? 'active' : ''}`}
-                                    onClick={() => handleOptionClick(option)}
-                                >
-                                    {option}
-                                </button>
-                            </li>
-                        ))}
-                    </ul>
+                <div>
+                    <button className={`btn ${showAllEvents ? 'btn-outline-secondary' : 'btn-primary'}`} style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowAllEvents(false)}>Upcoming Events</button>
+                    <button className={`btn ${showAllEvents ? 'btn-primary' : 'btn-outline-secondary'}`} style={{ textAlign: 'center', margin: '10px' }} onClick={() => setShowAllEvents(true)}>All Events</button>
                 </div>
             );
-        }
-
+        };
+    
+        const makeTimeZoneMenu = () => {
+            return (
+                <div style={{ width: '25%', float: 'right' }}>
+                    <Select
+                        options={timeZones}
+                        onChange={handleOptionChange}
+                        value={timeZones.find(zone => zone.value === activeOption)}
+                        isSearchable
+                    />
+                </div>
+            );
+        };
+    
         const singleEvent = (event) => {
-            if (event.category === "Concert") {
-                return (<button class="unclickable-button concert">{event.title}</button>);
-            } else if (event.category === "Ceremony") {
-                return (<button class="unclickable-button ceremony">{event.title}</button>);
-            } else if (event.category === "Release") {
-                return (<button class="unclickable-button release">{event.title}</button>);
-            } else if (event.category === "Football") {
-                return (<button class="unclickable-button football">{event.title}</button>);
-            } else {
-                return (<button class="unclickable-button other">{event.title}</button>);
-            }
-        }
-
+            const classNames = {
+                'Concert': 'concert',
+                'Ceremony': 'ceremony',
+                'Release': 'release',
+                'Football': 'football',
+                'Other': 'other'
+            };
+    
+            return (<button className={`unclickable-button ${classNames[event.category] || classNames['Other']}`}>{event.title}</button>);
+        };
+    
         const renderEvent = (event) => {
-            var eventDate = new Date(event.date);
-
-            if (showAllEvents) {
-                if (event.time === "") {
-                    return (
-                        <div>
-                            <div class="row">
-                                <div class="col" style={{ textAlign: 'right' }}>
-                                    <p class="lead title">{event.date}</p>
-                                </div>
-                                <div class="col">
-                                    {singleEvent(event)}
-                                </div>
+            const currentDate = new Date();
+            const [month, day, year] = event.date.split('/').map(Number);
+            const eventDate = new Date(2000 + year, month - 1, day);
+    
+            const { newDate, newTime } = event.time ? convertToTimeZone(event.date, event.time, activeOption) : { newDate: event.date, newTime: '' };
+    
+            if (showAllEvents || eventDate >= currentDate) {
+                return (
+                    <div key={event.title}>
+                        <div className="row">
+                            <div className="col" style={{ textAlign: 'right' }}>
+                                <p className="lead title">{newDate} {newTime && <em className="date">@ {newTime}</em>}</p>
                             </div>
-                            <hr class="featurette-divider" />
-                        </div>
-                    )
-                } else {
-                    return (
-                        <div>
-                            <div class="row">
-                                <div class="col" style={{ textAlign: 'right' }}>
-                                    <p class="lead title">{event.date} <em class="date">@ {event.time}</em></p>
-                                </div>
-                                <div class="col">
-                                    {singleEvent(event)}
-                                </div>
+                            <div className="col">
+                                {singleEvent(event)}
                             </div>
-                            <hr class="featurette-divider" />
                         </div>
-                    )
-                }
-
+                        <hr className="featurette-divider" />
+                    </div>
+                );
             }
-            else if (eventDate >= currentDate) {
-                if (event.time === "") {
-                    return (
-                        <div>
-                            <div class="row">
-                                <div class="col" style={{ textAlign: 'right' }}>
-                                    <p class="lead title">{event.date}</p>
-                                </div>
-                                <div class="col">
-                                    {singleEvent(event)}
-                                </div>
-                            </div>
-                            <hr class="featurette-divider" />
-                        </div>
-                    )
-                } else {
-                    return (
-                        <div>
-                            <div class="row">
-                                <div class="col" style={{ textAlign: 'right' }}>
-                                    <p class="lead title">{event.date} <em class="date">@ {event.time}</em></p>
-                                </div>
-                                <div class="col">
-                                    {singleEvent(event)}
-                                </div>
-                            </div>
-                            <hr class="featurette-divider" />
-                        </div>
-                    )
-                }
-            }
-        }
-
+        };
+    
         const allEvents = events.map((el) => (
-            <div>
+            <div key={el.title}>
                 {renderEvent(el)}
             </div>
         ));
-
+    
         return (
             <div>
                 {navbar()}
-                <div class="container">
-                    <h1 class="page-title">Events</h1>
-                    <hr class="featurette-divider" />
+                <div className="container">
+                    <h1 className="page-title">Events</h1>
+                    <hr className="featurette-divider" />
                     <div style={{ textAlign: "center" }}>
                         {makeMenu()}
                     </div>
                     <div style={{ textAlign: "right" }}>
                         {makeTimeZoneMenu()}
                     </div>
-                    <hr class="featurette-divider" />
+                    <hr className="featurette-divider" />
                     {allEvents}
                 </div>
                 {footer()}
             </div>
-        )
+        );
     }
 
     function viewLinks() {

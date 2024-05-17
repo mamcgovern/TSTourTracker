@@ -75,7 +75,7 @@ function App() {
                     <nav className="navbar navbar-expand-lg bg-body-tertiary" aria-label="Navbar">
                         <div className="container-fluid">
                             {/* Brand */}
-                            <button className="button-like-text navbar-brand col-lg-3 me-0" onClick={() => clickNavButton(0)}>TSTourTracker</button>
+                            <button className="button-like-text navbar-brand col-lg-3 me-0" onClick={() => clickNavButton(0)}>TS Tour Tracker</button>
                             {/* Navbar toggler */}
                             <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={showNavbar ? "true" : "false"} aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
@@ -121,7 +121,7 @@ function App() {
             <div style={{ paddingTop: '100px' }}>
                 <footer class="container">
                     <p class="float-end"><a href="#">Back to top</a></p>
-                    <p>&copy; 2024 TSTourTracker  </p>
+                    <p class="col-md-4 mb-0 text-body-secondary"><button class="nav-link px-2 text-body-secondary" onClick={() => clickNavButton(7)}>&copy; 2024 TS Tour Tracker</button></p>
                 </footer>
             </div>
         );

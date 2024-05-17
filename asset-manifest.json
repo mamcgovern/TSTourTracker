@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d088e419.css",
-    "main.js": "/static/js/main.7ca856e7.js",
+    "main.css": "/static/css/main.5ef3d61c.css",
+    "main.js": "/static/js/main.0dd66ccc.js",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
+    "static/media/announcement.png": "/static/media/announcement.91d0fdc16b7cdb7bf2b4.png",
     "static/media/mainSet.png": "/static/media/mainSet.a9359de0f8b70db199e4.png",
     "static/media/outfits.png": "/static/media/outfits.a44c3e77dca7956ff7a2.png",
     "static/media/grammys.jpeg": "/static/media/grammys.e2a23e1b746fdfb5fbf3.jpeg",
-    "static/media/announcement.webp": "/static/media/announcement.103e1f88d11e73453a05.webp",
     "static/media/tour.jpg": "/static/media/tour.63d6cb17021090fb2528.jpg",
     "static/media/football.jpeg": "/static/media/football.2158423fe7ccd53001be.jpeg",
     "static/media/other.jpg": "/static/media/other.495d65a7068f4bd5d672.jpg",
     "static/media/guitar_black.png": "/static/media/guitar_black.983804f8b1eb0f8a36a2.png",
     "static/media/guitar_white.png": "/static/media/guitar_white.e7b4a34d47bf00b6d57f.png",
     "index.html": "/index.html",
-    "main.d088e419.css.map": "/static/css/main.d088e419.css.map",
-    "main.7ca856e7.js.map": "/static/js/main.7ca856e7.js.map"
+    "main.5ef3d61c.css.map": "/static/css/main.5ef3d61c.css.map",
+    "main.0dd66ccc.js.map": "/static/js/main.0dd66ccc.js.map"
   },
   "entrypoints": [
-    "static/css/main.d088e419.css",
-    "static/js/main.7ca856e7.js"
+    "static/css/main.5ef3d61c.css",
+    "static/js/main.0dd66ccc.js"
   ]
 }

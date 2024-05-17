@@ -312,3 +312,7 @@ code {
   border: 1px solid #ccc;
   /* Optional: Add a border for better visibility */
 }
+
+.carousel-item-small {
+  height: auto; /* or set a specific height */
+}

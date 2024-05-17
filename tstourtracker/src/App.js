@@ -760,7 +760,7 @@ function App() {
         }
 
         const allSets = discography2024.map((el) => (
-            <div>
+            <div style={{marginLeft: '10px', marginRight:'10px'}}>
                 <div class="row">
                     <div class="col" style={{ textAlign: 'center' }}>
                         {albumButton(el.album)}
@@ -774,7 +774,7 @@ function App() {
         ));
 
         const allOldSets = discography2023.map((el) => (
-            <div>
+            <div style={{marginLeft: '10px', marginRight:'10px'}}>
                 <div class="row">
                     <div class="col" style={{ textAlign: 'center' }}>
                         {albumButton(el.album)}

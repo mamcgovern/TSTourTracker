@@ -40,7 +40,7 @@ function App() {
      * 6: Links
      * 7: About
      */
-    const [view, setView] = useState(7);
+    const [view, setView] = useState(0);
     const [showNavbar, setShowNavbar] = useState(false);
     const [showAllEvents, setShowAllEvents] = useState(false);
     const currentDate = new Date().getTime();

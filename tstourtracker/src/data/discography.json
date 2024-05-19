@@ -1687,7 +1687,7 @@
                 {
                     "title": "Message in a Bottle",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Bet You Think About Me",
@@ -1729,7 +1729,7 @@
                 {
                     "title": "Welcome to New York",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Blank Space",
@@ -1804,7 +1804,7 @@
                 {
                     "title": "New Romantics",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "\"Slut!\"",
@@ -1814,7 +1814,7 @@
                 {
                     "title": "Say Don't Go",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Now That We Don't Talk",
@@ -2371,11 +2371,11 @@
                 {
                     "title": "Guilty as Sin?",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Who's Afraid of Little Old Me?",
-                    "setlist": "false",
+                    "setlist": "true",
                     "played": false
                 },
                 {
@@ -2431,7 +2431,7 @@
                 {
                     "title": "How Did It End?",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "So High School",

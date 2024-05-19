@@ -1854,6 +1854,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Stockholm",
+            "night": 2,
+            "date": "5/18/24",
+            "songs": [
+                {
+                    "title": "Guilty as Sin?",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Say Don't Go, Welcome to New York & Clean",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Stockholm",
+            "night": 3,
+            "date": "5/19/24",
+            "songs": [
+                {
+                    "title": "Message In A Bottle, How You Get the Girl & New Romantics",
+                    "album": "1989",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "How Did it End",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

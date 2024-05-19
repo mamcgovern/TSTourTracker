@@ -1787,8 +1787,8 @@
             "night": 2,
             "date": "5/18/24",
             "outfits": {
-                "loverBodysuit": "Purple",
-                "theManJacket": "Purple",
+                "loverBodysuit": "Tassels",
+                "theManJacket": "Blue",
                 "loverGuitar": "Pink",
                 "fearlessDress": "Gold Short Fringe",
                 "redShirt": "A Lot",
@@ -1826,7 +1826,7 @@
                 "ttpdJacket": "Gold",
                 "surpriseSongDress": "Blue",
                 "midnightsShirt": "Pink",
-                "midnightsBodysuit": "",
+                "midnightsBodysuit": "Sidepods",
                 "midnightsJacket": ""
             }
         },

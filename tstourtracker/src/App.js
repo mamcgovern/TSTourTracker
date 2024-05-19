@@ -1279,6 +1279,12 @@ function App() {
                         {item.outfits.combo1989}
                     </td>
                 );
+            } else if (item.outfits.combo1989 === "Starburst") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#faedcd", backgroundColor: "#ff70a6" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1333,6 +1339,13 @@ function App() {
             } else if (item.outfits.ttpdTwoPiece === "Silver") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#CCCCCC" }}>
+                        {item.outfits.ttpdTwoPiece}
+                    </td>
+                );
+            }
+            else if (item.outfits.ttpdTwoPiece === "Gold & Black") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffc300" }}>
                         {item.outfits.ttpdTwoPiece}
                     </td>
                 );

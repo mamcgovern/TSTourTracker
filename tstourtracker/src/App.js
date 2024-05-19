@@ -1345,7 +1345,7 @@ function App() {
             }
             else if (item.outfits.ttpdTwoPiece === "Gold & Black") {
                 return (
-                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffc300" }}>
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#F1CB41" }}>
                         {item.outfits.ttpdTwoPiece}
                     </td>
                 );

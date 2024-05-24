@@ -152,7 +152,7 @@
                 {
                     "title" : "The Way I Loved You",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Forever and Always",
@@ -2294,7 +2294,7 @@
                 {
                     "title": "High Infidelity",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Glitch",
@@ -2361,7 +2361,7 @@
                 {
                     "title": "Fresh Out The Slammer",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Florida!!!",

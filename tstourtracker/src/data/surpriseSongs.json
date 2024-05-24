@@ -1903,17 +1903,17 @@
             "date": "5/24/24",
             "songs": [
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "Come Back... Be Here & The Way I Loved You & The Other Side of the Door",
+                    "album": "Red",
                     "instrument": "Guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "Fresh Out The Slammer & High Infidelity",
+                    "album": "The Tortured Poets Department",
                     "instrument": "Piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

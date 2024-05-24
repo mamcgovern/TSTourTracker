@@ -1896,6 +1896,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Lisbon",
+            "night": 1,
+            "date": "5/24/24",
+            "songs": [
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

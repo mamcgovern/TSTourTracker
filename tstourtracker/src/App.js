@@ -1003,7 +1003,7 @@ function App() {
                         {item.outfits.redShirt}
                     </td>
                 );
-            } else if (item.outfits.redShirt === "Think About Me") {
+            } else if (item.outfits.redShirt === "About Me") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#780000", backgroundColor: "#e6e6e6" }}>
                         {item.outfits.redShirt}

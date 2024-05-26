@@ -1305,6 +1305,96 @@ function App() {
                 );
             }
         }
+        const create1989Top = (item) => {
+            if (item.outfits.top1989 === "Pink") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ff70a6" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Red") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#e21837" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Yellow") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#FCBE48" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Green") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#38761D" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#35D2F1" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Purple") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#8D68B3" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffffff" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } 
+        }
+        const create1989Bottoms = (item) => {
+            if (item.outfits.bottoms1989 === "Pink") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ff70a6" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Red") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#e21837" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Yellow") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#FCBE48" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Green") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#38761D" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#35D2F1" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Purple") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#8D68B3" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffffff" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } 
+        }
         const createTTPDDress = (item) => {
             if (item.outfits.ttpdDress === "White with Text") {
                 return (
@@ -1565,7 +1655,7 @@ function App() {
                                     <th style={{ border: "1px solid gray" }}>Speak Now Gown</th>
                                     <th style={{ border: "1px solid gray" }}>Red Shirt</th>
                                     <th style={{ border: "1px solid gray" }}>folklore Dress</th>
-                                    <th style={{ border: "1px solid gray" }}>1989 Combo</th>
+                                    <th style={{ border: "1px solid gray" }}>1989 Two-Piece</th>
                                     <th style={{ border: "1px solid gray" }}>Midnights Shirt</th>
                                     <th style={{ border: "1px solid gray" }}>Midnights Bodysuit</th>
                                     <th style={{ border: "1px solid gray" }}>Midnights Jacket</th>
@@ -1615,7 +1705,8 @@ function App() {
                                     <th style={{ border: "1px solid gray" }}>Speak Now Gown</th>
                                     <th style={{ border: "1px solid gray" }}>reputation Jumpsuit</th>
                                     <th style={{ border: "1px solid gray" }}>folkmore</th>
-                                    <th style={{ border: "1px solid gray" }}>1989 Two-Piece</th>
+                                    <th style={{ border: "1px solid gray" }}>1989 Top</th>
+                                    <th style={{ border: "1px solid gray" }}>1989 Bottoms</th>
                                     <th style={{ border: "1px solid gray" }}>TTPD Dress</th>
                                     <th style={{ border: "1px solid gray" }}>TTPD Marching Band Jacket</th>
                                     <th style={{ border: "1px solid gray" }}>TTPD Two-Piece</th>
@@ -1643,7 +1734,8 @@ function App() {
                                         {createSpeakNowGown(item)}
                                         {createReputationJumpsuit(item)}
                                         {createFolkmoreDress(item)}
-                                        {create1989Combo(item)}
+                                        {create1989Top(item)}
+                                        {create1989Bottoms(item)}
                                         {createTTPDDress(item)}
                                         {createTTPDMarchingBandJacket(item)}
                                         {createTTPDTwoPiece(item)}

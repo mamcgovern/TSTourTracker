@@ -1917,6 +1917,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Lisbon",
+            "night": 2,
+            "date": "5/25/24",
+            "songs": [
+                {
+                    "title": "The Tortured Poets Department & Now That We Don't Talk",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own, Kid & Long Live",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

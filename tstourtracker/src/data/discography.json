@@ -1520,7 +1520,7 @@
                 {
                     "title": "Long Live",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Ours",
@@ -1819,7 +1819,7 @@
                 {
                     "title": "Now That We Don't Talk",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Suburban Legeands",
@@ -2336,7 +2336,7 @@
                 {
                     "title": "The Tortured Poets Department",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "My Boy Only Breaks His Favorite Toys",

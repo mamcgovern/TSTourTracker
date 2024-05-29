@@ -960,7 +960,7 @@ function App() {
                 )
             } else if (item.outfits.fearlessDress === "Silver Noodle") {
                 return (
-                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#3d3d3d", backgroundColor: "#e6e6e6" }}>
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#e6e6e6", backgroundColor: "#3d3d3d" }}>
                         {item.outfits.fearlessDress}
                     </td>
                 )

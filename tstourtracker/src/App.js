@@ -1197,7 +1197,7 @@ function App() {
                         {item.outfits.folkloreDress}
                     </td>
                 );
-            } else if (item.outfits.folkloreDress === "Pink") {
+            } else if (item.outfits.folkloreDress === "Hot Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#fbc4e2", backgroundColor: "#ff0a54" }}>
                         {item.outfits.folkloreDress}

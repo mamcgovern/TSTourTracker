@@ -1291,7 +1291,7 @@
                 {
                     "title": "Our Song",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I'm Only Me When I'm with You",
@@ -1383,7 +1383,7 @@
                 {
                     "title" : "Jump Then Fall",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Untouchable",
@@ -1891,7 +1891,7 @@
                 {
                     "title": "King Of My Heart",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Dancing With Our Hands Tied",
@@ -2229,7 +2229,7 @@
                 {
                     "title": "Snow On The Beach",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "You're On Your Own, Kid",
@@ -2381,7 +2381,7 @@
                 {
                     "title": "I Can Fix Him (No Really, I Can)",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "loml",
@@ -2451,7 +2451,7 @@
                 {
                     "title": "I Look in People's Windows",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Prophecy",

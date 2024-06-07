@@ -1945,17 +1945,17 @@
             "date": "5/29/24",
             "songs": [
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "Sparks Fly & I Can Fix Him (No Really, I Can)",
+                    "album": "Speak Now",
                     "instrument": "Guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "I Look in People's Windows & Snow on the Beach",
+                    "album": "The Tortured Poets Department",
                     "instrument": "Piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]
@@ -1966,15 +1966,15 @@
             "date": "5/30/24",
             "songs": [
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "Our Song & Jump Then Fall",
+                    "album": "Taylor Swift",
                     "instrument": "Guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "King of My Heart",
+                    "album": "reputation",
                     "instrument": "Piano",
                     "mashup": false,
                     "feature": null

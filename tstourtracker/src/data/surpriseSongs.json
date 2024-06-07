@@ -1939,5 +1939,89 @@
                 }
             ]
         }
+        ,{
+            "city": "Madrid",
+            "night": 1,
+            "date": "5/29/24",
+            "songs": [
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Madrid",
+            "night": 2,
+            "date": "5/30/24",
+            "songs": [
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Lyon",
+            "night": 1,
+            "date": "6/2/24",
+            "songs": [
+                {
+                    "title": "The Prophecy & long story short",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Fifteen & You're On Your Own, Kid",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Lyon",
+            "night": 2,
+            "date": "6/3/24",
+            "songs": [
+                {
+                    "title": "Glitch & Everything Has Changed",
+                    "album": "Midnights",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Chloe or Sam or Sophia or Marcus",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        }
     ]
 }

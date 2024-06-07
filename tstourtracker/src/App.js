@@ -21,12 +21,13 @@ import outfitsPhoto from './images/outfits.png';
 import footballPhoto from './images/football.jpeg';
 import ceremonyPhoto from './images/grammys.jpeg';
 import concertPhoto from './images/tour.jpg';
-import releasePhoto from './images/announcement.webp';
+import releasePhoto from './images/announcement.png';
 import otherPhoto from './images/other.jpg';
 import guitar_black from './images/guitar_black.png';
 import guitar_white from './images/guitar_white.png';
 import piano_black from './images/piano_black.png';
 import piano_white from './images/piano_white.png';
+import willowPic from './images/Willow.jpeg';
 
 function App() {
     /*
@@ -37,6 +38,7 @@ function App() {
      * 4: Outfits
      * 5: Events
      * 6: Links
+     * 7: About
      */
     const [view, setView] = useState(0);
     const [showNavbar, setShowNavbar] = useState(false);
@@ -60,7 +62,7 @@ function App() {
     const handleOptionClick = (option) => {
         setActiveOption(option);
     };
-    
+
 
 
     /*
@@ -73,7 +75,7 @@ function App() {
                     <nav className="navbar navbar-expand-lg bg-body-tertiary" aria-label="Navbar">
                         <div className="container-fluid">
                             {/* Brand */}
-                            <button className="button-like-text navbar-brand col-lg-3 me-0" onClick={() => clickNavButton(0)}>TSTourTracker</button>
+                            <button className="button-like-text navbar-brand col-lg-3 me-0" onClick={() => clickNavButton(0)}>TS Tour Tracker</button>
                             {/* Navbar toggler */}
                             <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={showNavbar ? "true" : "false"} aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
@@ -119,7 +121,7 @@ function App() {
             <div style={{ paddingTop: '100px' }}>
                 <footer class="container">
                     <p class="float-end"><a href="#">Back to top</a></p>
-                    <p>&copy; 2024 TSTourTracker  </p>
+                    <p class="col-md-4 mb-0 text-body-secondary"><button class="nav-link px-2 text-body-secondary" onClick={() => setView(7)}>&copy; 2024 TS Tour Tracker</button></p>
                 </footer>
             </div>
         );
@@ -207,73 +209,73 @@ function App() {
 
         const songPart = (song) => {
             if (song.album === "Taylor Swift") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button debut"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button debut"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "Fearless") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button fearless"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button fearless"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "Speak Now") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button speaknow"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button speaknow"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "Red") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button red"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button red"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "1989") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button TS1989"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button TS1989"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "reputation") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button reputation"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button reputation"><img src={piano_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "Lover") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button lover"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button lover"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "folklore") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button folklore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button folklore"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "evermore") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button evermore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button evermore"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "Midnights") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button midnights"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button midnights"><img src={piano_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else if (song.album === "The Tortured Poets Department") {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button ttpd"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button ttpd"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 }
             } else {
-                if (song.instrument === "guitar") {
+                if (song.instrument === "Guitar") {
                     return (<button class="unclickable-button other"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
                 } else {
                     return (<button class="unclickable-button other"><img src={piano_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title}</button>);
@@ -296,7 +298,7 @@ function App() {
                     {allSongs}
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <img src={releasePhoto} className="featurette-image img-fluid mx-auto" style={{ width: '500px', height: '500px', objectFit: 'cover' }} alt="Release Photo" />
+                    <img src={releasePhoto} className="featurette-image img-fluid mx-auto" style={{ width: '500px', height: '500px', objectFit: 'cover', margin: '10px' }} alt="Release Photo" />
                 </div>
             </div>
         );
@@ -304,16 +306,13 @@ function App() {
 
 
     function home() {
+        const isSmallScreen = window.innerWidth <= 800;
+
         return (
             <div>
                 {navbar()}
-                <div>
+                {!isSmallScreen && (
                     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="3000">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src={surpriseSongsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
@@ -349,7 +348,24 @@ function App() {
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
+                )}
+                {isSmallScreen && (
+                    <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="3000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active carousel-item-small">
+                                <img src={surpriseSongsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                            </div>
+                            <div class="carousel-item carousel-item-small">
+                                <img src={mainSetPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                            </div>
+                            <div class="carousel-item carousel-item-small">
+                                <img src={outfitsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                            </div>
+                        </div>
 
+                    </div>
+                )}
+                <div>
                     {/* <!-- Marketing messaging and featurettes
                     <!-- Wrap the rest of the page in another container to center all the content. --> */}
 
@@ -678,7 +694,9 @@ function App() {
                     <div style={{ textAlign: "center" }}>
                         {makeMenu()}
                     </div>
-                    {makeSets()}
+                    <div style={{ marginLeft: '10px', marginRight: '10px' }}>
+                        {makeSets()}
+                    </div>
                 </div>
                 {footer()}
             </div>
@@ -746,7 +764,7 @@ function App() {
         }
 
         const allSets = discography2024.map((el) => (
-            <div>
+            <div style={{ marginLeft: '10px', marginRight: '10px' }}>
                 <div class="row">
                     <div class="col" style={{ textAlign: 'center' }}>
                         {albumButton(el.album)}
@@ -760,7 +778,7 @@ function App() {
         ));
 
         const allOldSets = discography2023.map((el) => (
-            <div>
+            <div style={{ marginLeft: '10px', marginRight: '10px' }}>
                 <div class="row">
                     <div class="col" style={{ textAlign: 'center' }}>
                         {albumButton(el.album)}
@@ -942,7 +960,7 @@ function App() {
                 )
             } else if (item.outfits.fearlessDress === "Silver Noodle") {
                 return (
-                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#3d3d3d", backgroundColor: "#e6e6e6" }}>
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#e6e6e6", backgroundColor: "#3d3d3d" }}>
                         {item.outfits.fearlessDress}
                     </td>
                 )
@@ -985,7 +1003,7 @@ function App() {
                         {item.outfits.redShirt}
                     </td>
                 );
-            } else if (item.outfits.redShirt === "Think About Me") {
+            } else if (item.outfits.redShirt === "About Me") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#780000", backgroundColor: "#e6e6e6" }}>
                         {item.outfits.redShirt}
@@ -1255,6 +1273,30 @@ function App() {
                         {item.outfits.combo1989}
                     </td>
                 );
+            } else if (item.outfits.combo1989 === "Minion") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#2a48ef", backgroundColor: "#fcbf49" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
+            } else if (item.outfits.combo1989 === "Starburst") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#FED66F", backgroundColor: "#ff70a6" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
+            } else if (item.outfits.combo1989 === "Very Berry") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#8D68B3", backgroundColor: "#35D2F1" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
+            } else if (item.outfits.combo1989 === "Pink Lemonade") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#FF70A6", backgroundColor: "#FDF0CB" }}>
+                        {item.outfits.combo1989}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1262,6 +1304,96 @@ function App() {
                     </td>
                 );
             }
+        }
+        const create1989Top = (item) => {
+            if (item.outfits.top1989 === "Pink") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ff70a6" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Red") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#e21837" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Yellow") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#FCBE48" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Green") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#38761D" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#35D2F1" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else if (item.outfits.top1989 === "Purple") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#8D68B3" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } else {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffffff" }}>
+                        {item.outfits.top1989}
+                    </td>
+                );
+            } 
+        }
+        const create1989Bottoms = (item) => {
+            if (item.outfits.bottoms1989 === "Pink") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ff70a6" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Red") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#e21837" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Yellow") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#FCBE48" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Green") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#38761D" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#35D2F1" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else if (item.outfits.bottoms1989 === "Purple") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#8D68B3" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } else {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ffffff" }}>
+                        {item.outfits.bottoms1989}
+                    </td>
+                );
+            } 
         }
         const createTTPDDress = (item) => {
             if (item.outfits.ttpdDress === "White with Text") {
@@ -1309,6 +1441,13 @@ function App() {
             } else if (item.outfits.ttpdTwoPiece === "Silver") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#CCCCCC" }}>
+                        {item.outfits.ttpdTwoPiece}
+                    </td>
+                );
+            }
+            else if (item.outfits.ttpdTwoPiece === "Gold & Black") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#F1CB41" }}>
                         {item.outfits.ttpdTwoPiece}
                     </td>
                 );
@@ -1516,7 +1655,7 @@ function App() {
                                     <th style={{ border: "1px solid gray" }}>Speak Now Gown</th>
                                     <th style={{ border: "1px solid gray" }}>Red Shirt</th>
                                     <th style={{ border: "1px solid gray" }}>folklore Dress</th>
-                                    <th style={{ border: "1px solid gray" }}>1989 Combo</th>
+                                    <th style={{ border: "1px solid gray" }}>1989 Two-Piece</th>
                                     <th style={{ border: "1px solid gray" }}>Midnights Shirt</th>
                                     <th style={{ border: "1px solid gray" }}>Midnights Bodysuit</th>
                                     <th style={{ border: "1px solid gray" }}>Midnights Jacket</th>
@@ -1566,7 +1705,8 @@ function App() {
                                     <th style={{ border: "1px solid gray" }}>Speak Now Gown</th>
                                     <th style={{ border: "1px solid gray" }}>reputation Jumpsuit</th>
                                     <th style={{ border: "1px solid gray" }}>folkmore</th>
-                                    <th style={{ border: "1px solid gray" }}>1989 Two-Piece</th>
+                                    <th style={{ border: "1px solid gray" }}>1989 Top</th>
+                                    <th style={{ border: "1px solid gray" }}>1989 Bottoms</th>
                                     <th style={{ border: "1px solid gray" }}>TTPD Dress</th>
                                     <th style={{ border: "1px solid gray" }}>TTPD Marching Band Jacket</th>
                                     <th style={{ border: "1px solid gray" }}>TTPD Two-Piece</th>
@@ -1594,7 +1734,8 @@ function App() {
                                         {createSpeakNowGown(item)}
                                         {createReputationJumpsuit(item)}
                                         {createFolkmoreDress(item)}
-                                        {create1989Combo(item)}
+                                        {create1989Top(item)}
+                                        {create1989Bottoms(item)}
                                         {createTTPDDress(item)}
                                         {createTTPDMarchingBandJacket(item)}
                                         {createTTPDTwoPiece(item)}
@@ -1654,17 +1795,18 @@ function App() {
 
     function viewEvents() {
         const events = eventsData.events;
-    
+        const isSmallScreen = window.innerWidth <= 800;
+
         const timeZones = moment.tz.names().map(zone => ({
             value: zone,
             label: zone.replace(/_/g, ' ')
         })); // Get a list of all time zones and format them for react-select
-    
+
         const convertToTimeZone = (date, time, timeZone) => {
             const [month, day, year] = date.split('/').map(Number);
             const [timeString, period] = time.split(' ');
             const [hours, minutes] = timeString.split(':').map(Number);
-    
+
             // Create a Moment object using the parsed date and time
             let eventDate = moment.tz({
                 year: 2000 + year,
@@ -1673,21 +1815,21 @@ function App() {
                 hour: hours % 12 + (period === 'PM' ? 12 : 0),
                 minute: minutes
             }, 'America/Chicago'); // Assuming input is in CST
-    
+
             // Convert to the target time zone
             eventDate = eventDate.tz(timeZone);
-    
+
             // Get the new date and time in the target time zone
             const newDate = eventDate.format('M/D/YY');
             const newTime = eventDate.format('h:mm A');
-    
+
             return { newDate, newTime };
         };
-    
+
         const handleOptionChange = (selectedOption) => {
             setActiveOption(selectedOption.value);
         };
-    
+
         const makeMenu = () => {
             return (
                 <div>
@@ -1696,20 +1838,33 @@ function App() {
                 </div>
             );
         };
-    
+
         const makeTimeZoneMenu = () => {
-            return (
-                <div style={{ width: '25%', float: 'right' }}>
-                    <Select
-                        options={timeZones}
-                        onChange={handleOptionChange}
-                        value={timeZones.find(zone => zone.value === activeOption)}
-                        isSearchable
-                    />
-                </div>
-            );
+            if (isSmallScreen) {
+                return (
+                    <div style={{ width: 'auto', margin: 'auto', textAlign: 'left' }}>
+                        <Select
+                            options={timeZones}
+                            onChange={handleOptionChange}
+                            value={timeZones.find(zone => zone.value === activeOption)}
+                            isSearchable
+                        />
+                    </div>
+                );
+            } else {
+                return (
+                    <div style={{ width: '25%', margin: 'auto', textAlign: 'left' }}>
+                        <Select
+                            options={timeZones}
+                            onChange={handleOptionChange}
+                            value={timeZones.find(zone => zone.value === activeOption)}
+                            isSearchable
+                        />
+                    </div>
+                );
+            }
         };
-    
+
         const singleEvent = (event) => {
             const classNames = {
                 'Concert': 'concert',
@@ -1718,17 +1873,17 @@ function App() {
                 'Football': 'football',
                 'Other': 'other'
             };
-    
+
             return (<button className={`unclickable-button ${classNames[event.category] || classNames['Other']}`}>{event.title}</button>);
         };
-    
+
         const renderEvent = (event) => {
             const currentDate = new Date();
             const [month, day, year] = event.date.split('/').map(Number);
             const eventDate = new Date(2000 + year, month - 1, day);
-    
+
             const { newDate, newTime } = event.time ? convertToTimeZone(event.date, event.time, activeOption) : { newDate: event.date, newTime: '' };
-    
+
             if (showAllEvents || eventDate >= currentDate) {
                 return (
                     <div key={event.title}>
@@ -1745,13 +1900,13 @@ function App() {
                 );
             }
         };
-    
+
         const allEvents = events.map((el) => (
             <div key={el.title}>
                 {renderEvent(el)}
             </div>
         ));
-    
+
         return (
             <div>
                 {navbar()}
@@ -1816,6 +1971,93 @@ function App() {
         )
     }
 
+    function viewAbout() {
+        const isSmallScreen = window.innerWidth <= 800;
+
+        if (isSmallScreen) {
+            return (
+                <div>
+                    {navbar()}
+                    <div class="container">
+                        <h1 class="page-title">About</h1>
+                        <hr class="featurette-divider" />
+                        <div class="row">
+                            <div class="col aboutUs">
+                                <p class="title"><strong>About TS Tour Tracker</strong></p>
+                                <p>TS Tour Tracker is a website designed to track what's happening during Taylor Swift's Eras Tour.
+                                    The website was designed to replace my spreadsheet because my family had trouble viewing it on their phones.</p>
+                                <p>The website tracks the surprise songs, which songs in Taylor's discography have and have not been played,
+                                    what songs are on the main setlist, what outfits Taylor wears, and any events that Taylor might attend.
+                                    The events include concerts, song releases, award ceremonies, and football games.
+                                    There is also a page with links to other important websites, such as tour streams, other trackers,
+                                    and Taylor's official social media and websites.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col aboutWillow">
+                                <div class="row">
+                                    <p class="title willowTitle"><strong>About Willow</strong></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src={willowPic} className="featurette-image img-fluid mx-auto" style={{ width: '300px', height: '300px', objectFit: 'cover', margin: '10px' }} alt="A black dog sitting in front of a double rainbow" />
+                                    </div>
+                                    <div class="col">
+                                        <p>This is my puppy Willow! She is a 3 year old black lab and a very silly little lady.
+                                            She loves playing with rope toys and tennis balls, going on walks, and causing chaos.
+                                            She is very proud to now have two Taylor Swift songs about her,
+                                            "willow" and "The Black Dog."  </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    {footer()}
+                </div >
+            );
+        } else {
+            return (
+                <div>
+                    {navbar()}
+                    <div class="container">
+                        <h1 class="page-title">About</h1>
+                        <hr class="featurette-divider" />
+                        <div class="row">
+                            <div class="col aboutUs">
+                                <p class="title"><strong>About TS Tour Tracker</strong></p>
+                                <p>TS Tour Tracker is a website designed to track what's happening during Taylor Swift's Eras Tour.
+                                    The website was designed to replace my spreadsheet because my family had trouble viewing it on their phones.</p>
+                                <p>The website tracks the surprise songs, which songs in Taylor's discography have and have not been played,
+                                    what songs are on the main setlist, what outfits Taylor wears, and any events that Taylor might attend.
+                                    The events include concerts, song releases, award ceremonies, and football games.
+                                    There is also a page with links to other important websites, such as tour streams, other trackers,
+                                    and Taylor's official social media and websites.</p>
+                            </div>
+                            <div class="col aboutWillow">
+                                <div class="row">
+                                    <p class="title willowTitle"><strong>About Willow</strong></p>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src={willowPic} className="featurette-image img-fluid mx-auto" style={{ width: '300px', height: '300px', objectFit: 'cover', margin: '10px' }} alt="A black dog sitting in front of a double rainbow" />
+                                    </div>
+                                    <div class="col">
+                                        <p>This is my puppy Willow! She is a 3 year old black lab and a very silly little lady.
+                                            She loves playing with rope toys and tennis balls, going on walks, and causing chaos.
+                                            She is very proud to now have two Taylor Swift songs about her,
+                                            "willow" and "The Black Dog."  </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    {footer()}
+                </div>
+            );
+        }
+    }
 
 
     /*
@@ -1835,6 +2077,8 @@ function App() {
         return viewEvents();
     } else if (view === 6) {
         return viewLinks();
+    } else if (view === 7) {
+        return viewAbout();
     } else {
         return (
             <div>

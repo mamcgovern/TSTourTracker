@@ -1833,6 +1833,195 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Stockholm",
+            "night": 1,
+            "date": "5/17/24",
+            "songs": [
+                {
+                    "title": "I Think He Knows & Gorgeous",
+                    "album": "Lover",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Peter",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Stockholm",
+            "night": 2,
+            "date": "5/18/24",
+            "songs": [
+                {
+                    "title": "Guilty as Sin?",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Say Don't Go, Welcome to New York & Clean",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Stockholm",
+            "night": 3,
+            "date": "5/19/24",
+            "songs": [
+                {
+                    "title": "Message In A Bottle, How You Get the Girl & New Romantics",
+                    "album": "1989",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "How Did it End",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Lisbon",
+            "night": 1,
+            "date": "5/24/24",
+            "songs": [
+                {
+                    "title": "Come Back... Be Here & The Way I Loved You & The Other Side of the Door",
+                    "album": "Red",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Fresh Out The Slammer & High Infidelity",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Lisbon",
+            "night": 2,
+            "date": "5/25/24",
+            "songs": [
+                {
+                    "title": "The Tortured Poets Department & Now That We Don't Talk",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own, Kid & Long Live",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        }
+        ,{
+            "city": "Madrid",
+            "night": 1,
+            "date": "5/29/24",
+            "songs": [
+                {
+                    "title": "Sparks Fly & I Can Fix Him (No Really, I Can)",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "I Look in People's Windows & Snow on the Beach",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Madrid",
+            "night": 2,
+            "date": "5/30/24",
+            "songs": [
+                {
+                    "title": "Our Song & Jump Then Fall",
+                    "album": "Taylor Swift",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "King of My Heart",
+                    "album": "reputation",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Lyon",
+            "night": 1,
+            "date": "6/2/24",
+            "songs": [
+                {
+                    "title": "The Prophecy & long story short",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Fifteen & You're On Your Own, Kid",
+                    "album": "Fearless",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Lyon",
+            "night": 2,
+            "date": "6/3/24",
+            "songs": [
+                {
+                    "title": "Glitch & Everything Has Changed",
+                    "album": "Midnights",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Chloe or Sam or Sophia or Marcus",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

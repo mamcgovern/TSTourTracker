@@ -152,7 +152,7 @@
                 {
                     "title" : "The Way I Loved You",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Forever and Always",
@@ -1093,7 +1093,7 @@
                 {
                     "title": "Glitch",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Would've, Could've, Should've",
@@ -1291,7 +1291,7 @@
                 {
                     "title": "Our Song",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I'm Only Me When I'm with You",
@@ -1383,7 +1383,7 @@
                 {
                     "title" : "Jump Then Fall",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Untouchable",
@@ -1520,7 +1520,7 @@
                 {
                     "title": "Long Live",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Ours",
@@ -1637,7 +1637,7 @@
                 {
                     "title": "Everything Has Changed",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Starlight",
@@ -1687,7 +1687,7 @@
                 {
                     "title": "Message in a Bottle",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Bet You Think About Me",
@@ -1729,7 +1729,7 @@
                 {
                     "title": "Welcome to New York",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Blank Space",
@@ -1804,7 +1804,7 @@
                 {
                     "title": "New Romantics",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "\"Slut!\"",
@@ -1814,12 +1814,12 @@
                 {
                     "title": "Say Don't Go",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Now That We Don't Talk",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Suburban Legeands",
@@ -1881,7 +1881,7 @@
                 {
                     "title": "Gorgeous",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Getaway Car",
@@ -1891,7 +1891,7 @@
                 {
                     "title": "King Of My Heart",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Dancing With Our Hands Tied",
@@ -1953,7 +1953,7 @@
                 {
                     "title": "I Think He Knows",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Miss Americana & The Heartbreak Prince",
@@ -2229,7 +2229,7 @@
                 {
                     "title": "Snow On The Beach",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "You're On Your Own, Kid",
@@ -2294,7 +2294,7 @@
                 {
                     "title": "High Infidelity",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Glitch",
@@ -2336,7 +2336,7 @@
                 {
                     "title": "The Tortured Poets Department",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "My Boy Only Breaks His Favorite Toys",
@@ -2361,7 +2361,7 @@
                 {
                     "title": "Fresh Out The Slammer",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Florida!!!",
@@ -2371,17 +2371,17 @@
                 {
                     "title": "Guilty as Sin?",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Who's Afraid of Little Old Me?",
-                    "setlist": "false",
+                    "setlist": "true",
                     "played": false
                 },
                 {
                     "title": "I Can Fix Him (No Really, I Can)",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "loml",
@@ -2426,12 +2426,12 @@
                 {
                     "title": "Chloe or Sam or Sophia or Marcus",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "How Did It End?",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "So High School",
@@ -2451,12 +2451,12 @@
                 {
                     "title": "I Look in People's Windows",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Prophecy",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Cassandra",
@@ -2466,7 +2466,7 @@
                 {
                     "title": "Peter",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Bolter",

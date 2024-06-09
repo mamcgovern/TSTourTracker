@@ -2022,6 +2022,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Edinburgh",
+            "night": 1,
+            "date": "6/7/24",
+            "songs": [
+                {
+                    "title": "Would've Could've Should've & I Know Places",
+                    "album": "Midnights",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "tis the damn season & Daylight",
+                    "album": "folklore",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Edinburgh",
+            "night": 2,
+            "date": "6/8/24",
+            "songs": [
+                {
+                    "title": "The Bolter & Getaway Car",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "All Of The Girls You Loved Before & Crazier",
+                    "album": "Lover",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

@@ -1784,7 +1784,7 @@
                 {
                     "title": "I Know Places",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Clean",
@@ -2018,7 +2018,7 @@
                 {
                     "title": "All Of The Girls You Loved Before",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 }
             ]
         },
@@ -2137,7 +2137,7 @@
                 {
                     "title": "tis the damn season",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "tolerate it",
@@ -2471,7 +2471,7 @@
                 {
                     "title": "The Bolter",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Robin",
@@ -2503,7 +2503,7 @@
                 {
                     "title": "Crazier",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Beautiful Ghosts",

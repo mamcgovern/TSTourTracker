@@ -55,7 +55,7 @@ import bottoms1989_pink from './images/outfits/1989-bottom/pink.png';
 import bottoms1989_purple from './images/outfits/1989-bottom/purple.png';
 import bottoms1989_yellow from './images/outfits/1989-bottom/yellow.png';
 
-import top1989_blue from './images/outfits/1989-top/green.png';
+import top1989_blue from './images/outfits/1989-top/blue.jpeg';
 import top1989_orange from './images/outfits/1989-top/orange.png';
 import top1989_pink from './images/outfits/1989-top/pink.png';
 import top1989_purple from './images/outfits/1989-top/purple.png';

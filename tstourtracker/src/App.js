@@ -54,6 +54,7 @@ import bottoms1989_orange from './images/outfits/1989-bottom/orange.png';
 import bottoms1989_pink from './images/outfits/1989-bottom/pink.png';
 import bottoms1989_purple from './images/outfits/1989-bottom/purple.png';
 import bottoms1989_yellow from './images/outfits/1989-bottom/yellow.png';
+import bottoms1989_green from './images/outfits/1989-bottom/green.png';
 
 import top1989_blue from './images/outfits/1989-top/blue.jpeg';
 import top1989_orange from './images/outfits/1989-top/orange.png';
@@ -1942,7 +1943,7 @@ function App() {
                 } else if (item.outfits.bottoms1989 === "Green") {
                     return (
                         <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#38761D" }}>
-                            {item.outfits.bottoms1989}
+                            <img src={bottoms1989_green} style={{ maxWidth: '100px' }}></img>
                         </td>
                     );
                 } else if (item.outfits.bottoms1989 === "Blue") {

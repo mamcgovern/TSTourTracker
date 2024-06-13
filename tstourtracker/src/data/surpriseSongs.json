@@ -2085,6 +2085,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Liverpool",
+            "night": 1,
+            "date": "6/13/24",
+            "songs": [
+                {
+                    "title": "I Can See You & Mine",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Cornelia Street",
+                    "album": "Lover",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

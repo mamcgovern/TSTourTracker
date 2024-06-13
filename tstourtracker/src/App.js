@@ -43,6 +43,7 @@ import loverJacket_silver from './images/outfits/lover-jacket/silver.png';
 
 import loverGuitar_pink from './images/outfits/lover-guitar/pink.jpeg';
 import loverGuitar_blue from './images/outfits/lover-guitar/blue.jpeg';
+import loverGuitar_purple from './images/outfits/lover-guitar/purple.png';
 
 import fearless_goldNoodle from './images/outfits/fearless-dress/gold-noodle.png';
 import fearless_silverNoodle from './images/outfits/fearless-dress/silver-noodle.webp';
@@ -1129,6 +1130,12 @@ function App() {
                             {item.outfits.loverGuitar}
                         </td>
                     );
+                } else if (item.outfits.loverGuitar === "Purple") {
+                    return (
+                        <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#2a0134", backgroundColor: "#CEC0F0" }}>
+                            {item.outfits.loverGuitar}
+                        </td>
+                    );
                 } else {
                     return (
                         <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1147,6 +1154,12 @@ function App() {
                     return (
                         <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#4982db", backgroundColor: "#6bd1f7" }}>
                             <img src={loverGuitar_blue} style={{ maxWidth: '100px' }}></img>
+                        </td>
+                    );
+                } else if (item.outfits.loverGuitar === "Purple") {
+                    return (
+                        <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#2a0134", backgroundColor: "#CEC0F0" }}>
+                            <img src={loverGuitar_purple} style={{ maxWidth: '100px' }}></img>
                         </td>
                     );
                 } else {

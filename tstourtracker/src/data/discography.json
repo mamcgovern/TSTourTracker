@@ -1545,7 +1545,7 @@
                 {
                     "title": "I Can See You",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Castles Crumbling",
@@ -1968,7 +1968,7 @@
                 {
                     "title": "Cornelia Street",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Death By A Thousand Cuts",

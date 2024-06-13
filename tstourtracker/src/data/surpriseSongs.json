@@ -2099,10 +2099,10 @@
                     "feature": null
                 },
                 {
-                    "title": "Cornelia Street",
+                    "title": "Cornelia Street & Maroon",
                     "album": "Lover",
                     "instrument": "Piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

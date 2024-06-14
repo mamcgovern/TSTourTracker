@@ -2279,7 +2279,7 @@
                 {
                     "title": "The Great War",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Bigger Than The Whole Sky",
@@ -2574,6 +2574,11 @@
                     "title": "The Alcott by The National ft. Taylor Swift",
                     "setlist": "false",
                     "played": false
+                },
+                {
+                    "title": "This Is What You Came For",
+                    "setlist": "false",
+                    "played": true
                 }
             ]
         }

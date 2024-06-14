@@ -2106,6 +2106,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Liverpool",
+            "night": 2,
+            "date": "6/14/24",
+            "songs": [
+                {
+                    "title": "This Is What You Came For & Gold Rush",
+                    "album": "evermore",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Great War & You're Losing Me",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

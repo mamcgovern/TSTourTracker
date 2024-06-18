@@ -2127,6 +2127,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Liverpool",
+            "night": 3,
+            "date": "6/15/24",
+            "songs": [
+                {
+                    "title": "Carolina & No Body, No Crime",
+                    "album": "evermore",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Manuscript",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Cardiff",
+            "night": 1,
+            "date": "6/18/24",
+            "songs": [
+                {
+                    "title": "I Forgot That You Existed & This Is Why We Can't Have Nice Things",
+                    "album": "Lover",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "I Hate It Here & the lakes",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

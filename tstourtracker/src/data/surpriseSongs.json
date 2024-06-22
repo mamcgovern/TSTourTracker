@@ -2169,6 +2169,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "London",
+            "night": 1,
+            "date": "6/21/24",
+            "songs": [
+                {
+                    "title": "Hits Different & Death By A Thousand Cuts",
+                    "album": "Midnights",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Black Dog, Come Back... Be Here & Maroon",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

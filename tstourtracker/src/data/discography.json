@@ -1480,7 +1480,7 @@
                 {
                     "title": "Mean",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Story of Us",
@@ -1550,7 +1550,7 @@
                 {
                     "title": "Castles Crumbling",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Foolish One",
@@ -2446,7 +2446,7 @@
                 {
                     "title": "thanK you aIMee",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Look in People's Windows",

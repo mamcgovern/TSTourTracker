@@ -2190,6 +2190,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "London",
+            "night": 2,
+            "date": "6/22/24",
+            "songs": [
+                {
+                    "title": "thanK you aIMee & Mean",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Castles Crumbling",
+                    "album": "Speak Now",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": "Hayley Williams"
+                }
+            ]
         }
     ]
 }

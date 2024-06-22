@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.7819bae9.css",
-    "main.js": "/static/js/main.2d799d8b.js",
+    "main.js": "/static/js/main.693d67a1.js",
     "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
     "static/media/purple.png": "/static/media/purple.2227c020e2a74c63def4.png",
-    "static/media/about-me.png": "/static/media/about-me.6d805259604117ad6389.png",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
     "static/media/announcement.png": "/static/media/announcement.91d0fdc16b7cdb7bf2b4.png",
     "static/media/mainSet.png": "/static/media/mainSet.a9359de0f8b70db199e4.png",
-    "static/media/green.png": "/static/media/green.bc633558873e05aaf81b.png",
+    "static/media/green.png": "/static/media/green.e2bc91b558e7d67e3fd1.png",
     "static/media/outfits.png": "/static/media/outfits.a44c3e77dca7956ff7a2.png",
     "static/media/scallops.png": "/static/media/scallops.e18a80ce9cb9cd825408.png",
     "static/media/blue.jpeg": "/static/media/blue.3a36da5e9d11bdfe67ea.jpeg",
@@ -17,6 +16,7 @@
     "static/media/champagne.png": "/static/media/champagne.585b2b9c078a316edc57.png",
     "static/media/tassels.png": "/static/media/tassels.95ba536e306d36387f17.png",
     "static/media/orange.png": "/static/media/orange.3efcd548821446fab957.png",
+    "static/media/about-me.png": "/static/media/about-me.9719633f7c0615657878.png",
     "static/media/grammys.jpeg": "/static/media/grammys.e2a23e1b746fdfb5fbf3.jpeg",
     "static/media/sidepods.png": "/static/media/sidepods.9ec4b87244bd3703d9a9.png",
     "static/media/gold-short.png": "/static/media/gold-short.c40fbc760b196645e65c.png",
@@ -46,13 +46,13 @@
     "static/media/yellow.png": "/static/media/yellow.b0ef9288f776e2426671.png",
     "static/media/not-tv.png": "/static/media/not-tv.3d195fff17b0ff577558.png",
     "static/media/blue.webp": "/static/media/blue.ef4d8547df66c563db86.webp",
+    "static/media/trouble.png": "/static/media/trouble.f8c0f916345d261ee04f.png",
     "static/media/a-lot.png": "/static/media/a-lot.f6f28de51677f414ee2c.png",
     "static/media/silver-noodle.webp": "/static/media/silver-noodle.17a0e16f025d296fe7fb.webp",
     "static/media/never-ever.png": "/static/media/never-ever.c75853331038263418e5.png",
     "static/media/red-and-black.webp": "/static/media/red-and-black.32b888dcf78c79331248.webp",
     "static/media/football.jpeg": "/static/media/football.2158423fe7ccd53001be.jpeg",
     "static/media/abs.png": "/static/media/abs.e9c4140cd7c28f8ed145.png",
-    "static/media/trouble.png": "/static/media/trouble.c33562b4e01257f13f13.png",
     "static/media/green.webp": "/static/media/green.9891a24627c6278df684.webp",
     "static/media/orange.webp": "/static/media/orange.e844e850777651618d78.webp",
     "static/media/other.jpg": "/static/media/other.495d65a7068f4bd5d672.jpg",
@@ -61,10 +61,10 @@
     "static/media/dark-purple.jpeg": "/static/media/dark-purple.d31ac65116a8ca77c667.jpeg",
     "index.html": "/index.html",
     "main.7819bae9.css.map": "/static/css/main.7819bae9.css.map",
-    "main.2d799d8b.js.map": "/static/js/main.2d799d8b.js.map"
+    "main.693d67a1.js.map": "/static/js/main.693d67a1.js.map"
   },
   "entrypoints": [
     "static/css/main.7819bae9.css",
-    "static/js/main.2d799d8b.js"
+    "static/js/main.693d67a1.js"
   ]
 }

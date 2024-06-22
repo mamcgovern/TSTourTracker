@@ -2579,6 +2579,11 @@
                     "title": "This Is What You Came For",
                     "setlist": "false",
                     "played": true
+                },
+                {
+                    "title": "us. by Gracie Abrams ft. Taylor Swift",
+                    "setlist": "false",
+                    "played": false
                 }
             ]
         }

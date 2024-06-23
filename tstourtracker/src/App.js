@@ -2507,7 +2507,7 @@ function App() {
                             <img src={midnightsBodysuit_scallops} style={{ maxWidth: '100px' }}></img>
                         </td>
                     );
-                } else if (item.outfits.midnightsBodysuit === "Lines") {
+                } else if (item.outfits.midnightsBodysuit === "Chevron") {
                     return (
                         <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#b7cbed", backgroundColor: "#163f84" }}>
                             <img src={midnightsBodysuit_lines} style={{ maxWidth: '100px' }}></img>

@@ -2211,6 +2211,27 @@
                     "feature": "Hayley Williams"
                 }
             ]
+        },
+        {
+            "city": "London",
+            "night": 3,
+            "date": "6/23/24",
+            "songs": [
+                {
+                    "title": "us. by Gracie Abrams feat. Taylor Swift",
+                    "album": "Other",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": "Gracie Abrams"
+                },
+                {
+                    "title": "Out of the Woods & Is It Over Now",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

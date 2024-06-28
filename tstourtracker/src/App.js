@@ -2475,7 +2475,7 @@ function App() {
                             {item.outfits.midnightsBodysuit}
                         </td>
                     );
-                } else if (item.outfits.midnightsBodysuit === "Lines") {
+                } else if (item.outfits.midnightsBodysuit === "Chevron") {
                     return (
                         <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#b7cbed", backgroundColor: "#163f84" }}>
                             {item.outfits.midnightsBodysuit}

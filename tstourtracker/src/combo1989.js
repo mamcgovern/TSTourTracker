@@ -3,7 +3,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-
 import pinkpink from './images/1989outfits/pinkpink.png'
 import pinkred from './images/1989outfits/pinkred.png'
 import pinkyellow from './images/1989outfits/pinkyellow.png'
@@ -47,7 +46,168 @@ import purpleblue from './images/1989outfits/purpleblue.png'
 import purplepurple from './images/1989outfits/purplepurple.png'
 
 const Combo1989 = () => {
-
+    const createTable = () => {
+        return (
+            <div>
+                <table style={{ border: "2px solid black", padding: "10px", maxWidth: "100%", textAlign: "center", align: "center" }}>
+                    <thead>
+                        <tr style={{ backgroundColor: "#E0E0E0", fontWeight: "bold" }}>
+                            <th style={{ border: "1px solid gray" }}></th>
+                            <th style={{ border: "1px solid gray" }}>Pink</th>
+                            <th style={{ border: "1px solid gray" }}>Red</th>
+                            <th style={{ border: "1px solid gray" }}>Yellow</th>
+                            <th style={{ border: "1px solid gray" }}>Green</th>
+                            <th style={{ border: "1px solid gray" }}>Blue</th>
+                            <th style={{ border: "1px solid gray" }}>Purple</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Pink</td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={pinkpink} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={redpink} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={yellowpink} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={greenpink} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={bluepink} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={purplepink} ></img>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Red</td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={pinkred} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={redred} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={yellowred} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={greenred} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={bluered} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={purplered} ></img>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Yellow</td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={pinkyellow} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={redyellow} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={yellowyellow} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={greenyellow} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={blueyellow} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={purpleyellow} ></img>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Green</td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={pinkgreen} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={redgreen} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={yellowgreen} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={greengreen} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={bluegreen} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={purplegreen} ></img>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Blue</td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={pinkblue} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={redblue} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={yellowblue} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={greenblue} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={blueblue} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={purpleblue} ></img>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Purple</td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={pinkpurple} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={redpurple} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={yellowpurple} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={greenpurple} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={bluepurple} ></img>
+                            </td>
+                            <td style={{ border: "1px solid gray" }}>
+                                <img class="tableCell" src={purplepurple} ></img>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
+    return (
+        <div>
+            <div class="container">
+                <h1 class="page-title">1989 Combos</h1>
+                <hr class="featurette-divider" />
+                <div class="container-container">
+                    <div class="scrollable-container">
+                        <div class="content" id="outfits">
+                            {createTable()}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
 }
 
 export default Combo1989;

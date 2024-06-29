@@ -2253,6 +2253,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Dublin",
+            "night": 2,
+            "date": "6/29/24",
+            "songs": [
+                {
+                    "title": "The Albatross & Dancing With Our Hands Tied",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "This Love & Ours",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

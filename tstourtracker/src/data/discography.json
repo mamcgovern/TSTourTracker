@@ -1525,7 +1525,7 @@
                 {
                     "title": "Ours",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Superman",
@@ -1896,7 +1896,7 @@
                 {
                     "title": "Dancing With Our Hands Tied",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Dress",
@@ -2421,7 +2421,7 @@
                 {
                     "title": "The Albatross",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Chloe or Sam or Sophia or Marcus",

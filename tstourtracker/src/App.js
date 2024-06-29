@@ -186,9 +186,8 @@ function App() {
      * 6: Links
      * 7: About
      * 8: 1989 combos
-     * 9: Login?
      */
-    const [view, setView] = useState(9);
+    const [view, setView] = useState(0);
     const [showNavbar, setShowNavbar] = useState(false);
     const [showAllEvents, setShowAllEvents] = useState(false);
     const currentDate = new Date().getTime();
@@ -3332,51 +3331,6 @@ function App() {
         );
     }
 
-    function viewLogin() {
-        const categories = linksData.categories;
-
-        const titleRow = (title) => {
-            if (title === "Streams") {
-                return (<div class="row primaryColor"><p class="row-title">{title}</p></div>);
-            } else if (title === "Spreadsheets & Forms") {
-                return (<div class="row tertiaryColor"><p class="row-title">{title}</p></div>);
-            } else if (title === "Official") {
-                return (<div class="row accentColor"><p class="row-title">{title}</p></div>);
-            } else {
-                return (<div class="row secondaryColor"><p class="row-title">{title}</p></div>);
-            }
-        }
-
-        const allCategories = categories.map((el) => (
-            <div>
-                <div class="row">
-                    <div class="col" style={{ textAlign: 'center', paddingBottom: '10px' }}>
-                        {titleRow(el.title)}
-                    </div>
-                </div>
-                {el.links.map((el) => (
-                    <div class="row" style={{ paddingBottom: '10px' }}>
-                        <p>{el.title}: <a href={el.url}>{el.url}</a></p>
-                    </div>
-                ))}
-                <hr class="featurette-divider" />
-            </div>
-        ));
-
-        return (
-            <div>
-                {navbar()}
-                <div class="container">
-                    <h1 class="page-title">Links</h1>
-                    <hr class="featurette-divider" />
-                    {allCategories}
-                </div>
-                {footer()}
-            </div>
-        )
-    }
-
-
     /*
      * This if/else statement sets the view.
      */
@@ -3398,8 +3352,6 @@ function App() {
         return viewAbout();
     } else if (view === 8) {
         return view1989();
-    } else if (view === 9) {
-        return viewLogin();
     } else {
         return (
             <div>

@@ -10,7 +10,6 @@ import surpriseSongData from './data/surpriseSongs.json';
 import mainSetData from './data/mainSet.json';
 import oldMainSetData from './data/mainSetOld.json';
 import discographyData from './data/discography.json'
-import linksData from './data/links.json';
 import outfitsData from './data/outfits.json';
 import header1989combos from './images/1989combos.png';
 
@@ -176,6 +175,8 @@ import purplepurple from './images/1989outfits/purplepurple.png'
 
 import SurpriseSongs from "./surpriseSongs.js";
 import Events from "./events.js";
+import Links from "./links.js";
+
 function App() {
     /*
      * 0: Home
@@ -2656,50 +2657,6 @@ function App() {
         );
     }
 
-    function viewLinks() {
-        const categories = linksData.categories;
-
-        const titleRow = (title) => {
-            if (title === "Streams") {
-                return (<div class="row primaryColor"><p class="row-title">{title}</p></div>);
-            } else if (title === "Spreadsheets & Forms") {
-                return (<div class="row tertiaryColor"><p class="row-title">{title}</p></div>);
-            } else if (title === "Official") {
-                return (<div class="row accentColor"><p class="row-title">{title}</p></div>);
-            } else {
-                return (<div class="row secondaryColor"><p class="row-title">{title}</p></div>);
-            }
-        }
-
-        const allCategories = categories.map((el) => (
-            <div>
-                <div class="row">
-                    <div class="col" style={{ textAlign: 'center', paddingBottom: '10px' }}>
-                        {titleRow(el.title)}
-                    </div>
-                </div>
-                {el.links.map((el) => (
-                    <div class="row" style={{ paddingBottom: '10px' }}>
-                        <p>{el.title}: <a href={el.url}>{el.url}</a></p>
-                    </div>
-                ))}
-                <hr class="featurette-divider" />
-            </div>
-        ));
-
-        return (
-            <div>
-                {navbar()}
-                <div class="container">
-                    <h1 class="page-title">Links</h1>
-                    <hr class="featurette-divider" />
-                    {allCategories}
-                </div>
-                {footer()}
-            </div>
-        )
-    }
-
     function viewAbout() {
         const isSmallScreen = window.innerWidth <= 800;
 
@@ -2983,7 +2940,13 @@ function App() {
             </div>
         );
     } else if (view === 6) {
-        return viewLinks();
+        return (
+            <div>
+                {navbar()}
+                <Links />
+                {footer()}
+            </div>
+        );
     } else if (view === 7) {
         return viewAbout();
     } else if (view === 8) {

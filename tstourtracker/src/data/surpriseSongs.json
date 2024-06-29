@@ -2228,7 +2228,28 @@
                     "title": "Out of the Woods & Is It Over Now & Clean",
                     "album": "1989",
                     "instrument": "Piano",
-                    "mashup": false,
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "London",
+            "night": 3,
+            "date": "6/23/24",
+            "songs": [
+                {
+                    "title": "State of Grace & You're On Your Own Kid",
+                    "album": "Red",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Sweet Nothing & Hoax",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": true,
                     "feature": null
                 }
             ]

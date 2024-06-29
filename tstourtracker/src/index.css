@@ -336,3 +336,15 @@ code {
 .willowTitle {
   color: var(--tertiary-color)
 }
+
+.tableCell {
+  /* Default style for larger screens */
+  max-width: 100%;
+}
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .tableCell {
+      max-width: 100%;
+  }
+}

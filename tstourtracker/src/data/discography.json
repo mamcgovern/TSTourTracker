@@ -1572,7 +1572,7 @@
                 {
                     "title": "State of Grace",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Red",
@@ -2105,7 +2105,7 @@
                 {
                     "title": "hoax",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "the lakes",
@@ -2269,7 +2269,7 @@
                 {
                     "title": "Sweet Nothing",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Mastermind",

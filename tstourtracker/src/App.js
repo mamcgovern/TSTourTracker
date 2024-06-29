@@ -11,8 +11,9 @@ import surpriseSongData from './data/surpriseSongs.json';
 import mainSetData from './data/mainSet.json';
 import oldMainSetData from './data/mainSetOld.json';
 import discographyData from './data/discography.json'
-import linksData from './data/links.json'
-import outfitsData from './data/outfits.json'
+import linksData from './data/links.json';
+import outfitsData from './data/outfits.json';
+import header1989combos from './images/1989combos.png';
 
 import brokenRobot from './images/broken-robot.png';
 import surpriseSongsPhoto from './images/surpriseSongs.png';
@@ -132,6 +133,48 @@ import ttpdTwoPiece_gold from './images/outfits/ttpd-two-piece/gold-and-black.pn
 import ttpdTwoPiece_silver from './images/outfits/ttpd-two-piece/silver.png';
 import ttpdTwoPiece_white from './images/outfits/ttpd-two-piece/white.png';
 
+import pinkpink from './images/1989outfits/pinkpink.png'
+import pinkred from './images/1989outfits/pinkred.png'
+import pinkyellow from './images/1989outfits/pinkyellow.png'
+import pinkgreen from './images/1989outfits/pinkgreen.png'
+import pinkblue from './images/1989outfits/pinkblue.png'
+import pinkpurple from './images/1989outfits/pinkpurple.png'
+
+import redpink from './images/1989outfits/redpink.png'
+import redred from './images/1989outfits/redred.png'
+import redyellow from './images/1989outfits/redyellow.png'
+import redgreen from './images/1989outfits/redgreen.png'
+import redblue from './images/1989outfits/redblue.png'
+import redpurple from './images/1989outfits/redpurple.png'
+
+import yellowpink from './images/1989outfits/yellowpink.png'
+import yellowred from './images/1989outfits/yellowred.png'
+import yellowyellow from './images/1989outfits/yellowyellow.png'
+import yellowgreen from './images/1989outfits/yellowgreen.png'
+import yellowblue from './images/1989outfits/yellowblue.png'
+import yellowpurple from './images/1989outfits/yellowpurple.png'
+
+import greenpink from './images/1989outfits/greenpink.png'
+import greenred from './images/1989outfits/greenred.png'
+import greenyellow from './images/1989outfits/greenyellow.png'
+import greengreen from './images/1989outfits/greengreen.png'
+import greenblue from './images/1989outfits/greenblue.png'
+import greenpurple from './images/1989outfits/greenpurple.png'
+
+import bluepink from './images/1989outfits/bluepink.png'
+import bluered from './images/1989outfits/bluered.png'
+import blueyellow from './images/1989outfits/blueyellow.png'
+import bluegreen from './images/1989outfits/bluegreen.png'
+import blueblue from './images/1989outfits/blueblue.png'
+import bluepurple from './images/1989outfits/bluepurple.png'
+
+import purplepink from './images/1989outfits/purplepink.png'
+import purplered from './images/1989outfits/purplered.png'
+import purpleyellow from './images/1989outfits/purpleyellow.png'
+import purplegreen from './images/1989outfits/purplegreen.png'
+import purpleblue from './images/1989outfits/purpleblue.png'
+import purplepurple from './images/1989outfits/purplepurple.png'
+
 function App() {
     /*
      * 0: Home
@@ -142,8 +185,9 @@ function App() {
      * 5: Events
      * 6: Links
      * 7: About
+     * 8: 1989 combos
      */
-    const [view, setView] = useState(0);
+    const [view, setView] = useState(8);
     const [showNavbar, setShowNavbar] = useState(false);
     const [showAllEvents, setShowAllEvents] = useState(false);
     const currentDate = new Date().getTime();
@@ -320,7 +364,7 @@ function App() {
 
         const songPart = (song) => {
             if (song.album === "Taylor Swift") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button debut"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -334,7 +378,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Fearless") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button fearless"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -348,7 +392,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Speak Now") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button speaknow"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -362,7 +406,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Red") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button red"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -376,7 +420,7 @@ function App() {
                     }
                 }
             } else if (song.album === "1989") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button TS1989"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -390,7 +434,7 @@ function App() {
                     }
                 }
             } else if (song.album === "reputation") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button reputation"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -404,7 +448,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Lover") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button lover"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -418,7 +462,7 @@ function App() {
                     }
                 }
             } else if (song.album === "folklore") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button folklore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -432,7 +476,7 @@ function App() {
                     }
                 }
             } else if (song.album === "evermore") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button evermore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -446,7 +490,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Midnights") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button midnights"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -460,7 +504,7 @@ function App() {
                     }
                 }
             } else if (song.album === "The Tortured Poets Department") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button ttpd"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -474,7 +518,7 @@ function App() {
                     }
                 }
             } else {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button other"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -538,11 +582,19 @@ function App() {
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src={outfitsPhoto} class="d-block w-100" alt="Surprise Song" style={{ objectFit: "cover" }} />
+                                <img src={outfitsPhoto} class="d-block w-100" alt="outfits" style={{ objectFit: "cover" }} />
                                 <div class="carousel-caption d-none d-md-block text-end">
                                     <h1>Outfits</h1>
                                     <p>View the outfit tracker</p>
                                     <button class="btn btn-lg btn-primary" onClick={() => setView(4)}>Outfits</button>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src={header1989combos} class="d-block w-100" alt="5 different 1989 outfits" style={{ objectFit: "cover" }} />
+                                <div class="carousel-caption d-none d-md-block text-end">
+                                    <h1>1989 Combos</h1>
+                                    <p>View all possible 1989 outfit combos!</p>
+                                    <button class="btn btn-lg btn-primary" onClick={() => setView(8)}>1989 Combos</button>
                                 </div>
                             </div>
                         </div>
@@ -644,7 +696,7 @@ function App() {
 
         const songPart = (song) => {
             if (song.album === "Taylor Swift") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button debut"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -658,7 +710,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Fearless") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button fearless"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -672,7 +724,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Speak Now") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button speaknow"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -686,7 +738,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Red") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button red"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -700,7 +752,7 @@ function App() {
                     }
                 }
             } else if (song.album === "1989") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button TS1989"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -714,7 +766,7 @@ function App() {
                     }
                 }
             } else if (song.album === "reputation") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button reputation"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -728,7 +780,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Lover") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button lover"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -742,7 +794,7 @@ function App() {
                     }
                 }
             } else if (song.album === "folklore") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button folklore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -756,7 +808,7 @@ function App() {
                     }
                 }
             } else if (song.album === "evermore") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button evermore"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -770,7 +822,7 @@ function App() {
                     }
                 }
             } else if (song.album === "Midnights") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button midnights"><img src={guitar_white} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -784,7 +836,7 @@ function App() {
                     }
                 }
             } else if (song.album === "The Tortured Poets Department") {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button ttpd"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -798,7 +850,7 @@ function App() {
                     }
                 }
             } else {
-                if(song.feature != null){
+                if (song.feature != null) {
                     if (song.instrument === "Guitar") {
                         return (<button class="unclickable-button other"><img src={guitar_black} style={{ width: '20px', height: '20px', objectFit: 'cover' }} /> {song.title} <em>(guest: {song.feature})</em></button>);
                     } else {
@@ -2830,6 +2882,9 @@ function App() {
                         </div>
                     </div>
                     <hr className="featurette-divider" />
+                    <div style={{ textAlign: 'right' }}>
+                        <button class="button-like-text" style={{ color: '#177e89', paddingRight: '50px' }} onClick={() => setView(8)}>View 1989 Combinations</button>
+                    </div>
                     <div class="container-container">
                         <div class="scrollable-container">
                             <div class="content" id="outfits">
@@ -3109,6 +3164,172 @@ function App() {
         }
     }
 
+    function view1989() {
+        const createTable = () => {
+            return (
+                <div>
+                    <table style={{ border: "2px solid black", padding: "10px", maxWidth: "100%", textAlign: "center", align: "center" }}>
+                        <thead>
+                            <tr style={{ backgroundColor: "#E0E0E0", fontWeight: "bold" }}>
+                                <th style={{ border: "1px solid gray" }}></th>
+                                <th style={{ border: "1px solid gray" }}>Pink</th>
+                                <th style={{ border: "1px solid gray" }}>Red</th>
+                                <th style={{ border: "1px solid gray" }}>Yellow</th>
+                                <th style={{ border: "1px solid gray" }}>Green</th>
+                                <th style={{ border: "1px solid gray" }}>Blue</th>
+                                <th style={{ border: "1px solid gray" }}>Purple</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Pink</td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={pinkpink} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={redpink} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={yellowpink} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={greenpink} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={bluepink} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={purplepink} ></img>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Red</td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={pinkred} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={redred} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={yellowred} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={greenred} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={bluered} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={purplered} ></img>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Yellow</td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={pinkyellow} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={redyellow} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={yellowyellow} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={greenyellow} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={blueyellow} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={purpleyellow} ></img>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Green</td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={pinkgreen} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={redgreen} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={yellowgreen} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={greengreen} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={bluegreen} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={purplegreen} ></img>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Blue</td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={pinkblue} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={redblue} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={yellowblue} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={greenblue} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={blueblue} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={purpleblue} ></img>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style={{ backgroundColor: "#E0E0E0", fontWeight: "bold", border: "1px solid gray" }}>Purple</td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={pinkpurple} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={redpurple} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={yellowpurple} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={greenpurple} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={bluepurple} ></img>
+                                </td>
+                                <td style={{ border: "1px solid gray" }}>
+                                    <img class="tableCell" src={purplepurple} ></img>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            );
+        }
+        return (
+            <div>
+                {navbar()}
+                <div class="container">
+                    <h1 class="page-title">1989 Combos</h1>
+                    <hr class="featurette-divider" />
+                    <div class="container-container">
+                        <div class="scrollable-container">
+                            <div class="content" id="outfits">
+                                {createTable()}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {footer()}
+            </div>
+        );
+    }
 
     /*
      * This if/else statement sets the view.
@@ -3129,6 +3350,8 @@ function App() {
         return viewLinks();
     } else if (view === 7) {
         return viewAbout();
+    } else if (view === 8) {
+        return view1989();
     } else {
         return (
             <div>
@@ -3140,7 +3363,7 @@ function App() {
                         </div>
                         <div>
                             <div style={{ textAlign: 'center' }}>
-                                <img src={brokenRobot} alt="Broken Robot" style={{ width: '100px' }} />
+                                <img class="tableCell" src={brokenRobot} alt="Broken Robot" style={{ width: '100px' }} />
                                 <p class="title">Error 404: Page Not Found</p>
                                 <p>The page you are looking for may have been moved, deleted, or possibly never existed.</p>
                                 <p>Click <button class="button-like-text" style={{ color: '#177e89' }} onClick={() => setView(0)}>here</button> to go back home.</p>

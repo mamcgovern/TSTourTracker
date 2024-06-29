@@ -7,24 +7,22 @@ import Countdown from 'react-countdown';
 import eventsData from './data/events.json';
 import surpriseSongData from './data/surpriseSongs.json';
 
-import header1989combos from './images/1989combos.png';
-
 import brokenRobot from './images/broken-robot.png';
 import surpriseSongsPhoto from './images/surpriseSongs.png';
 import mainSetPhoto from './images/mainSet.png';
 import outfitsPhoto from './images/outfits.png';
+import header1989combos from './images/1989combos.png';
+
 import footballPhoto from './images/football.jpeg';
 import ceremonyPhoto from './images/grammys.jpeg';
 import concertPhoto from './images/tour.jpg';
 import releasePhoto from './images/announcement.png';
 import otherPhoto from './images/other.jpg';
+
 import guitar_black from './images/guitar_black.png';
 import guitar_white from './images/guitar_white.png';
 import piano_black from './images/piano_black.png';
 import piano_white from './images/piano_white.png';
-
-
-
 
 import SurpriseSongs from "./surpriseSongs.js";
 import Events from "./events.js";
@@ -59,8 +57,6 @@ function App() {
         toggleNavbar();
         setView(newView);
     }
-
-    
 
     /*
      * This creates the navbar for each view so it doesn't have to be retyped.

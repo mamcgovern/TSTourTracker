@@ -187,7 +187,7 @@ function App() {
      * 7: About
      * 8: 1989 combos
      */
-    const [view, setView] = useState(8);
+    const [view, setView] = useState(0);
     const [showNavbar, setShowNavbar] = useState(false);
     const [showAllEvents, setShowAllEvents] = useState(false);
     const currentDate = new Date().getTime();

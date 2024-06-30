@@ -1632,7 +1632,7 @@
                 {
                     "title": "The Lucky One",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Everything Has Changed",
@@ -2406,7 +2406,7 @@
                 {
                     "title": "Clara Bow",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Black Dog",

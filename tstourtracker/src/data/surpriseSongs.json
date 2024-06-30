@@ -2274,6 +2274,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Dublin",
+            "night": 3,
+            "date": "6/30/24",
+            "songs": [
+                {
+                    "title": "Clara Bow & The Lucky One",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "You're On Your Own Kid",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

@@ -2295,6 +2295,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Amsterdam",
+            "night": 1,
+            "date": "7/04/24",
+            "songs": [
+                {
+                    "title": "Guilty as Sin? & Untouchable",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Archer & Question",
+                    "album": "Lover",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

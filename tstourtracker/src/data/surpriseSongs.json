@@ -2316,6 +2316,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Amsterdam",
+            "night": 2,
+            "date": "7/05/24",
+            "songs": [
+                {
+                    "title": "imgonnagetyouback & Dress",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "You Are In Love & cowboy like me",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

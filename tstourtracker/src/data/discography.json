@@ -1388,7 +1388,7 @@
                 {
                     "title" : "Untouchable",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Come in with the Rain",
@@ -1799,7 +1799,7 @@
                 {
                     "title": "You Are In Love",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "New Romantics",
@@ -1948,7 +1948,7 @@
                 {
                     "title": "The Archer",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Think He Knows",
@@ -2244,7 +2244,7 @@
                 {
                     "title": "Question...?",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Vigilante Shit",
@@ -2416,7 +2416,7 @@
                 {
                     "title": "imgonnagetyouback",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Albatross",

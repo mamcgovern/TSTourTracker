@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import willowPic from './images/Willow.jpeg';
+import willowPic from '../images/Willow.jpeg';
 
 const About = () => {
     const isSmallScreen = window.innerWidth <= 800;

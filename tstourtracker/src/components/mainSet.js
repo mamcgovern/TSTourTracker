@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import mainSetData from './data/mainSet.json';
-import oldMainSetData from './data/mainSetOld.json';
+import mainSetData from '../data/mainSet.json';
+import oldMainSetData from '../data/mainSetOld.json';
 
 const MainSet = () => {
     const [showOldSet, setShowOldSet] = useState(false);

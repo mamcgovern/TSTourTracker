@@ -24,14 +24,14 @@ import guitar_white from './images/guitar_white.png';
 import piano_black from './images/piano_black.png';
 import piano_white from './images/piano_white.png';
 
-import SurpriseSongs from "./surpriseSongs.js";
-import Events from "./events.js";
-import Links from "./links.js";
-import About from "./about.js";
-import Combo1989 from "./combo1989.js";
-import MainSet from "./mainSet.js";
-import Outfits from "./outfits.js";
-import Discography from "./discography.js";
+import SurpriseSongs from "./components/surpriseSongs.js";
+import Events from "./components/events.js";
+import Links from "./components/links.js";
+import About from "./components/about.js";
+import Combo1989 from "./components/combo1989.js";
+import MainSet from "./components/mainSet.js";
+import Outfits from "./components/outfits.js";
+import Discography from "./components/discography.js";
 
 function App() {
     /*

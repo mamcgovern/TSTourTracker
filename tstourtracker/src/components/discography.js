@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import discographyData from './data/discography.json'
+import discographyData from '../data/discography.json'
 
 const Discography = () => {
     const discography2023 = discographyData.discography2023;

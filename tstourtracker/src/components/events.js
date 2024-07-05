@@ -6,7 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import moment from 'moment-timezone';
 import Select from 'react-select';
 
-import eventsData from './data/events.json';
+import eventsData from '../data/events.json';
 
 const Events = () => {
     const events = eventsData.events;

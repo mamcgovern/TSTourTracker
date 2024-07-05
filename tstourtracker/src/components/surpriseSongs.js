@@ -3,12 +3,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-import surpriseSongData from './data/surpriseSongs.json';
+import surpriseSongData from '../data/surpriseSongs.json';
 
-import guitar_black from './images/guitar_black.png';
-import guitar_white from './images/guitar_white.png';
-import piano_black from './images/piano_black.png';
-import piano_white from './images/piano_white.png';
+import guitar_black from '../images/guitar_black.png';
+import guitar_white from '../images/guitar_white.png';
+import piano_black from '../images/piano_black.png';
+import piano_white from '../images/piano_white.png';
 
 const SurpriseSongs = () => {
     var surpriseSongs = surpriseSongData.songs.slice(); // Create a copy to avoid mutating original data

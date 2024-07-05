@@ -4,110 +4,110 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Select from 'react-select';
 
-import outfitsData from './data/outfits.json';
+import outfitsData from '../data/outfits.json';
 
-import loverBodysuit_blueAndGold from './images/outfits/lover-bodysuit/blue-and-gold.png';
-import loverBodysuit_orange from './images/outfits/lover-bodysuit/orange.png';
-import loverBodysuit_pink from './images/outfits/lover-bodysuit/pink.png';
-import loverBodysuit_pinkAndBlue from './images/outfits/lover-bodysuit/pink-and-blue.png';
-import loverBodysuit_tassels from './images/outfits/lover-bodysuit/tassels.png';
+import loverBodysuit_blueAndGold from '../images/outfits/lover-bodysuit/blue-and-gold.png';
+import loverBodysuit_orange from '../images/outfits/lover-bodysuit/orange.png';
+import loverBodysuit_pink from '../images/outfits/lover-bodysuit/pink.png';
+import loverBodysuit_pinkAndBlue from '../images/outfits/lover-bodysuit/pink-and-blue.png';
+import loverBodysuit_tassels from '../images/outfits/lover-bodysuit/tassels.png';
 
-import loverJacket_black from './images/outfits/lover-jacket/black.png';
-import loverJacket_blue from './images/outfits/lover-jacket/blue.jpeg';
-import loverJacket_orange from './images/outfits/lover-jacket/orange.png';
-import loverJacket_pink from './images/outfits/lover-jacket/pink.png';
-import loverJacket_silver from './images/outfits/lover-jacket/silver.png';
+import loverJacket_black from '../images/outfits/lover-jacket/black.png';
+import loverJacket_blue from '../images/outfits/lover-jacket/blue.jpeg';
+import loverJacket_orange from '../images/outfits/lover-jacket/orange.png';
+import loverJacket_pink from '../images/outfits/lover-jacket/pink.png';
+import loverJacket_silver from '../images/outfits/lover-jacket/silver.png';
 
-import loverGuitar_pink from './images/outfits/lover-guitar/pink.jpeg';
-import loverGuitar_blue from './images/outfits/lover-guitar/blue.jpeg';
-import loverGuitar_purple from './images/outfits/lover-guitar/purple.png';
+import loverGuitar_pink from '../images/outfits/lover-guitar/pink.jpeg';
+import loverGuitar_blue from '../images/outfits/lover-guitar/blue.jpeg';
+import loverGuitar_purple from '../images/outfits/lover-guitar/purple.png';
 
-import fearless_goldNoodle from './images/outfits/fearless-dress/gold-noodle.png';
-import fearless_silverNoodle from './images/outfits/fearless-dress/silver-noodle.webp';
-import fearless_goldShort from './images/outfits/fearless-dress/gold-short.png';
-import fearless_silverShort from './images/outfits/fearless-dress/silver-and-black.png';
+import fearless_goldNoodle from '../images/outfits/fearless-dress/gold-noodle.png';
+import fearless_silverNoodle from '../images/outfits/fearless-dress/silver-noodle.webp';
+import fearless_goldShort from '../images/outfits/fearless-dress/gold-short.png';
+import fearless_silverShort from '../images/outfits/fearless-dress/silver-and-black.png';
 
-import bottoms1989_blue from './images/outfits/1989-bottom/blue.png';
-import bottoms1989_orange from './images/outfits/1989-bottom/orange.png';
-import bottoms1989_pink from './images/outfits/1989-bottom/pink.png';
-import bottoms1989_purple from './images/outfits/1989-bottom/purple.png';
-import bottoms1989_yellow from './images/outfits/1989-bottom/yellow.png';
-import bottoms1989_green from './images/outfits/1989-bottom/green.png';
+import bottoms1989_blue from '../images/outfits/1989-bottom/blue.png';
+import bottoms1989_orange from '../images/outfits/1989-bottom/orange.png';
+import bottoms1989_pink from '../images/outfits/1989-bottom/pink.png';
+import bottoms1989_purple from '../images/outfits/1989-bottom/purple.png';
+import bottoms1989_yellow from '../images/outfits/1989-bottom/yellow.png';
+import bottoms1989_green from '../images/outfits/1989-bottom/green.png';
 
-import top1989_blue from './images/outfits/1989-top/blue.jpeg';
-import top1989_orange from './images/outfits/1989-top/orange.png';
-import top1989_pink from './images/outfits/1989-top/pink.png';
-import top1989_purple from './images/outfits/1989-top/purple.png';
-import top1989_yellow from './images/outfits/1989-top/yellow.png';
-import top1989_green from './images/outfits/1989-top/green.png';
+import top1989_blue from '../images/outfits/1989-top/blue.jpeg';
+import top1989_orange from '../images/outfits/1989-top/orange.png';
+import top1989_pink from '../images/outfits/1989-top/pink.png';
+import top1989_purple from '../images/outfits/1989-top/purple.png';
+import top1989_yellow from '../images/outfits/1989-top/yellow.png';
+import top1989_green from '../images/outfits/1989-top/green.png';
 
-import set1989_orange from './images/outfits/1989-set/orange.png';
-import set1989_blue from './images/outfits/1989-set/blue.webp';
-import set1989_green from './images/outfits/1989-set/green.webp';
-import set1989_pink from './images/outfits/1989-set/pink.png';
+import set1989_orange from '../images/outfits/1989-set/orange.png';
+import set1989_blue from '../images/outfits/1989-set/blue.webp';
+import set1989_green from '../images/outfits/1989-set/green.webp';
+import set1989_pink from '../images/outfits/1989-set/pink.png';
 
-import evermore_orange from './images/outfits/evermore-dress/orange.webp';
-import evermore_bronze from './images/outfits/evermore-dress/bronze.png';
+import evermore_orange from '../images/outfits/evermore-dress/orange.webp';
+import evermore_bronze from '../images/outfits/evermore-dress/bronze.png';
 
-import folklore_blue from './images/outfits/folklore-dress/blue.png';
-import folklore_green from './images/outfits/folklore-dress/green.png';
-import folklore_hotPink from './images/outfits/folklore-dress/hot-pink.png';
-import folklore_pink from './images/outfits/folklore-dress/pink.png';
-import folklore_purple from './images/outfits/folklore-dress/purple.png';
-import folklore_white from './images/outfits/folklore-dress/white.png';
-import folklore_yellow from './images/outfits/folklore-dress/yellow.png';
+import folklore_blue from '../images/outfits/folklore-dress/blue.png';
+import folklore_green from '../images/outfits/folklore-dress/green.png';
+import folklore_hotPink from '../images/outfits/folklore-dress/hot-pink.png';
+import folklore_pink from '../images/outfits/folklore-dress/pink.png';
+import folklore_purple from '../images/outfits/folklore-dress/purple.png';
+import folklore_white from '../images/outfits/folklore-dress/white.png';
+import folklore_yellow from '../images/outfits/folklore-dress/yellow.png';
 
-import midnightsBodysuit_abs from './images/outfits/midnights-bodysuit/abs.png';
-import midnightsBodysuit_lines from './images/outfits/midnights-bodysuit/lines.png';
-import midnightsBodysuit_scallops from './images/outfits/midnights-bodysuit/scallops.png';
-import midnightsBodysuit_sidepods from './images/outfits/midnights-bodysuit/sidepods.png';
+import midnightsBodysuit_abs from '../images/outfits/midnights-bodysuit/abs.png';
+import midnightsBodysuit_lines from '../images/outfits/midnights-bodysuit/lines.png';
+import midnightsBodysuit_scallops from '../images/outfits/midnights-bodysuit/scallops.png';
+import midnightsBodysuit_sidepods from '../images/outfits/midnights-bodysuit/sidepods.png';
 
-import midnightsJacket_blue from './images/outfits/midnights-jacket/blue.png';
-import midnightsJacket_lightPink from './images/outfits/midnights-jacket/light-pink.png';
-import midnightsJacket_magenta from './images/outfits/midnights-jacket/magenta.png';
-import midnightsJacket_multicolor from './images/outfits/midnights-jacket/multicolor.png';
+import midnightsJacket_blue from '../images/outfits/midnights-jacket/blue.png';
+import midnightsJacket_lightPink from '../images/outfits/midnights-jacket/light-pink.png';
+import midnightsJacket_magenta from '../images/outfits/midnights-jacket/magenta.png';
+import midnightsJacket_multicolor from '../images/outfits/midnights-jacket/multicolor.png';
 
-import midnightsShirt_blue from './images/outfits/midnights-shirt/blue.png';
-import midnightsShirt_darkPurple from './images/outfits/midnights-shirt/dark-purple.jpeg';
-import midnightsShirt_iridescent from './images/outfits/midnights-shirt/iridescent.png';
-import midnightsShirt_pink from './images/outfits/midnights-shirt/pink.png';
-import midnightsShirt_purple from './images/outfits/midnights-shirt/purple.png';
-import midnightsShirt_silver from './images/outfits/midnights-shirt/silver.png';
+import midnightsShirt_blue from '../images/outfits/midnights-shirt/blue.png';
+import midnightsShirt_darkPurple from '../images/outfits/midnights-shirt/dark-purple.jpeg';
+import midnightsShirt_iridescent from '../images/outfits/midnights-shirt/iridescent.png';
+import midnightsShirt_pink from '../images/outfits/midnights-shirt/pink.png';
+import midnightsShirt_purple from '../images/outfits/midnights-shirt/purple.png';
+import midnightsShirt_silver from '../images/outfits/midnights-shirt/silver.png';
 
-import redShirt_aLot from './images/outfits/red-shirt/a-lot.png';
-import redShirt_aboutMe from './images/outfits/red-shirt/about-me.png';
-import redShirt_ew from './images/outfits/red-shirt/ew.png';
-import redShirt_neverEver from './images/outfits/red-shirt/never-ever.png';
-import redShirt_notTV from './images/outfits/red-shirt/not-tv.png';
-import redShirt_trouble from './images/outfits/red-shirt/trouble.png';
+import redShirt_aLot from '../images/outfits/red-shirt/a-lot.png';
+import redShirt_aboutMe from '../images/outfits/red-shirt/about-me.png';
+import redShirt_ew from '../images/outfits/red-shirt/ew.png';
+import redShirt_neverEver from '../images/outfits/red-shirt/never-ever.png';
+import redShirt_notTV from '../images/outfits/red-shirt/not-tv.png';
+import redShirt_trouble from '../images/outfits/red-shirt/trouble.png';
 
-import reputationJumpsuit from './images/outfits/reputation-jumpsuit/red-and-black.webp';
+import reputationJumpsuit from '../images/outfits/reputation-jumpsuit/red-and-black.webp';
 
-import speakNow_blue from './images/outfits/speak-now-gown/blue.webp';
-import speakNow_champagne from './images/outfits/speak-now-gown/champagne.png';
-import speakNow_flowers from './images/outfits/speak-now-gown/flowers.webp';
-import speakNow_pink from './images/outfits/speak-now-gown/pink.png';
-import speakNow_purple from './images/outfits/speak-now-gown/purple.png';
-import speakNow_swirls from './images/outfits/speak-now-gown/swirls.png';
-import speakNow_white from './images/outfits/speak-now-gown/white.webp';
+import speakNow_blue from '../images/outfits/speak-now-gown/blue.webp';
+import speakNow_champagne from '../images/outfits/speak-now-gown/champagne.png';
+import speakNow_flowers from '../images/outfits/speak-now-gown/flowers.webp';
+import speakNow_pink from '../images/outfits/speak-now-gown/pink.png';
+import speakNow_purple from '../images/outfits/speak-now-gown/purple.png';
+import speakNow_swirls from '../images/outfits/speak-now-gown/swirls.png';
+import speakNow_white from '../images/outfits/speak-now-gown/white.webp';
 
-import surpriseSong_blue from './images/outfits/surprise-song-dress/blue.webp';
-import surpriseSong_pink from './images/outfits/surprise-song-dress/pink.png';
-import surpriseSong_orange from './images/outfits/surprise-song-dress/orange.webp';
+import surpriseSong_blue from '../images/outfits/surprise-song-dress/blue.webp';
+import surpriseSong_pink from '../images/outfits/surprise-song-dress/pink.png';
+import surpriseSong_orange from '../images/outfits/surprise-song-dress/orange.webp';
 
-import ttpdDress from './images/outfits/ttpd-dress/white.png';
+import ttpdDress from '../images/outfits/ttpd-dress/white.png';
 
-import ttpdMarchingBandJacket from './images/outfits/ttpd-marching-band-jacket/white.webp';
+import ttpdMarchingBandJacket from '../images/outfits/ttpd-marching-band-jacket/white.webp';
 
-import ttpdJacket_gold from './images/outfits/ttpd-jacket/gold.png';
-import ttpdJacket_silver from './images/outfits/ttpd-jacket/silver.png';
-import ttpdJacket_whiteWithBlack from './images/outfits/ttpd-jacket/white-with-black.png';
-import ttpdJacket_white from './images/outfits/ttpd-jacket/white.png';
+import ttpdJacket_gold from '../images/outfits/ttpd-jacket/gold.png';
+import ttpdJacket_silver from '../images/outfits/ttpd-jacket/silver.png';
+import ttpdJacket_whiteWithBlack from '../images/outfits/ttpd-jacket/white-with-black.png';
+import ttpdJacket_white from '../images/outfits/ttpd-jacket/white.png';
 
-import ttpdTwoPiece_black from './images/outfits/ttpd-two-piece/black.png';
-import ttpdTwoPiece_gold from './images/outfits/ttpd-two-piece/gold-and-black.png';
-import ttpdTwoPiece_silver from './images/outfits/ttpd-two-piece/silver.png';
-import ttpdTwoPiece_white from './images/outfits/ttpd-two-piece/white.png';
+import ttpdTwoPiece_black from '../images/outfits/ttpd-two-piece/black.png';
+import ttpdTwoPiece_gold from '../images/outfits/ttpd-two-piece/gold-and-black.png';
+import ttpdTwoPiece_silver from '../images/outfits/ttpd-two-piece/silver.png';
+import ttpdTwoPiece_white from '../images/outfits/ttpd-two-piece/white.png';
 
 const Outfits = () => {
     const shows = outfitsData.shows;

@@ -1286,7 +1286,7 @@
                 {
                     "title": "Mary's Song",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Our Song",
@@ -1834,7 +1834,7 @@
                 {
                     "title": "Sweeter Than Fiction",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 }
             ]
         },
@@ -2436,7 +2436,7 @@
                 {
                     "title": "So High School",
                     "setlist": "true",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Hate It Here",

@@ -2337,6 +2337,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Amsterdam",
+            "night": 3,
+            "date": "7/06/24",
+            "songs": [
+                {
+                    "title": "Sweeter Than Fiction & Holy Ground",
+                    "album": "1989",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Mary's Song, So High School & Everything Has Changed",
+                    "album": "Taylor Swift",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

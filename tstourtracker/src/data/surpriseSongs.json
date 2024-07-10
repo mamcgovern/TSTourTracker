@@ -2379,6 +2379,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Zurich",
+            "night": 2,
+            "date": "7/10/24",
+            "songs": [
+                {
+                    "title": "closure & A Perfectly Good Heart",
+                    "album": "evermore",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Robin & Never Grow Up",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

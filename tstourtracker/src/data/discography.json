@@ -1306,7 +1306,7 @@
                 {
                     "title": "A Perfectly Good Heart",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 }
             ]
         },
@@ -1490,7 +1490,7 @@
                 {
                     "title": "Never Grow Up",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Enchanted",
@@ -2187,7 +2187,7 @@
                 {
                     "title": "closure",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "evermore",
@@ -2476,7 +2476,7 @@
                 {
                     "title": "Robin",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Manuscript",

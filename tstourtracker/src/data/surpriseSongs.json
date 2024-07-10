@@ -2358,6 +2358,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Zurich",
+            "night": 1,
+            "date": "7/09/24",
+            "songs": [
+                {
+                    "title": "right where you left me & All You Had To Do Was Stay",
+                    "album": "evermore",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Last Kiss & Sad Beautiful Tragic",
+                    "album": "Speak Now",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

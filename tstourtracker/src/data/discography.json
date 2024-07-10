@@ -1515,7 +1515,7 @@
                 {
                     "title": "Last Kiss",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Long Live",
@@ -1627,7 +1627,7 @@
                 {
                     "title": "Sad Beautiful Tragic",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Lucky One",
@@ -1749,7 +1749,7 @@
                 {
                     "title": "All You Had to Do Was Stay",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Shake It Off",
@@ -2197,7 +2197,7 @@
                 {
                     "title": "right where you left me",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "it's time to go",

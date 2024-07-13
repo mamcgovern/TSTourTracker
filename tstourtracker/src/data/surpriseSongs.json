@@ -2400,6 +2400,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Milan",
+            "night": 1,
+            "date": "7/13/24",
+            "songs": [
+                {
+                    "title": "the 1 &",
+                    "album": "",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

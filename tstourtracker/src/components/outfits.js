@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -122,7 +122,7 @@ const Outfits = () => {
     const [selectedOption, setSelectedOption] = useState(options[0]);
 
     const createLoverBodysuit = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.loverBodysuit === "Pink & Blue") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#1f2cff", backgroundColor: "#ffbae0" }}>
@@ -203,7 +203,7 @@ const Outfits = () => {
         }
     }
     const createTheManJacket = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.theManJacket === "Silver") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#cccccc" }}>
@@ -282,7 +282,7 @@ const Outfits = () => {
         }
     }
     const createLoverGuitar = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.loverGuitar === "Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#f13a96", backgroundColor: "#fab8dc" }}>
@@ -337,7 +337,7 @@ const Outfits = () => {
         }
     }
     const createFearlessDress = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.fearlessDress === "Gold Short Fringe") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#fce598" }}>
@@ -416,7 +416,7 @@ const Outfits = () => {
         }
     }
     const createRedShirt = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.redShirt === "Never Ever") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#e5e5e5", backgroundColor: "#3d3d3d" }}>
@@ -507,7 +507,7 @@ const Outfits = () => {
         }
     }
     const createSpeakNowGown = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.speakNowDress === "Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#c82c7b", backgroundColor: "#f9a7d4" }}>
@@ -611,7 +611,7 @@ const Outfits = () => {
         }
     }
     const createReputationJumpsuit = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.reputationJumpsuit === "Red & Black") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ff0000", backgroundColor: "#000000" }}>
@@ -643,7 +643,7 @@ const Outfits = () => {
 
     }
     const createFolkmoreDress = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.folkmoreDress === "Purple") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#432c7e", backgroundColor: "#d9d2e9" }}>
@@ -759,7 +759,7 @@ const Outfits = () => {
         }
     }
     const createFolkloreDress = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.folkloreDress === "Purple") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#432c7e", backgroundColor: "#d9d2e9" }}>
@@ -863,7 +863,7 @@ const Outfits = () => {
         }
     }
     const createEvermoreDress = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.evermoreDress === "Orange/Yellow Flowers") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#8d5301", backgroundColor: "#ffab00" }}>
@@ -907,7 +907,7 @@ const Outfits = () => {
 
     }
     const create1989Combo = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.combo1989 === "Green") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#cbffb4", backgroundColor: "#5bc42c" }}>
@@ -975,7 +975,7 @@ const Outfits = () => {
 
     }
     const create1989Top = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.top1989 === "Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ff70a6" }}>
@@ -1067,7 +1067,7 @@ const Outfits = () => {
 
     }
     const create1989Bottoms = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.bottoms1989 === "Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ff70a6" }}>
@@ -1159,7 +1159,7 @@ const Outfits = () => {
 
     }
     const createTTPDDress = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.ttpdDress === "Ruining my life") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#888888", backgroundColor: "#ffffff" }}>
@@ -1203,7 +1203,7 @@ const Outfits = () => {
     }
 
     const createTTPDMarchingBandJacket = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.ttpdMarchingBandJacket === "White") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#888888", backgroundColor: "#ffffff" }}>
@@ -1235,7 +1235,7 @@ const Outfits = () => {
 
     }
     const createTTPDTwoPiece = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.ttpdTwoPiece === "Black") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#000000" }}>
@@ -1305,7 +1305,7 @@ const Outfits = () => {
 
     }
     const createTTPDjacket = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.ttpdJacket === "Gold") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#F1CB41" }}>
@@ -1373,7 +1373,7 @@ const Outfits = () => {
 
     }
     const createMidnightsShirt = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.midnightsShirt === "Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#c82c7b", backgroundColor: "#f9a7d4" }}>
@@ -1465,7 +1465,7 @@ const Outfits = () => {
 
     }
     const createMidnightsBodysuit = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.midnightsBodysuit === "Scallops") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#d0e2f3", backgroundColor: "#2a48ef" }}>
@@ -1533,7 +1533,7 @@ const Outfits = () => {
 
     }
     const createMidnightsJacket = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.midnightsJacket === "Light Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#9f1158", backgroundColor: "#f887c3" }}>
@@ -1613,7 +1613,7 @@ const Outfits = () => {
 
     }
     const createSurpriseSongDress = (item) => {
-        if (selectedOption.value == "colors") {
+        if (selectedOption.value === "colors") {
             if (item.outfits.surpriseSongDress === "Pink") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#E73D95", backgroundColor: "#ffccd5" }}>

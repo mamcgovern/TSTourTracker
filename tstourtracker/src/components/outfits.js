@@ -96,7 +96,8 @@ import surpriseSong_blue from '../images/outfits/surprise-song-dress/blue.webp';
 import surpriseSong_pink from '../images/outfits/surprise-song-dress/pink.png';
 import surpriseSong_orange from '../images/outfits/surprise-song-dress/orange.webp';
 
-import ttpdDress from '../images/outfits/ttpd-dress/white.png';
+import ttpdDress_ruining from '../images/outfits/ttpd-dress/Ruiningmylife.png';
+import ttpdDress_shouldbe from '../images/outfits/ttpd-dress/Youshouldbe.jpeg';
 
 import ttpdMarchingBandJacket from '../images/outfits/ttpd-marching-band-jacket/white.webp';
 
@@ -1159,9 +1160,15 @@ const Outfits = () => {
     }
     const createTTPDDress = (item) => {
         if (selectedOption.value == "colors") {
-            if (item.outfits.ttpdDress === "White with Text") {
+            if (item.outfits.ttpdDress === "Ruining my life") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#888888", backgroundColor: "#ffffff" }}>
+                        {item.outfits.ttpdDress}
+                    </td>
+                );
+            } if (item.outfits.ttpdDress === "You should be") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#888888" }}>
                         {item.outfits.ttpdDress}
                     </td>
                 );
@@ -1173,10 +1180,16 @@ const Outfits = () => {
                 );
             }
         } else {
-            if (item.outfits.ttpdDress === "White with Text") {
+            if (item.outfits.ttpdDress === "Ruining my life") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#888888", backgroundColor: "#ffffff" }}>
-                        <img src={ttpdDress} style={{ maxWidth: '100px' }}></img>
+                        <img src={ttpdDress_ruining} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } if (item.outfits.ttpdDress === "You should be") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#888888" }}>
+                        <img src={ttpdDress_shouldbe} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {
@@ -1187,8 +1200,8 @@ const Outfits = () => {
                 );
             }
         }
-
     }
+
     const createTTPDMarchingBandJacket = (item) => {
         if (selectedOption.value == "colors") {
             if (item.outfits.ttpdMarchingBandJacket === "White") {

@@ -26,6 +26,7 @@ import fearless_goldNoodle from '../images/outfits/fearless-dress/gold-noodle.pn
 import fearless_silverNoodle from '../images/outfits/fearless-dress/silver-noodle.webp';
 import fearless_goldShort from '../images/outfits/fearless-dress/gold-short.png';
 import fearless_silverShort from '../images/outfits/fearless-dress/silver-and-black.png';
+import fearless_tiger from '../images/outfits/fearless-dress/tiger.jpeg';
 
 import bottoms1989_blue from '../images/outfits/1989-bottom/blue.png';
 import bottoms1989_orange from '../images/outfits/1989-bottom/orange.png';
@@ -360,6 +361,12 @@ const Outfits = () => {
                         {item.outfits.fearlessDress}
                     </td>
                 )
+            } else if (item.outfits.fearlessDress === "Tiger") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#fce598", backgroundColor: "#000000" }}>
+                        {item.outfits.fearlessDress}
+                    </td>
+                )
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -390,6 +397,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#e6e6e6" }}>
                         <img src={fearless_silverShort} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                )
+            } else if (item.outfits.fearlessDress === "Tiger") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#fce598", backgroundColor: "#000000" }}>
+                        <img src={fearless_tiger} style={{ maxWidth: '100px' }}></img>
                     </td>
                 )
             } else {

@@ -2421,6 +2421,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Milan",
+            "night": 2,
+            "date": "7/14/24",
+            "songs": [
+                {
+                    "title": "Mr. Perfectly Fine & Red",
+                    "album": "Fearless",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Getaway Car & Out of the Woods",
+                    "album": "reputation",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

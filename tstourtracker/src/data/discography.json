@@ -1418,7 +1418,7 @@
                 {
                     "title" : "Mr Perfectly Fine",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "We Were Happy",
@@ -1744,7 +1744,7 @@
                 {
                     "title": "Out of the Woods",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "All You Had to Do Was Stay",

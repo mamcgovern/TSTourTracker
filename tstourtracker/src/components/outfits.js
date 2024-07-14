@@ -91,6 +91,7 @@ import speakNow_pink from '../images/outfits/speak-now-gown/pink.png';
 import speakNow_purple from '../images/outfits/speak-now-gown/purple.png';
 import speakNow_swirls from '../images/outfits/speak-now-gown/swirls.png';
 import speakNow_white from '../images/outfits/speak-now-gown/white.webp';
+import speakNow_purpleWaves from '../images/outfits/speak-now-gown/purpleWaves.jpeg';
 
 import surpriseSong_blue from '../images/outfits/surprise-song-dress/blue.webp';
 import surpriseSong_pink from '../images/outfits/surprise-song-dress/pink.png';
@@ -550,6 +551,13 @@ const Outfits = () => {
                         {item.outfits.speakNowDress}
                     </td>
                 );
+            }
+            else if (item.outfits.speakNowDress === "Purple Waves") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#c884f2", backgroundColor: "#f9f1fe" }}>
+                        {item.outfits.speakNowDress}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -599,6 +607,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#aaaaaa", backgroundColor: "#ffffff" }}>
                         <img src={speakNow_swirls} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } else if (item.outfits.speakNowDress === "Purple Waves") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#c884f2", backgroundColor: "#f9f1fe" }}>
+                        <img src={speakNow_purpleWaves} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {

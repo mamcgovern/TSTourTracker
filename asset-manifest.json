@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.db67245c.css",
-    "main.js": "/static/js/main.39d5affe.js",
+    "main.js": "/static/js/main.e1c98d2e.js",
     "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
     "static/media/purple.png": "/static/media/purple.2227c020e2a74c63def4.png",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
@@ -55,6 +55,7 @@
     "static/media/red-and-black.webp": "/static/media/red-and-black.32b888dcf78c79331248.webp",
     "static/media/football.jpeg": "/static/media/football.2158423fe7ccd53001be.jpeg",
     "static/media/abs.png": "/static/media/abs.e9c4140cd7c28f8ed145.png",
+    "static/media/purpleWaves.jpeg": "/static/media/purpleWaves.0da8ec4938815188604c.jpeg",
     "static/media/green.webp": "/static/media/green.9891a24627c6278df684.webp",
     "static/media/orange.webp": "/static/media/orange.e844e850777651618d78.webp",
     "static/media/tiger.jpeg": "/static/media/tiger.a0df5ab772bcfcb857c0.jpeg",
@@ -64,10 +65,10 @@
     "static/media/dark-purple.jpeg": "/static/media/dark-purple.d31ac65116a8ca77c667.jpeg",
     "index.html": "/index.html",
     "main.db67245c.css.map": "/static/css/main.db67245c.css.map",
-    "main.39d5affe.js.map": "/static/js/main.39d5affe.js.map"
+    "main.e1c98d2e.js.map": "/static/js/main.e1c98d2e.js.map"
   },
   "entrypoints": [
     "static/css/main.db67245c.css",
-    "static/js/main.39d5affe.js"
+    "static/js/main.e1c98d2e.js"
   ]
 }

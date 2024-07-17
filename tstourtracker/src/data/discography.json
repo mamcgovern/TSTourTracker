@@ -1398,7 +1398,7 @@
                 {
                     "title" : "Superstar",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "The Other Side of the Door",
@@ -2080,7 +2080,7 @@
                 {
                     "title": "invisible string",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "mad woman",

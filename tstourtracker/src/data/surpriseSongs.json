@@ -2442,6 +2442,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Gelsenkirchen",
+            "night": 1,
+            "date": "7/17/24",
+            "songs": [
+                {
+                    "title": "Superstar & invisible string",
+                    "album": "Fearless",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "\"Slut\" & False God",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

@@ -21,7 +21,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <BrowserRouter>
+    <BrowserRouter basename="">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/surprisesongs" element={<SurpriseSongs />} />

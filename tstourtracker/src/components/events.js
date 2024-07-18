@@ -1,9 +1,10 @@
-import { useState } from "react";
+import React, { useState } from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
+import { Modal, Button } from 'react-bootstrap';
 
 import moment from 'moment-timezone';
 import Select from 'react-select';
@@ -17,30 +18,29 @@ const Events = () => {
     const [showAllEvents, setShowAllEvents] = useState(false);
     const [activeOption, setActiveOption] = useState('America/Chicago');
     const [calendarView, setCalendarView] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+    const [selectedEvent, setSelectedEvent] = useState(null); // Ensure this is correctly initialized
 
     const timeZones = moment.tz.names().map(zone => ({
         value: zone,
         label: zone.replace(/_/g, ' ')
-    })); // Get a list of all time zones and format them for react-select
+    }));
 
     const convertToTimeZone = (date, time, timeZone) => {
         const [month, day, year] = date.split('/').map(Number);
         const [timeString, period] = time.split(' ');
         const [hours, minutes] = timeString.split(':').map(Number);
 
-        // Create a Moment object using the parsed date and time
         let eventDate = moment.tz({
             year: 2000 + year,
             month: month - 1,
             day: day,
             hour: hours % 12 + (period === 'PM' ? 12 : 0),
             minute: minutes
-        }, 'America/Chicago'); // Assuming input is in CST
+        }, 'America/Chicago');
 
-        // Convert to the target time zone
         eventDate = eventDate.tz(timeZone);
 
-        // Get the new date and time in the target time zone
         const newDate = eventDate.format('M/D/YY');
         const newTime = eventDate.format('h:mm A');
 
@@ -133,19 +133,26 @@ const Events = () => {
         };
     });
 
+    const handleEventClick = (event) => {
+        setSelectedEvent(event);
+        setShowModal(true);
+    };
+
     const renderCalendar = () => {
         return (
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                <Calendar
-                    tileContent={({ date }) => {
-                        const dayEvents = eventsForCalendar.filter(event => event.date.toDateString() === date.toDateString());
-                        return dayEvents.map(event => (
-                            <div key={event.title}>
-                                {event.title}
-                            </div>
-                        ));
-                    }}
-                />
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%' }}>
+                <div style={{ width: '90%', maxWidth: '1500px', padding: '20px' }}>
+                    <Calendar
+                        tileContent={({ date }) => {
+                            const dayEvents = eventsForCalendar.filter(event => event.date.toDateString() === date.toDateString());
+                            return dayEvents.map(event => (
+                                <div key={event.title} onClick={() => handleEventClick(event)} style={{ cursor: 'pointer' }}>
+                                    {event.title}
+                                </div>
+                            ));
+                        }}
+                    />
+                </div>
             </div>
         );
     };
@@ -166,6 +173,21 @@ const Events = () => {
                 </div>
                 <hr className="featurette-divider" />
                 {calendarView ? renderCalendar() : allEvents}
+
+                <Modal show={showModal} onHide={() => setShowModal(false)}>
+                    <Modal.Header closeButton>
+                        <Modal.Title>{selectedEvent?.title}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <p><strong>Date:</strong> {selectedEvent?.date.toLocaleDateString()}</p>
+                        <p><strong>Time:</strong> {selectedEvent?.time}</p>
+                        <p><strong>Category:</strong> {selectedEvent?.category}</p>
+                        <p><strong>Description:</strong> {selectedEvent?.description}</p>
+                    </Modal.Body>
+                    <Modal.Footer>
+                        <Button variant="secondary" onClick={() => setShowModal(false)}>Close</Button>
+                    </Modal.Footer>
+                </Modal>
             </div>
         </div>
     );

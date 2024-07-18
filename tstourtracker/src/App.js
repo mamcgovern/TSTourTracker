@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
@@ -7,7 +6,6 @@ import Countdown from 'react-countdown';
 import eventsData from './data/events.json';
 import surpriseSongData from './data/surpriseSongs.json';
 
-import brokenRobot from './images/broken-robot.png';
 import surpriseSongsPhoto from './images/surpriseSongs.png';
 import mainSetPhoto from './images/mainSet.png';
 import outfitsPhoto from './images/outfits.png';
@@ -23,99 +21,8 @@ import guitar_white from './images/guitar_white.png';
 import piano_black from './images/piano_black.png';
 import piano_white from './images/piano_white.png';
 
-import SurpriseSongs from "./components/surpriseSongs.js";
-import Events from "./components/events.js";
-import Links from "./components/links.js";
-import About from "./components/about.js";
-import MainSet from "./components/mainSet.js";
-import Outfits from "./components/outfits.js";
-import Discography from "./components/discography.js";
-
 function App() {
-    /*
-     * 0: Home
-     * 1: Surprise Songs
-     * 2: Discography
-     * 3: Main Set
-     * 4: Outfits
-     * 5: Events
-     * 6: Links
-     * 7: About
-     */
-    const [view, setView] = useState(0);
-    const [showNavbar, setShowNavbar] = useState(false);
     const currentDate = new Date().getTime();
-
-    const toggleNavbar = () => {
-        setShowNavbar(!showNavbar);
-    };
-
-    const clickNavButton = (newView) => {
-        toggleNavbar();
-        setView(newView);
-    }
-
-    /*
-     * This creates the navbar for each view so it doesn't have to be retyped.
-     */
-    function navbar() {
-        return (
-            <div>
-                <header data-bs-theme="dark">
-                    <nav className="navbar navbar-expand-lg bg-body-tertiary" aria-label="Navbar">
-                        <div className="container-fluid">
-                            {/* Brand */}
-                            <button className="button-like-text navbar-brand col-lg-3 me-0" onClick={() => clickNavButton(0)}>TS Tour Tracker</button>
-                            {/* Navbar toggler */}
-                            <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={showNavbar ? "true" : "false"} aria-label="Toggle navigation">
-                                <span className="navbar-toggler-icon"></span>
-                            </button>
-                            {/* Navbar content */}
-                            <div className={"collapse navbar-collapse" + (showNavbar ? " show" : "")} id="navbarsExample11">
-                                <ul className="navbar-nav justify-content-lg-center">
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(0)}>Home</button>
-                                    </li>
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(1)}>Surprise Songs</button>
-                                    </li>
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(2)}>Discography</button>
-                                    </li>
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(3)}>Main Set</button>
-                                    </li>
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(4)}>Outfits</button>
-                                    </li>
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(5)}>Events</button>
-                                    </li>
-                                    <li className="nav-item" style={{ margin: '5px' }}>
-                                        <button className="btn btn-outline-light p3 lh-1" onClick={() => clickNavButton(6)}>Links</button>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </header>
-            </div>
-        )
-    }
-
-    /*
-     * This creates the footer for each view so it doesn't have to be retyped.
-     */
-    function footer() {
-        return (
-            <div style={{ paddingTop: '100px' }}>
-                <footer class="container">
-                    <p class="col-md-4 mb-0 text-body-secondary"><button class="nav-link px-2 text-body-secondary" onClick={() => setView(7)}>&copy; 2024 TS Tour Tracker</button></p>
-                </footer>
-            </div>
-        );
-    }
-
     function eventPhoto(category) {
         if (category === "Concert") {
             return (
@@ -395,7 +302,6 @@ function App() {
 
         return (
             <div>
-                {navbar()}
                 {!isSmallScreen && (
                     <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel" data-bs-interval="3000">
                         <div class="carousel-inner">
@@ -404,7 +310,7 @@ function App() {
                                 <div class="carousel-caption d-none d-md-block text-end">
                                     <h1>Surprise!</h1>
                                     <p>View the surprise songs.</p>
-                                    <button class="btn btn-lg btn-primary" onClick={() => setView(1)}>Surprise Songs</button>
+                                    <a class="btn btn-lg btn-primary" href="/surprisesongs">Surprise Songs</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -412,7 +318,7 @@ function App() {
                                 <div class="carousel-caption d-none d-md-block text-start">
                                     <h1>Setlist</h1>
                                     <p>View the setlist.</p>
-                                    <button class="btn btn-lg btn-primary" onClick={() => setView(3)}>Main Set</button>
+                                    <a class="btn btn-lg btn-primary" href="/mainset">Main Set</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -420,7 +326,7 @@ function App() {
                                 <div class="carousel-caption d-none d-md-block text-end">
                                     <h1>Outfits</h1>
                                     <p>View the outfit tracker</p>
-                                    <button class="btn btn-lg btn-primary" onClick={() => setView(4)}>Outfits</button>
+                                    <a class="btn btn-lg btn-primary" href="/outfits">Outfits</a>
                                 </div>
                             </div>
                         </div>
@@ -461,34 +367,34 @@ function App() {
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Surprise Songs</h2>
                                 <p>The surprise song tracker lists what surprise songs were performed at each night!</p>
-                                <button class="btn btn-secondary" onClick={() => setView(1)}>Surprise Songs &raquo;</button>
+                                <a class="btn btn-secondary" href="/surprisesongs">Surprise Songs &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Discography</h2>
                                 <p>The discography tracker lists every song in Taylor's discography and color codes it based on whether or not it has been performed.</p>
-                                <button class="btn btn-secondary" onClick={() => setView(2)}>Discography &raquo;</button>
+                                <a class="btn btn-secondary" href="/discography">Discography &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Main Set</h2>
                                 <p>The main set page includes all of the sets and which songs are a part of them.</p>
-                                <button class="btn btn-secondary" onClick={() => setView(3)}>Main Set &raquo;</button>
+                                <a class="btn btn-secondary" href="/mainset">Main Set &raquo;</a>
                             </div>
                         </div>
                         <div class="row" style={{ paddingTop: '100px' }}>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Outfits</h2>
                                 <p>The outfit tracker lists what outfits Taylor wore for each night.</p>
-                                <button class="btn btn-secondary" onClick={() => setView(4)}>Outfits &raquo;</button>
+                                <a class="btn btn-secondary" href="/outfits">Outfits &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Events</h2>
                                 <p>The events view shows any upcoming events that Taylor might be at.</p>
-                                <button class="btn btn-secondary" onClick={() => setView(5)}>Events &raquo;</button>
+                                <a class="btn btn-secondary" href="/events">Events &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Links</h2>
                                 <p>The links page includes links to different streams, spreadsheets, and Taylor's official websites and social media.</p>
-                                <button class="btn btn-secondary" onClick={() => setView(6)}>Links &raquo;</button>
+                                <a class="btn btn-secondary" href="/links">Links &raquo;</a>
                             </div>
                         </div>
 
@@ -504,94 +410,11 @@ function App() {
                         </div>
                     </div>
                 </div>
-                {footer()}
             </div>
         )
     }
 
-    /*
-     * This if/else statement sets the view.
-     */
-    if (view === 0) {
-        return home();
-    } else if (view === 1) {
-        return (
-            <div>
-                {navbar()}
-                <SurpriseSongs />
-                {footer()}
-            </div>
-        );
-    } else if (view === 2) {
-        return (
-            <div>
-                {navbar()}
-                <Discography />
-                {footer()}
-            </div>
-        );
-    } else if (view === 3) {
-        return (
-            <div>
-                {navbar()}
-                <MainSet />
-                {footer()}
-            </div>
-        );
-    } else if (view === 4) {
-        return (
-            <div>
-                {navbar()}
-                <Outfits />
-                {footer()}
-            </div>
-        );
-    } else if (view === 5) {
-        return (
-            <div>
-                {navbar()}
-                <Events />
-                {footer()}
-            </div>
-        );
-    } else if (view === 6) {
-        return (
-            <div>
-                {navbar()}
-                <Links />
-                {footer()}
-            </div>
-        );
-    } else if (view === 7) {
-        return (
-            <div>
-                {navbar()}
-                <About />
-                {footer()}
-            </div>
-        );
-    } else {
-        return (
-            <div>
-                {navbar()}
-                <div>
-                    <div >
-                        <div class="page-title">
-                            <h1>Uh oh...</h1>
-                        </div>
-                        <div>
-                            <div style={{ textAlign: 'center' }}>
-                                <img class="tableCell" src={brokenRobot} alt="Broken Robot" style={{ width: '100px' }} />
-                                <p class="title">Error 404: Page Not Found</p>
-                                <p>The page you are looking for may have been moved, deleted, or possibly never existed.</p>
-                                <p>Click <button class="button-like-text" style={{ color: '#177e89' }} onClick={() => setView(0)}>here</button> to go back home.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        );
-    }
+    return home();
 }
 
 export default App;

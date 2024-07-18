@@ -32,7 +32,7 @@ root.render(
         <Route path="/outfits" element={<Outfits />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </Router>
+    </HashRouter>
     <Footer />
   </React.StrictMode>
 );

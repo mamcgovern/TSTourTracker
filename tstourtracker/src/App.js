@@ -310,7 +310,7 @@ function App() {
                                 <div class="carousel-caption d-none d-md-block text-end">
                                     <h1>Surprise!</h1>
                                     <p>View the surprise songs.</p>
-                                    <a class="btn btn-lg btn-primary" href="/surprisesongs">Surprise Songs</a>
+                                    <a class="btn btn-lg btn-primary" href="#/surprisesongs">Surprise Songs</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -318,7 +318,7 @@ function App() {
                                 <div class="carousel-caption d-none d-md-block text-start">
                                     <h1>Setlist</h1>
                                     <p>View the setlist.</p>
-                                    <a class="btn btn-lg btn-primary" href="/mainset">Main Set</a>
+                                    <a class="btn btn-lg btn-primary" href="#/mainset">Main Set</a>
                                 </div>
                             </div>
                             <div class="carousel-item">
@@ -326,7 +326,7 @@ function App() {
                                 <div class="carousel-caption d-none d-md-block text-end">
                                     <h1>Outfits</h1>
                                     <p>View the outfit tracker</p>
-                                    <a class="btn btn-lg btn-primary" href="/outfits">Outfits</a>
+                                    <a class="btn btn-lg btn-primary" href="#/outfits">Outfits</a>
                                 </div>
                             </div>
                         </div>
@@ -367,34 +367,34 @@ function App() {
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Surprise Songs</h2>
                                 <p>The surprise song tracker lists what surprise songs were performed at each night!</p>
-                                <a class="btn btn-secondary" href="/surprisesongs">Surprise Songs &raquo;</a>
+                                <a class="btn btn-secondary" href="#/surprisesongs">Surprise Songs &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Discography</h2>
                                 <p>The discography tracker lists every song in Taylor's discography and color codes it based on whether or not it has been performed.</p>
-                                <a class="btn btn-secondary" href="/discography">Discography &raquo;</a>
+                                <a class="btn btn-secondary" href="#/discography">Discography &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Main Set</h2>
                                 <p>The main set page includes all of the sets and which songs are a part of them.</p>
-                                <a class="btn btn-secondary" href="/mainset">Main Set &raquo;</a>
+                                <a class="btn btn-secondary" href="#/mainset">Main Set &raquo;</a>
                             </div>
                         </div>
                         <div class="row" style={{ paddingTop: '100px' }}>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Outfits</h2>
                                 <p>The outfit tracker lists what outfits Taylor wore for each night.</p>
-                                <a class="btn btn-secondary" href="/outfits">Outfits &raquo;</a>
+                                <a class="btn btn-secondary" href="#/outfits">Outfits &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Events</h2>
                                 <p>The events view shows any upcoming events that Taylor might be at.</p>
-                                <a class="btn btn-secondary" href="/events">Events &raquo;</a>
+                                <a class="btn btn-secondary" href="#/events">Events &raquo;</a>
                             </div>
                             <div class="col-lg-4">
                                 <h2 class="fw-normal">Links</h2>
                                 <p>The links page includes links to different streams, spreadsheets, and Taylor's official websites and social media.</p>
-                                <a class="btn btn-secondary" href="/links">Links &raquo;</a>
+                                <a class="btn btn-secondary" href="#/links">Links &raquo;</a>
                             </div>
                         </div>
 

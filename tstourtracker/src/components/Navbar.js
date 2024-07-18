@@ -16,7 +16,7 @@ const Navbar = () => {
                 <nav className="navbar navbar-expand-lg bg-body-tertiary" aria-label="Navbar">
                     <div className="container-fluid">
                         {/* Brand */}
-                        <a className="button-like-text navbar-brand col-lg-3 me-0" href="/">TS Tour Tracker</a>
+                        <a className="button-like-text navbar-brand col-lg-3 me-0" href="#/">TS Tour Tracker</a>
                         {/* Navbar toggler */}
                         <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={showNavbar ? "true" : "false"} aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
@@ -25,25 +25,25 @@ const Navbar = () => {
                         <div className={"collapse navbar-collapse" + (showNavbar ? " show" : "")} id="navbarsExample11">
                             <ul className="navbar-nav justify-content-lg-center">
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/">Home</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/">Home</a>
                                 </li>
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/surprisesongs">Surprise Songs</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/surprisesongs">Surprise Songs</a>
                                 </li>
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/discography">Discography</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/discography">Discography</a>
                                 </li>
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/mainset">Main Set</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/mainset">Main Set</a>
                                 </li>
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/outfits">Outfits</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/outfits">Outfits</a>
                                 </li>
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/events">Events</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/events">Events</a>
                                 </li>
                                 <li className="nav-item" style={{ margin: '5px' }}>
-                                    <a className="btn btn-outline-light p3 lh-1" href="/links">Links</a>
+                                    <a className="btn btn-outline-light p3 lh-1" href="#/links">Links</a>
                                 </li>
                             </ul>
                         </div>

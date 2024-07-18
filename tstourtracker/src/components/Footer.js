@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div style={{ paddingTop: '100px' }}>
             <footer class="container">
-                <p class="col-md-4 mb-0 text-body-secondary"><a class="nav-link px-2 text-body-secondary" href="/about">&copy; 2024 TS Tour Tracker</a></p>
+                <p class="col-md-4 mb-0 text-body-secondary"><a class="nav-link px-2 text-body-secondary" href="#/about">&copy; 2024 TS Tour Tracker</a></p>
             </footer>
         </div>
     );

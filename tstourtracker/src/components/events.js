@@ -2,6 +2,8 @@ import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Calendar from 'react-calendar';
+import 'react-calendar/dist/Calendar.css';
 
 import moment from 'moment-timezone';
 import Select from 'react-select';
@@ -14,6 +16,7 @@ const Events = () => {
 
     const [showAllEvents, setShowAllEvents] = useState(false);
     const [activeOption, setActiveOption] = useState('America/Chicago');
+    const [calendarView, setCalendarView] = useState(false);
 
     const timeZones = moment.tz.names().map(zone => ({
         value: zone,
@@ -58,29 +61,25 @@ const Events = () => {
     };
 
     const makeTimeZoneMenu = () => {
-        if (isSmallScreen) {
-            return (
-                <div style={{ width: 'auto', margin: 'auto', textAlign: 'left' }}>
-                    <Select
-                        options={timeZones}
-                        onChange={handleOptionChange}
-                        value={timeZones.find(zone => zone.value === activeOption)}
-                        isSearchable
-                    />
-                </div>
-            );
-        } else {
-            return (
-                <div style={{ width: '25%', margin: 'auto', textAlign: 'left' }}>
-                    <Select
-                        options={timeZones}
-                        onChange={handleOptionChange}
-                        value={timeZones.find(zone => zone.value === activeOption)}
-                        isSearchable
-                    />
-                </div>
-            );
-        }
+        return (
+            <div style={{ width: isSmallScreen ? 'auto' : '25%', margin: 'auto', textAlign: 'left' }}>
+                <Select
+                    options={timeZones}
+                    onChange={handleOptionChange}
+                    value={timeZones.find(zone => zone.value === activeOption)}
+                    isSearchable
+                />
+            </div>
+        );
+    };
+
+    const makeViewMenu = () => {
+        return (
+            <div style={{ textAlign: 'center', margin: '10px' }}>
+                <button className={`btn ${calendarView ? 'btn-outline-secondary' : 'btn-primary'}`} style={{ margin: '10px' }} onClick={() => setCalendarView(false)}>List View</button>
+                <button className={`btn ${calendarView ? 'btn-primary' : 'btn-outline-secondary'}`} style={{ margin: '10px' }} onClick={() => setCalendarView(true)}>Calendar View</button>
+            </div>
+        );
     };
 
     const singleEvent = (event) => {
@@ -125,6 +124,32 @@ const Events = () => {
         </div>
     ));
 
+    const eventsForCalendar = events.map(event => {
+        const [month, day, year] = event.date.split('/').map(Number);
+        const eventDate = new Date(2000 + year, month - 1, day);
+        return {
+            ...event,
+            date: eventDate
+        };
+    });
+
+    const renderCalendar = () => {
+        return (
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                <Calendar
+                    tileContent={({ date }) => {
+                        const dayEvents = eventsForCalendar.filter(event => event.date.toDateString() === date.toDateString());
+                        return dayEvents.map(event => (
+                            <div key={event.title}>
+                                {event.title}
+                            </div>
+                        ));
+                    }}
+                />
+            </div>
+        );
+    };
+
     return (
         <div>
             <div className="container">
@@ -136,8 +161,11 @@ const Events = () => {
                 <div style={{ textAlign: "right" }}>
                     {makeTimeZoneMenu()}
                 </div>
+                <div>
+                    {makeViewMenu()}
+                </div>
                 <hr className="featurette-divider" />
-                {allEvents}
+                {calendarView ? renderCalendar() : allEvents}
             </div>
         </div>
     );

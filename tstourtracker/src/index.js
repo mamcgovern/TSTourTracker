@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 import './index.css';
 import Home from './App';
@@ -16,10 +16,11 @@ import SurpriseSongs from './components/surpriseSongs';
 import NotFound from './components/NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <Navbar />
-    <Router basename="">
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/surprisesongs" element={<SurpriseSongs />} />

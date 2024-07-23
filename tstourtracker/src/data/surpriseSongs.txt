@@ -1,0 +1,21 @@
+        {
+            "city": "",
+            "night": ,
+            "date": "/24",
+            "songs": [
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
+        }

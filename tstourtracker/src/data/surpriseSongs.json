@@ -2463,6 +2463,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Gelsenkirchen",
+            "night": 2,
+            "date": "7/18/24",
+            "songs": [
+                {
+                    "title": "Speak Now & Hey Stephen",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "this is me trying & Labyrinth",
+                    "album": "folklore",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Gelsenkirchen",
+            "night": 3,
+            "date": "7/19/24",
+            "songs": [
+                {
+                    "title": "Paper Rings & Stay Stay Stay",
+                    "album": "Lover",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "it's time to go & Better Man",
+                    "album": "evermore",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

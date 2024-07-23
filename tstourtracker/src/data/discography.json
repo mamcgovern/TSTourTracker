@@ -1470,7 +1470,7 @@
                 {
                     "title": "Speak Now",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Dear John",
@@ -1612,7 +1612,7 @@
                 {
                     "title": "Stay Stay Stay",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Last Time",
@@ -1672,7 +1672,7 @@
                 {
                     "title": "Better Man",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Nothing New",
@@ -1963,7 +1963,7 @@
                 {
                     "title": "Paper Rings",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Cornelia Street",
@@ -2202,7 +2202,7 @@
                 {
                     "title": "it's time to go",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 }
             ]
         },

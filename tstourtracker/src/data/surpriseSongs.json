@@ -2505,6 +2505,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Hamburg",
+            "night": 1,
+            "date": "7/23/24",
+            "songs": [
+                {
+                    "title": "Teardrops On My Guitar & The Last Time",
+                    "album": "Taylor Swift",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "We Were Happy & happiness",
+                    "album": "Fearless",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Hamburg",
+            "night": 2,
+            "date": "7/24/24",
+            "songs": [
+                {
+                    "title": "The Last Great American Dynasty & Run",
+                    "album": "folklore",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Nothing New & Dear Reader",
+                    "album": "Red",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

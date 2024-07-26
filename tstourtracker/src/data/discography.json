@@ -1423,7 +1423,7 @@
                 {
                     "title" : "We Were Happy",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "That's When",
@@ -1617,7 +1617,7 @@
                 {
                     "title": "The Last Time",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Holy Ground",
@@ -1677,7 +1677,7 @@
                 {
                     "title": "Nothing New",
                     "setlist": "true",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Babe",
@@ -1702,7 +1702,7 @@
                 {
                     "title": "Run",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Very First Night",
@@ -2040,7 +2040,7 @@
                 {
                     "title": "the last great american dynasty",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "exile",
@@ -2152,7 +2152,7 @@
                 {
                     "title": "happiness",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "dorothea",

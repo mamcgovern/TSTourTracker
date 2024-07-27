@@ -2547,6 +2547,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Munich",
+            "night": 1,
+            "date": "7/27/24",
+            "songs": [
+                {
+                    "title": "Fresh Out The Slammer & You Are In Love",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "ivy & Call It What You Want",
+                    "album": "evermore",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

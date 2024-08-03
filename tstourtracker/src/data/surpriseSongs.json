@@ -2589,6 +2589,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Warsaw",
+            "night": 1,
+            "date": "8/1/24",
+            "songs": [
+                {
+                    "title": "mirrorball & Clara Bow",
+                    "album": "folklore",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Suburban Legends & New Year's Day",
+                    "album": "1989",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Warsaw",
+            "night": 2,
+            "date": "8/2/24",
+            "songs": [
+                {
+                    "title": "I Can Fix Him (No Really, I Can) & I Can See You",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Red & Maroon",
+                    "album": "Red",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

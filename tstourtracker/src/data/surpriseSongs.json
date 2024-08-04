@@ -2631,6 +2631,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Warsaw",
+            "night": 3,
+            "date": "8/3/24",
+            "songs": [
+                {
+                    "title": "The Black Dog & exile",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Today Was A Fairytale & I Think He Knows",
+                    "album": "Fearless",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

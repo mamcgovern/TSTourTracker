@@ -2694,6 +2694,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "London",
+            "night": 6,
+            "date": "8/17/24",
+            "songs": [
+                {
+                    "title": "I Did Something Bad",
+                    "album": "reputation",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "My Boy Only Breaks His Favorite Toys & coney island",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

@@ -1475,7 +1475,7 @@
                 {
                     "title": "Dear John",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Mean",
@@ -1851,7 +1851,7 @@
                 {
                     "title": "End Game",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Did Something Bad",
@@ -1978,7 +1978,7 @@
                 {
                     "title": "London Boy",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Soon You'll Get Better",

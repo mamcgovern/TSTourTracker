@@ -2652,6 +2652,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "London",
+            "night": 4,
+            "date": "8/15/24",
+            "songs": [
+                {
+                    "title": "Everything Has Changed & End Game & Thinking Out Loud",
+                    "album": "Red",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": "Ed Sheeran"
+                },
+                {
+                    "title": "King of My Heart & The Alchemy",
+                    "album": "reputation",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "London",
+            "night": 5,
+            "date": "8/16/24",
+            "songs": [
+                {
+                    "title": "London Boy",
+                    "album": "Lover",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "Dear John & Sad Beautiful Tragic",
+                    "album": "Speak Now",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

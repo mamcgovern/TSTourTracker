@@ -62,6 +62,7 @@ import midnightsBodysuit_abs from '../images/outfits/midnights-bodysuit/abs.png'
 import midnightsBodysuit_lines from '../images/outfits/midnights-bodysuit/lines.png';
 import midnightsBodysuit_scallops from '../images/outfits/midnights-bodysuit/scallops.png';
 import midnightsBodysuit_sidepods from '../images/outfits/midnights-bodysuit/sidepods.png';
+import midnightsBodysuit_moonstone from '../images/outfits/midnights-bodysuit/moonstone.jpeg'
 
 import midnightsJacket_blue from '../images/outfits/midnights-jacket/blue.png';
 import midnightsJacket_lightPink from '../images/outfits/midnights-jacket/light-pink.png';
@@ -1504,6 +1505,12 @@ const Outfits = () => {
                         {item.outfits.midnightsBodysuit}
                     </td>
                 );
+            } else if (item.outfits.midnightsBodysuit === "Moonstone") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#D6CEE1", backgroundColor: "#245E86" }}>
+                        {item.outfits.midnightsBodysuit}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1534,6 +1541,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#655bcf", backgroundColor: "#d0e2f3" }}>
                         <img src={midnightsBodysuit_sidepods} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } else if (item.outfits.midnightsBodysuit === "Moonstone") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#D6CEE1", backgroundColor: "#245E86" }}>
+                        <img src={midnightsBodysuit_moonstone} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {

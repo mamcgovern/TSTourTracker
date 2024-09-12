@@ -1378,7 +1378,7 @@
                 {
                     "title" : "Change",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Jump Then Fall",
@@ -2351,7 +2351,7 @@
                 {
                     "title": "So Long, London",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "But Daddy, I Love Him",

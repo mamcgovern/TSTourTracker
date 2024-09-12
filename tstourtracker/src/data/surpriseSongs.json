@@ -2715,6 +2715,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "London",
+            "night": 7,
+            "date": "8/19/24",
+            "songs": [
+                {
+                    "title": "Long Live & Change",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Archer & You're On Your Own, Kid",
+                    "album": "Lover",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "London",
+            "night": 8,
+            "date": "8/20/24",
+            "songs": [
+                {
+                    "title": "Death by a Thousand Cuts & Getaway Car",
+                    "album": "Lover",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "So Long, London",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

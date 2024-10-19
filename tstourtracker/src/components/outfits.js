@@ -85,6 +85,7 @@ import redShirt_notTV from '../images/outfits/red-shirt/not-tv.png';
 import redShirt_trouble from '../images/outfits/red-shirt/trouble.png';
 
 import reputationJumpsuit from '../images/outfits/reputation-jumpsuit/red-and-black.webp';
+import reputationJumpsuit_gold from '../images/outfits/reputation-jumpsuit/gold.jpeg';
 
 import speakNow_blue from '../images/outfits/speak-now-gown/blue.webp';
 import speakNow_champagne from '../images/outfits/speak-now-gown/champagne.png';
@@ -646,6 +647,12 @@ const Outfits = () => {
                         {item.outfits.reputationJumpsuit}
                     </td>
                 );
+            } else if (item.outfits.reputationJumpsuit === "Gold") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CEA986", backgroundColor: "#000000" }}>
+                        {item.outfits.reputationJumpsuit}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -658,6 +665,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ff0000", backgroundColor: "#000000" }}>
                         <img src={reputationJumpsuit} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } else if (item.outfits.reputationJumpsuit === "Gold") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CEA986", backgroundColor: "#000000" }}>
+                        <img src={reputationJumpsuit_gold} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {

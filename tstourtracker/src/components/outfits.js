@@ -76,6 +76,7 @@ import midnightsShirt_iridescent from '../images/outfits/midnights-shirt/iridesc
 import midnightsShirt_pink from '../images/outfits/midnights-shirt/pink.png';
 import midnightsShirt_purple from '../images/outfits/midnights-shirt/purple.png';
 import midnightsShirt_silver from '../images/outfits/midnights-shirt/silver.png';
+import midnightsShirt_purplesequin from '../images/outfits/midnights-shirt/purplesequin.jpeg';
 
 import redShirt_aLot from '../images/outfits/red-shirt/a-lot.png';
 import redShirt_aboutMe from '../images/outfits/red-shirt/about-me.png';
@@ -1452,6 +1453,12 @@ const Outfits = () => {
                         {item.outfits.midnightsShirt}
                     </td>
                 );
+            } else if (item.outfits.midnightsShirt === "Purple Sequin") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#7C3AC6", backgroundColor: "#EAC9F6" }}>
+                        {item.outfits.midnightsShirt}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1496,7 +1503,14 @@ const Outfits = () => {
                         <img src={midnightsShirt_blue} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
-            } else {
+            } else if (item.outfits.midnightsShirt === "Purple Sequin") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#7C3AC6", backgroundColor: "#EAC9F6" }}>
+                        <img src={midnightsShirt_purplesequin} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            }
+             else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
                         {item.outfits.midnightsShirt}

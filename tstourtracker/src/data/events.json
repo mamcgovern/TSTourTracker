@@ -961,7 +961,7 @@
             "time": ""
         },
         {
-            "date": "9/5/2024",
+            "date": "9/5/24",
             "title": "Chiefs vs. Ravens",
             "category": "Football",
             "time": "7:20 PM"
@@ -1129,16 +1129,16 @@
             "time": ""
         },
         {
-            "date": "11/30/24",
-            "title": "The Anthology and Eras Tour Book Release (online)",
-            "category": "Release",
-            "time": ""
-        },
-        {
             "date": "11/29/24",
             "title": "Chiefs vs. Raiders",
             "category": "Football",
             "time": "2:00 PM"
+        },
+        {
+            "date": "11/30/24",
+            "title": "The Anthology and Eras Tour Book Release (online)",
+            "category": "Release",
+            "time": ""
         },
         {
             "date": "12/6/24",

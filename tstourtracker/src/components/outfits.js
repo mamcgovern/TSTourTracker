@@ -23,6 +23,7 @@ import loverGuitar_blue from '../images/outfits/lover-guitar/blue.jpeg';
 import loverGuitar_purple from '../images/outfits/lover-guitar/purple.png';
 
 import fearless_goldNoodle from '../images/outfits/fearless-dress/gold-noodle.png';
+import fearless_blue from '../images/outfits/fearless-dress/blue.jpeg';
 import fearless_silverNoodle from '../images/outfits/fearless-dress/silver-noodle.webp';
 import fearless_goldShort from '../images/outfits/fearless-dress/gold-short.png';
 import fearless_silverShort from '../images/outfits/fearless-dress/silver-and-black.png';
@@ -370,6 +371,12 @@ const Outfits = () => {
                         {item.outfits.fearlessDress}
                     </td>
                 )
+            } else if (item.outfits.fearlessDress === "Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#5E7CAA", backgroundColor: "#EEF7FF" }}>
+                        {item.outfits.fearlessDress}
+                    </td>
+                )
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -406,6 +413,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#fce598", backgroundColor: "#000000" }}>
                         <img src={fearless_tiger} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                )
+            } else if (item.outfits.fearlessDress === "Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#5E7CAA", backgroundColor: "#EEF7FF" }}>
+                        <img src={fearless_blue} style={{ maxWidth: '100px' }}></img>
                     </td>
                 )
             } else {

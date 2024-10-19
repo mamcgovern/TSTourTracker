@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c58d84a.css",
-    "main.js": "/static/js/main.35324515.js",
+    "main.js": "/static/js/main.e28feb8e.js",
     "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
     "static/media/purple.png": "/static/media/purple.2227c020e2a74c63def4.png",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
@@ -10,7 +10,7 @@
     "static/media/green.png": "/static/media/green.e2bc91b558e7d67e3fd1.png",
     "static/media/outfits.png": "/static/media/outfits.a44c3e77dca7956ff7a2.png",
     "static/media/scallops.png": "/static/media/scallops.e18a80ce9cb9cd825408.png",
-    "static/media/blue.jpeg": "/static/media/blue.3a36da5e9d11bdfe67ea.jpeg",
+    "static/media/blue.jpeg": "/static/media/blue.e18b53abee488861bf12.jpeg",
     "static/media/magenta.png": "/static/media/magenta.5617ec26e3bcbb3319e1.png",
     "static/media/pink.png": "/static/media/pink.aa38a2b5f375d670c673.png",
     "static/media/moonstone.jpeg": "/static/media/moonstone.245a9ea519fa9bfd864b.jpeg",
@@ -66,10 +66,10 @@
     "static/media/dark-purple.jpeg": "/static/media/dark-purple.d31ac65116a8ca77c667.jpeg",
     "index.html": "/index.html",
     "main.8c58d84a.css.map": "/static/css/main.8c58d84a.css.map",
-    "main.35324515.js.map": "/static/js/main.35324515.js.map"
+    "main.e28feb8e.js.map": "/static/js/main.e28feb8e.js.map"
   },
   "entrypoints": [
     "static/css/main.8c58d84a.css",
-    "static/js/main.35324515.js"
+    "static/js/main.e28feb8e.js"
   ]
 }

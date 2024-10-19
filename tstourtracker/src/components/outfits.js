@@ -76,7 +76,7 @@ import midnightsShirt_iridescent from '../images/outfits/midnights-shirt/iridesc
 import midnightsShirt_pink from '../images/outfits/midnights-shirt/pink.png';
 import midnightsShirt_purple from '../images/outfits/midnights-shirt/purple.png';
 import midnightsShirt_silver from '../images/outfits/midnights-shirt/silver.png';
-import midnightsShirt_purplesequin from '../images/outfits/midnights-shirt/purplesequin.jpeg';
+import midnightsShirt_purplesequin from '../images/outfits/midnights-shirt/purplesequin.png';
 
 import redShirt_aLot from '../images/outfits/red-shirt/a-lot.png';
 import redShirt_aboutMe from '../images/outfits/red-shirt/about-me.png';
@@ -100,7 +100,7 @@ import speakNow_purpleWaves from '../images/outfits/speak-now-gown/purpleWaves.j
 import surpriseSong_blue from '../images/outfits/surprise-song-dress/blue.webp';
 import surpriseSong_pink from '../images/outfits/surprise-song-dress/pink.png';
 import surpriseSong_orange from '../images/outfits/surprise-song-dress/orange.webp';
-import surpriseSong_redblue from '../images/outfits/surprise-song-dress/redblue.jpeg';
+import surpriseSong_redblue from '../images/outfits/surprise-song-dress/redblue.png';
 
 import ttpdDress_ruining from '../images/outfits/ttpd-dress/Ruiningmylife.png';
 import ttpdDress_shouldbe from '../images/outfits/ttpd-dress/Youshouldbe.jpeg';

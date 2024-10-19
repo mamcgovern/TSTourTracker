@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.8c58d84a.css",
-    "main.js": "/static/js/main.3217c129.js",
+    "main.js": "/static/js/main.bfe71421.js",
     "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
+    "static/media/purplesequin.png": "/static/media/purplesequin.8b238c5bb3bfa4bc5e12.png",
+    "static/media/redblue.png": "/static/media/redblue.bad039238133f22ea10c.png",
     "static/media/purple.png": "/static/media/purple.2227c020e2a74c63def4.png",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
     "static/media/announcement.png": "/static/media/announcement.91d0fdc16b7cdb7bf2b4.png",
@@ -29,7 +31,6 @@
     "static/media/blue.png": "/static/media/blue.4508dac09b30afcfbbf5.png",
     "static/media/swirls.png": "/static/media/swirls.cb6350eb1cbe0773090b.png",
     "static/media/blue-and-gold.png": "/static/media/blue-and-gold.611d757d44b488edfa68.png",
-    "static/media/purplesequin.jpeg": "/static/media/purplesequin.17c368ccca335d4f85cc.jpeg",
     "static/media/Youshouldbe.jpeg": "/static/media/Youshouldbe.085b542c53aa91c56f5b.jpeg",
     "static/media/gold.png": "/static/media/gold.558348d6b0a0e6ba102a.png",
     "static/media/iridescent.png": "/static/media/iridescent.36ed62c3c10387e3c319.png",
@@ -60,7 +61,6 @@
     "static/media/abs.png": "/static/media/abs.e9c4140cd7c28f8ed145.png",
     "static/media/purpleWaves.jpeg": "/static/media/purpleWaves.0da8ec4938815188604c.jpeg",
     "static/media/green.webp": "/static/media/green.9891a24627c6278df684.webp",
-    "static/media/redblue.jpeg": "/static/media/redblue.45ea607ddba7ea04441f.jpeg",
     "static/media/orange.webp": "/static/media/orange.e844e850777651618d78.webp",
     "static/media/tiger.jpeg": "/static/media/tiger.a0df5ab772bcfcb857c0.jpeg",
     "static/media/other.jpg": "/static/media/other.495d65a7068f4bd5d672.jpg",
@@ -69,10 +69,10 @@
     "static/media/dark-purple.jpeg": "/static/media/dark-purple.d31ac65116a8ca77c667.jpeg",
     "index.html": "/index.html",
     "main.8c58d84a.css.map": "/static/css/main.8c58d84a.css.map",
-    "main.3217c129.js.map": "/static/js/main.3217c129.js.map"
+    "main.bfe71421.js.map": "/static/js/main.bfe71421.js.map"
   },
   "entrypoints": [
     "static/css/main.8c58d84a.css",
-    "static/js/main.3217c129.js"
+    "static/js/main.bfe71421.js"
   ]
 }

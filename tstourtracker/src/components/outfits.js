@@ -99,6 +99,7 @@ import speakNow_purpleWaves from '../images/outfits/speak-now-gown/purpleWaves.j
 import surpriseSong_blue from '../images/outfits/surprise-song-dress/blue.webp';
 import surpriseSong_pink from '../images/outfits/surprise-song-dress/pink.png';
 import surpriseSong_orange from '../images/outfits/surprise-song-dress/orange.webp';
+import surpriseSong_redblue from '../images/outfits/surprise-song-dress/redblue.jpeg';
 
 import ttpdDress_ruining from '../images/outfits/ttpd-dress/Ruiningmylife.png';
 import ttpdDress_shouldbe from '../images/outfits/ttpd-dress/Youshouldbe.jpeg';
@@ -1685,6 +1686,12 @@ const Outfits = () => {
                         {item.outfits.surpriseSongDress}
                     </td>
                 );
+            } else if (item.outfits.surpriseSongDress === "Red & Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#077FB1", backgroundColor: "#F30050" }}>
+                        {item.outfits.surpriseSongDress}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1709,6 +1716,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffd670", backgroundColor: "#fb8500" }}>
                         <img src={surpriseSong_orange} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } else if (item.outfits.surpriseSongDress === "Red & Blue") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#077FB1", backgroundColor: "#F30050" }}>
+                        <img src={surpriseSong_redblue} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {

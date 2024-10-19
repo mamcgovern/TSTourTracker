@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c58d84a.css",
-    "main.js": "/static/js/main.ee1b503e.js",
+    "main.js": "/static/js/main.3217c129.js",
     "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
     "static/media/purple.png": "/static/media/purple.2227c020e2a74c63def4.png",
     "static/media/surpriseSongs.png": "/static/media/surpriseSongs.4d2c00a7afb82f5e6bcd.png",
@@ -53,7 +53,7 @@
     "static/media/trouble.png": "/static/media/trouble.f8c0f916345d261ee04f.png",
     "static/media/a-lot.png": "/static/media/a-lot.f6f28de51677f414ee2c.png",
     "static/media/silver-noodle.webp": "/static/media/silver-noodle.17a0e16f025d296fe7fb.webp",
-    "static/media/gold.jpeg": "/static/media/gold.99ea90054d3c768c16f9.jpeg",
+    "static/media/gold.jpeg": "/static/media/gold.c63c83800227a6067681.jpeg",
     "static/media/never-ever.png": "/static/media/never-ever.c75853331038263418e5.png",
     "static/media/red-and-black.webp": "/static/media/red-and-black.32b888dcf78c79331248.webp",
     "static/media/football.jpeg": "/static/media/football.2158423fe7ccd53001be.jpeg",
@@ -69,10 +69,10 @@
     "static/media/dark-purple.jpeg": "/static/media/dark-purple.d31ac65116a8ca77c667.jpeg",
     "index.html": "/index.html",
     "main.8c58d84a.css.map": "/static/css/main.8c58d84a.css.map",
-    "main.ee1b503e.js.map": "/static/js/main.ee1b503e.js.map"
+    "main.3217c129.js.map": "/static/js/main.3217c129.js.map"
   },
   "entrypoints": [
     "static/css/main.8c58d84a.css",
-    "static/js/main.ee1b503e.js"
+    "static/js/main.3217c129.js"
   ]
 }

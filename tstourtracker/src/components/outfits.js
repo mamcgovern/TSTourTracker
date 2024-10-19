@@ -1702,7 +1702,7 @@ const Outfits = () => {
                 );
             } else if (item.outfits.surpriseSongDress === "Red & Blue") {
                 return (
-                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#077FB1", backgroundColor: "#F30050" }}>
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CFE1F3", backgroundColor: "#F30050" }}>
                         {item.outfits.surpriseSongDress}
                     </td>
                 );
@@ -1734,7 +1734,7 @@ const Outfits = () => {
                 );
             } else if (item.outfits.surpriseSongDress === "Red & Blue") {
                 return (
-                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#077FB1", backgroundColor: "#F30050" }}>
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CFE1F3", backgroundColor: "#F30050" }}>
                         <img src={surpriseSong_redblue} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );

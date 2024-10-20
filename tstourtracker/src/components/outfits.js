@@ -77,6 +77,7 @@ import midnightsShirt_pink from '../images/outfits/midnights-shirt/pink.png';
 import midnightsShirt_purple from '../images/outfits/midnights-shirt/purple.png';
 import midnightsShirt_silver from '../images/outfits/midnights-shirt/silver.png';
 import midnightsShirt_purplesequin from '../images/outfits/midnights-shirt/purplesequin.png';
+import midnightsShirt_icysilver from '../images/outfits/midnights-shirt/IcySilver.jpeg';
 
 import redShirt_aLot from '../images/outfits/red-shirt/a-lot.png';
 import redShirt_aboutMe from '../images/outfits/red-shirt/about-me.png';
@@ -96,11 +97,13 @@ import speakNow_purple from '../images/outfits/speak-now-gown/purple.png';
 import speakNow_swirls from '../images/outfits/speak-now-gown/swirls.png';
 import speakNow_white from '../images/outfits/speak-now-gown/white.webp';
 import speakNow_purpleWaves from '../images/outfits/speak-now-gown/purpleWaves.jpeg';
+import speakNow_elsa from '../images/outfits/speak-now-gown/Elsa.jpeg';
 
 import surpriseSong_blue from '../images/outfits/surprise-song-dress/blue.webp';
 import surpriseSong_pink from '../images/outfits/surprise-song-dress/pink.png';
 import surpriseSong_orange from '../images/outfits/surprise-song-dress/orange.webp';
 import surpriseSong_redblue from '../images/outfits/surprise-song-dress/redblue.png';
+import surpriseSong_supernova from '../images/outfits/surprise-song-dress/Supernova.jpeg';
 
 import ttpdDress_ruining from '../images/outfits/ttpd-dress/Ruiningmylife.png';
 import ttpdDress_shouldbe from '../images/outfits/ttpd-dress/Youshouldbe.jpeg';
@@ -575,6 +578,12 @@ const Outfits = () => {
                         {item.outfits.speakNowDress}
                     </td>
                 );
+            } else if (item.outfits.speakNowDress === "Elsa") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#65AAC6" }}>
+                        {item.outfits.speakNowDress}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -630,6 +639,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#c884f2", backgroundColor: "#f9f1fe" }}>
                         <img src={speakNow_purpleWaves} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } else if (item.outfits.speakNowDress === "Elsa") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#65AAC6" }}>
+                        <img src={speakNow_elsa} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {
@@ -1459,6 +1474,12 @@ const Outfits = () => {
                         {item.outfits.midnightsShirt}
                     </td>
                 );
+            } else if (item.outfits.midnightsShirt === "Icy Silver") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ACACB7" }}>
+                        {item.outfits.midnightsShirt}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1509,7 +1530,13 @@ const Outfits = () => {
                         <img src={midnightsShirt_purplesequin} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
-            }
+            }else if (item.outfits.midnightsShirt === "Icy Silver") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#000000", backgroundColor: "#ACACB7" }}>
+                        <img src={midnightsShirt_icysilver} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } 
              else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1700,9 +1727,15 @@ const Outfits = () => {
                         {item.outfits.surpriseSongDress}
                     </td>
                 );
-            } else if (item.outfits.surpriseSongDress === "Red & Blue") {
+            } else if (item.outfits.surpriseSongDress === "Betta Fish") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CFE1F3", backgroundColor: "#F30050" }}>
+                        {item.outfits.surpriseSongDress}
+                    </td>
+                );
+            } else if (item.outfits.surpriseSongDress === "Supernova") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#3119D6" }}>
                         {item.outfits.surpriseSongDress}
                     </td>
                 );
@@ -1732,10 +1765,16 @@ const Outfits = () => {
                         <img src={surpriseSong_orange} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
-            } else if (item.outfits.surpriseSongDress === "Red & Blue") {
+            } else if (item.outfits.surpriseSongDress === "Betta Fish") {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CFE1F3", backgroundColor: "#F30050" }}>
                         <img src={surpriseSong_redblue} style={{ maxWidth: '100px' }}></img>
+                    </td>
+                );
+            } else if (item.outfits.surpriseSongDress === "Supernova") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#ffffff", backgroundColor: "#3119D6" }}>
+                        <img src={surpriseSong_supernova} style={{ maxWidth: '100px' }}></img>
                     </td>
                 );
             } else {

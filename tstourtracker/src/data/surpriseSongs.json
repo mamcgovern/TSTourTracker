@@ -2799,6 +2799,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Miami",
+            "night": 3,
+            "date": "10/20/24",
+            "songs": [
+                {
+                    "title": "Out of the Woods & All You Had To Do Was Stay",
+                    "album": "1989",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "mirrorball & Guilty As Sin",
+                    "album": "folklore",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

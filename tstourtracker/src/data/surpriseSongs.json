@@ -2820,6 +2820,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "New Orleans",
+            "night": 1,
+            "date": "10/25/24",
+            "songs": [
+                {
+                    "title": "Our Song & Call It What You Want",
+                    "album": "Taylor Swift",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Black Dog & Haunted",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

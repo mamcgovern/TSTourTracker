@@ -105,6 +105,7 @@ import surpriseSong_orange from '../images/outfits/surprise-song-dress/orange.we
 import surpriseSong_redblue from '../images/outfits/surprise-song-dress/redblue.png';
 import surpriseSong_supernova from '../images/outfits/surprise-song-dress/Supernova.jpeg';
 import surpriseSong_sunrise from '../images/outfits/surprise-song-dress/sunrise.jpeg';
+import surpriseSong_tidepod from '../images/outfits/surprise-song-dress/tidepod.jpeg';
 
 import ttpdDress_ruining from '../images/outfits/ttpd-dress/Ruiningmylife.png';
 import ttpdDress_shouldbe from '../images/outfits/ttpd-dress/Youshouldbe.jpeg';
@@ -1746,6 +1747,12 @@ const Outfits = () => {
                         {item.outfits.surpriseSongDress}
                     </td>
                 );
+            } else if (item.outfits.surpriseSongDress === "Tide Pod") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CB2B2A", backgroundColor: "#6BD1F7" }}>
+                        {item.outfits.surpriseSongDress}
+                    </td>
+                );
             } else {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px" }}>
@@ -1788,6 +1795,12 @@ const Outfits = () => {
                 return (
                     <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#F30050", backgroundColor: "#FEA647" }}>
                         <img src={surpriseSong_sunrise} style={{ maxWidth: '100px' }} alt="Taylor Swift on stage wearing a pink and orange dress for the Surprise Songs."></img>
+                    </td>
+                );
+            } else if (item.outfits.surpriseSongDress === "Tide Pod") {
+                return (
+                    <td style={{ borderBottom: "1px solid gray", minWidth: "100px", border: "1px solid gray", padding: "10px", color: "#CB2B2A", backgroundColor: "#6BD1F7" }}>
+                        <img src={surpriseSong_tidepod} style={{ maxWidth: '100px' }} alt="Taylor Swift on stage wearing a blue and orange dress for the Surprise Songs."></img>
                     </td>
                 );
             } else {

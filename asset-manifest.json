@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8c58d84a.css",
-    "main.js": "/static/js/main.9cd70d1d.js",
+    "main.js": "/static/js/main.808de25c.js",
     "static/media/Willow.jpeg": "/static/media/Willow.70761470f5e3432a1932.jpeg",
     "static/media/purplesequin.png": "/static/media/purplesequin.8b238c5bb3bfa4bc5e12.png",
     "static/media/redblue.png": "/static/media/redblue.bad039238133f22ea10c.png",
@@ -67,16 +67,17 @@
     "static/media/green.webp": "/static/media/green.9891a24627c6278df684.webp",
     "static/media/orange.webp": "/static/media/orange.e844e850777651618d78.webp",
     "static/media/tiger.jpeg": "/static/media/tiger.a0df5ab772bcfcb857c0.jpeg",
+    "static/media/tidepod.jpeg": "/static/media/tidepod.97674aaaceac039f60cd.jpeg",
     "static/media/other.jpg": "/static/media/other.495d65a7068f4bd5d672.jpg",
     "static/media/guitar_black.png": "/static/media/guitar_black.983804f8b1eb0f8a36a2.png",
     "static/media/guitar_white.png": "/static/media/guitar_white.e7b4a34d47bf00b6d57f.png",
     "static/media/dark-purple.jpeg": "/static/media/dark-purple.d31ac65116a8ca77c667.jpeg",
     "index.html": "/index.html",
     "main.8c58d84a.css.map": "/static/css/main.8c58d84a.css.map",
-    "main.9cd70d1d.js.map": "/static/js/main.9cd70d1d.js.map"
+    "main.808de25c.js.map": "/static/js/main.808de25c.js.map"
   },
   "entrypoints": [
     "static/css/main.8c58d84a.css",
-    "static/js/main.9cd70d1d.js"
+    "static/js/main.808de25c.js"
   ]
 }

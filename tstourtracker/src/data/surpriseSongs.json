@@ -812,7 +812,7 @@
                 },
                 {
                     "title": "i miss you, i'm sorry",
-                    "album": "other",
+                    "album": "Other",
                     "instrument": "piano",
                     "mashup": false,
                     "feature": "Gracie Abrams"
@@ -2836,6 +2836,27 @@
                 {
                     "title": "The Black Dog & Haunted",
                     "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "New Orleans",
+            "night": 2,
+            "date": "/24",
+            "songs": [
+                {
+                    "title": "Espresso & Is It Over Now & Please Please Please",
+                    "album": "1989",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": "Sabrina Carpenter"
+                },
+                {
+                    "title": "Hits Different & Welcome to New York",
+                    "album": "Midnights",
                     "instrument": "Piano",
                     "mashup": true,
                     "feature": null

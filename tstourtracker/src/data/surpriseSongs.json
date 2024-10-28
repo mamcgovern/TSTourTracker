@@ -2862,6 +2862,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "New Orleans",
+            "night": 3,
+            "date": "10/27/24",
+            "songs": [
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

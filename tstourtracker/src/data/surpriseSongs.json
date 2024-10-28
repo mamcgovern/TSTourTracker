@@ -2869,10 +2869,10 @@
             "date": "10/27/24",
             "songs": [
                 {
-                    "title": "Afterglow",
+                    "title": "Afterglow & Dress",
                     "album": "Lover",
                     "instrument": "Guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {

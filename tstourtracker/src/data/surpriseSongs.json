@@ -2883,6 +2883,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Indianapolis",
+            "night": 1,
+            "date": "11/1/24",
+            "songs": [
+                {
+                    "title": "The Albatross & Holy Ground",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Cold As You & exile",
+                    "album": "Taylor Swift",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

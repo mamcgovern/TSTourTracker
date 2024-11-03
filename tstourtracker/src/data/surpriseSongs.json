@@ -2918,10 +2918,10 @@
                     "feature": null
                 },
                 {
-                    "title": "Maroon & Cowboy Like Me",
+                    "title": "Maroon & cowboy like me",
                     "album": "Midnights",
                     "instrument": "Piano",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 }
             ]

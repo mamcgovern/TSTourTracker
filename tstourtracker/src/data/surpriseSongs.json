@@ -2914,12 +2914,12 @@
                     "title": "The Prophecy & This Love",
                     "album": "The Tortured Poets Department",
                     "instrument": "Guitar",
-                    "mashup": false,
+                    "mashup": true,
                     "feature": null
                 },
                 {
-                    "title": "",
-                    "album": "",
+                    "title": "Maroon",
+                    "album": "Midnights",
                     "instrument": "Piano",
                     "mashup": false,
                     "feature": null

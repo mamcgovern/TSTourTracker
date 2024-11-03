@@ -2904,6 +2904,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Indianapolis",
+            "night": 2,
+            "date": "11/2/24",
+            "songs": [
+                {
+                    "title": "The Prophecy",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": false,
+                    "feature": null
+                },
+                {
+                    "title": "",
+                    "album": "",
+                    "instrument": "Piano",
+                    "mashup": false,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

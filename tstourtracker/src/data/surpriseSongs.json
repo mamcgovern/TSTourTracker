@@ -2946,6 +2946,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Toronto",
+            "night": 1,
+            "date": "11/14/24",
+            "songs": [
+                {
+                    "title": "My Boy Only Breaks His Favorite Toys & This Is Why We Can’t Have Nice Things",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "False God & tis the damn season",
+                    "album": "Lover",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

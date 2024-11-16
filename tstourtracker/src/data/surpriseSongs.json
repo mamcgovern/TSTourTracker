@@ -2967,6 +2967,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Toronto",
+            "night": 2,
+            "date": "11/15/24",
+            "songs": [
+                {
+                    "title": "I Don't Wanna Live Forever & Mine",
+                    "album": "Other",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "evermore & Peter",
+                    "album": "evermore",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

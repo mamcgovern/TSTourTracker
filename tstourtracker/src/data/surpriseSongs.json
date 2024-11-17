@@ -2988,6 +2988,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Toronto",
+            "night": 3,
+            "date": "11/16/24",
+            "songs": [
+                {
+                    "title": "us. by Gracie Abrams feat. Taylor Swift & Out of the Woods",
+                    "album": "Other",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": "Gracie Abrams"
+                },
+                {
+                    "title": "You're On Your Own, Kid & long story short",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

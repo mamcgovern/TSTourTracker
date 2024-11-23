@@ -3009,6 +3009,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Toronto",
+            "night": 4,
+            "date": "11/21/24",
+            "songs": [
+                {
+                    "title": "Mr. Perfectly Fine & Better Than Revenge",
+                    "album": "Fearless",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "State of Grace & Labrynth",
+                    "album": "Red",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

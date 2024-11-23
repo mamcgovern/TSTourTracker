@@ -1500,7 +1500,7 @@
                 {
                     "title": "Better than Revenge",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Innocent",
@@ -2259,7 +2259,7 @@
                 {
                     "title": "Labrynth",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Karma",

@@ -1261,7 +1261,7 @@
                 {
                     "title": "Cold as You",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "The Outside",
@@ -1301,7 +1301,7 @@
                 {
                     "title": "Invisible",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "A Perfectly Good Heart",
@@ -1363,7 +1363,7 @@
                 {
                     "title" : "The Way I Loved You",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Forever and Always",
@@ -1582,7 +1582,7 @@
                 {
                     "title": "Treacherous",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "I Knew You Were Trouble",
@@ -1602,7 +1602,7 @@
                 {
                     "title": "I Almost Do",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "We Are Never Ever Getting Back Together",
@@ -1652,7 +1652,7 @@
                 {
                     "title": "The Moment I Knew",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Come Back... Be Here",
@@ -1712,7 +1712,7 @@
                 {
                     "title": "Eyes Open",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Safe and Sound",
@@ -1794,7 +1794,7 @@
                 {
                     "title": "Wonderland",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "You Are In Love",
@@ -1998,7 +1998,7 @@
                 {
                     "title": "Afterglow",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "ME!",
@@ -2030,7 +2030,7 @@
                 {
                     "title": "the 1",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "cardigan",
@@ -2085,7 +2085,7 @@
                 {
                     "title": "mad woman",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "epiphany",
@@ -2299,7 +2299,7 @@
                 {
                     "title": "Glitch",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Would've, Could've, Should've",
@@ -2365,7 +2365,7 @@
                 },
                 {
                     "title": "Florida!!!",
-                    "setlist": "false",
+                    "setlist": "temporary",
                     "played": false
                 },
                 {
@@ -2461,7 +2461,7 @@
                 {
                     "title": "Cassandra",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title": "Peter",

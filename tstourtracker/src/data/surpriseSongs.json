@@ -3030,6 +3030,48 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Toronto",
+            "night": 5,
+            "date": "11/22/24",
+            "songs": [
+                {
+                    "title": "Ours & the last great american dynasty",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Cassandra & mad woman & I Did Something Bad",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
+        },
+        {
+            "city": "Toronto",
+            "night": 6,
+            "date": "11/23/24",
+            "songs": [
+                {
+                    "title": "Sparks Fly & Message In a Bottle",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "You're Losing Me & How Did It End",
+                    "album": "Midnights",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

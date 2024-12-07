@@ -3072,6 +3072,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Vancouver",
+            "night": 1,
+            "date": "12/6/24",
+            "songs": [
+                {
+                    "title": "Haunted & Wonderland",
+                    "album": "Speak Now",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Never Grow Up & The Best Day",
+                    "album": "Speak Now",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

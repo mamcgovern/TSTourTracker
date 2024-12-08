@@ -1373,7 +1373,7 @@
                 {
                     "title" : "The Best Day",
                     "setlist": "false",
-                    "played": false
+                    "played": true
                 },
                 {
                     "title" : "Change",

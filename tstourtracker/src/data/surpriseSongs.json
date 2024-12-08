@@ -3093,6 +3093,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Vancouver",
+            "night": 2,
+            "date": "12/8/24",
+            "songs": [
+                {
+                    "title": "I Love You I'm Sorry & Last Kiss",
+                    "album": "Other",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "The Tortured Poets Department & Maroon",
+                    "album": "The Tortured Poets Department",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }

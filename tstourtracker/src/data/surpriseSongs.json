@@ -3114,6 +3114,27 @@
                     "feature": null
                 }
             ]
+        },
+        {
+            "city": "Vancouver",
+            "night": 3,
+            "date": "12/8/24",
+            "songs": [
+                {
+                    "title": "A Place in This World & New Romantics",
+                    "album": "Taylor Swift",
+                    "instrument": "Guitar",
+                    "mashup": true,
+                    "feature": null
+                },
+                {
+                    "title": "Long Live & New Years Day & The Manuscript",
+                    "album": "Speak Now",
+                    "instrument": "Piano",
+                    "mashup": true,
+                    "feature": null
+                }
+            ]
         }
     ]
 }
